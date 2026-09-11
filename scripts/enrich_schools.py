@@ -13,7 +13,7 @@ SCHOOLS_FILE = os.path.join(DATA_DIR, 'schools.json')
 PATHWAYS_FILE = os.path.join(DATA_DIR, 'pathways.json')
 ZONES_FILE = os.path.join(DATA_DIR, 'school_zones.json')
 
-BATCH_SIZE = int(os.environ.get('BATCH_SIZE', '10'))
+BATCH_SIZE = int(os.environ.get('BATCH_SIZE', '100'))
 AI_API_BASE = os.environ.get('AI_API_BASE', 'https://open.bigmodel.cn/api/paas/v4')
 AI_API_KEY = os.environ.get('AI_API_KEY', '')
 AI_MODEL = os.environ.get('AI_MODEL', 'glm-4-flash')

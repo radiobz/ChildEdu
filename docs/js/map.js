@@ -5,8 +5,10 @@ const MapManager = (() => {
   let zonePolygons = [];
   let houseMarkers = [];
   let mouseTool = null;
-  let currentRect = null; // 当前框选矩形
+  let currentRect = null;
   let currentBounds = null;
+  let highlightMarkers = []; // 高亮的学校点
+  let pulseMarker = null; // 当前选中的脉冲标记
 
   function init() {
     map = new AMap.Map('mapContainer', {
@@ -91,6 +93,76 @@ const MapManager = (() => {
   function flyTo(lng, lat, zoom = 15) {
     if (!map) return;
     map.setZoomAndCenter(zoom, [lng, lat], false, 700);
+  }
+
+  // 高亮框选区域内的学校
+  function highlightSchools(schools) {
+    // 清除旧高亮
+    highlightMarkers.forEach(m => m.setMap(null));
+    highlightMarkers = [];
+
+    schools.forEach(school => {
+      if (!school.location || !school.location.lng) return;
+      const color = getLevelColor(school.level);
+      const marker = new AMap.Marker({
+        position: [school.location.lng, school.location.lat],
+        content: `<div style="
+          width:32px;height:32px;line-height:32px;text-align:center;
+          background:${color};border:3px solid #fff;border-radius:50%;
+          font-size:12px;font-weight:700;color:#fff;
+          box-shadow:0 0 12px ${color};cursor:pointer;
+          animation:pulse 1.5s ease-in-out infinite;
+        ">${getLevelIcon(school.level)}</div>`,
+        offset: new AMap.Pixel(-16, -16),
+        zIndex: 200
+      });
+      marker.setExtData(school);
+      marker.on('click', () => {
+        if (window.onSchoolMarkerClick) window.onSchoolMarkerClick(school);
+      });
+      marker.setMap(map);
+      highlightMarkers.push(marker);
+    });
+  }
+
+  // 在地图上标记单个学校（红色脉冲圈）
+  function markSchool(lng, lat, name) {
+    // 清除旧标记
+    if (pulseMarker) { pulseMarker.setMap(null); pulseMarker = null; }
+
+    pulseMarker = new AMap.CircleMarker({
+      center: [lng, lat],
+      radius: 20,
+      strokeColor: '#ff4d4f',
+      strokeWeight: 2,
+      strokeOpacity: 0.8,
+      fillColor: '#ff4d4f',
+      fillOpacity: 0.2,
+      map: map,
+      zIndex: 300
+    });
+
+    // 中心点
+    const centerMarker = new AMap.Marker({
+      position: [lng, lat],
+      content: `<div style="
+        width:16px;height:16px;line-height:16px;text-align:center;
+        background:#ff4d4f;border:3px solid #fff;border-radius:50%;
+        box-shadow:0 0 10px #ff4d4f;
+      "></div>`,
+      offset: new AMap.Pixel(-8, -8),
+      map: map,
+      zIndex: 301
+    });
+    pulseMarker._center = centerMarker;
+  }
+
+  function clearMarkSchool() {
+    if (pulseMarker) {
+      pulseMarker.setMap(null);
+      if (pulseMarker._center) pulseMarker._center.setMap(null);
+      pulseMarker = null;
+    }
   }
 
   function getBounds() {
@@ -181,6 +253,9 @@ const MapManager = (() => {
     startRectangle,
     stopRectangle,
     clearRect,
+    highlightSchools,
+    markSchool,
+    clearMarkSchool,
     getMap: () => map
   };
 })();

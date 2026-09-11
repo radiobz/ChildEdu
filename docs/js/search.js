@@ -95,6 +95,8 @@ const SearchManager = (() => {
         return bounds.contains([s.location.lng, s.location.lat]);
       });
       showSchoolList(inBounds, '框选区域内学校');
+      // 地图上高亮这些学校
+      MapManager.highlightSchools(inBounds);
       exitRectMode();
       document.getElementById('rectClearBtn').style.display = 'block';
     };
@@ -121,6 +123,7 @@ const SearchManager = (() => {
       Sidebar.renderSchoolDetail(result.data);
       if (result.data.location) {
         MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
+        MapManager.markSchool(result.data.location.lng, result.data.location.lat, result.data.name);
       }
       if (result.data.zone && result.data.zone.coords) {
         MapManager.highlightZone(result.data.zone.coords);
@@ -194,6 +197,7 @@ const SearchManager = (() => {
       Sidebar.renderSchoolDetail(result.data);
       if (result.data.location) {
         MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
+        MapManager.markSchool(result.data.location.lng, result.data.location.lat, result.data.name);
       }
       if (result.data.zone && result.data.zone.coords) {
         MapManager.highlightZone(result.data.zone.coords);
