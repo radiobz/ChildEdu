@@ -1,0 +1,630 @@
+[
+  {
+    "schoolName": "碑林区大学南路小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "边西街以东",
+      "含光路以西",
+      "环城南路以南",
+      "友谊西路以北（碑林区大学南路小学分校、西北大学附属小学学区除外）"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区大学南路小学分校",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "含光中学家属院（大学南路1号）",
+      "学林雅苑",
+      "十一公司家属院",
+      "二公司家属院",
+      "友谊医院家属院",
+      "材料公司家属院",
+      "陕建一公司家属院",
+      "太白馨苑",
+      "太白星座",
+      "陕建八公司家属院",
+      "黄金屋",
+      "交通医院家属院",
+      "省审计厅",
+      "省建职大家属院",
+      "运管局家属院",
+      "大学南路小学分校北家属院",
+      "省建一公司家属院旧楼",
+      "631所家属院",
+      "光机所家属院",
+      "边家村文化宫",
+      "市总工会家属院",
+      "冶金院",
+      "水电十五局家属院",
+      "安全厅家属院",
+      "公安厅家属院",
+      "大学南路小学分校南家属院",
+      "省地震局家属院",
+      "物探队家属院",
+      "建行家属院",
+      "信合家属院",
+      "塑料公司家属院",
+      "农勘院家属院",
+      "商厦家属院",
+      "商行家属院"
+    ],
+    "roads": [
+      "边西街路东/边东街路西区域",
+      "边西街路西、太白北路路东、大学南路路南、友谊西路路北区域",
+      "太白北路以西、大学南路延伸段、西工大路以东、二环南路西段以北区域",
+      "太白北路以东、友谊西路以南、水文巷东西路区域"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西北工业大学附属小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "西北工业大学校区和家属院（区域）"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026",
+    "notes": "别名西工大附小；高校附属小学，学区为西北工业大学校区和家属院，无社会路段划分。"
+  },
+  {
+    "schoolName": "西安交通大学附属小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "西安交通大学东校区和家属院（区域）"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026",
+    "notes": "高校附属小学；交大雁塔校区附属单位及家属院属西安交通大学附属小学雁塔校区（雁塔区）。"
+  },
+  {
+    "schoolName": "西安建筑科技大学附属小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "西安建筑科技大学校区和家属院（区域）"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026",
+    "notes": "高校附属小学。"
+  },
+  {
+    "schoolName": "西北大学附属小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "西北大学校区和家属院（区域）"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026",
+    "notes": "别名西大附小，高校附属小学。"
+  },
+  {
+    "schoolName": "碑林区铁五小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "铁路局后八栋",
+      "6号高层",
+      "7号高层",
+      "铁路新村"
+    ],
+    "roads": [
+      "太乙路以东",
+      "经九路以西",
+      "友谊东路以南",
+      "二环南路东段以北（碑林区铁五第二小学学区除外）"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区铁五第二小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "中铁南二环后村小区",
+      "祭台北区",
+      "祭台南苑",
+      "玫瑰园小区",
+      "曼城国际",
+      "金源都市",
+      "西延小区",
+      "领地国际",
+      "秋林新苑",
+      "太乙嘉园",
+      "铁安花园18号高层1号楼",
+      "金桂苑",
+      "秋林苑",
+      "中铁一局祭台村东院",
+      "中铁一局祭台村西院",
+      "太乙城时光界",
+      "太乙城时光里",
+      "恒志云都",
+      "恒志云仰"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区文艺路小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "文艺新村",
+      "农业局家属院",
+      "冉家村",
+      "省劳动厅家属院",
+      "一轻局家属院",
+      "何家村",
+      "林业厅大厦",
+      "电影学校",
+      "雁塔区政府家属院",
+      "布匹市场",
+      "市委家属院",
+      "省环保检测站家属院",
+      "金地园小区",
+      "文南小区",
+      "白金小区",
+      "总后干休所"
+    ],
+    "roads": [
+      "环城南路以南",
+      "二环南路东段以北",
+      "永胜街、文艺南路以西"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区实验小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "雁塔北路以东",
+      "太乙路以西",
+      "环城南路东段以南",
+      "二环南路东段以北（碑林区铁五第二小学、西安建筑科技大学附属小学学区除外）"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区雁塔路小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "永胜街以东",
+      "雁塔北路以西",
+      "环城南路以南",
+      "友谊东路以北"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区小雁塔小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "含光路以东",
+      "长安北路以西",
+      "友谊西路以南",
+      "二环南路西段以北"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区何家村小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "劳动南路以东",
+      "含光路以西",
+      "友谊西路以南",
+      "二环南路西段以北（碑林区大学南路小学分校、西北工业大学附属小学学区除外）"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "碑林区南门小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "南关正街、长安北路以东",
+      "环城南路以南",
+      "二环南路东段以北",
+      "文艺路至长安路之间的长安路派出所户籍"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陕西省西安师范附属小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [
+      "印花布园（全段）"
+    ],
+    "roads": [
+      "南大街以东",
+      "柏树林以西",
+      "解放市场以南",
+      "顺城南路以北"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026",
+    "notes": "别名西安师范附属小学（西师附小）。"
+  },
+  {
+    "schoolName": "碑林区振兴路小学",
+    "district": "碑林区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "朱雀大街以东",
+      "南关正街以西",
+      "环城南路以南",
+      "友谊西路以北"
+    ],
+    "sourceUrl": "http://www.beilin.gov.cn/web_files/beilin/file/2026/06/05/202606051159529721596.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区大雁塔小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "军区三号院"
+    ],
+    "roads": [
+      "东至慈恩西路",
+      "西至长安路两侧（雁塔西路以朱雀路为界，小寨西路以军区三号院为界，含军区三号院）",
+      "南至红专南路、雁塔西路",
+      "北至小寨东路、小寨西路（不含交大财经学院、医学院家属院、师大附中家属院和东、西八里村）"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区翠华路小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "兴善寺"
+    ],
+    "roads": [
+      "东至雁塔北路",
+      "西至长安路两侧（南二环南侧以朱雀路为界，兴善寺街以兴善寺为界，含兴善寺）",
+      "南至小寨东路",
+      "北至南二环路"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区吉祥路小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "黄林委家属院",
+      "皇家公馆"
+    ],
+    "roads": [
+      "东至朱雀路两侧（兴善寺街以兴善寺为界，不含兴善寺）",
+      "小寨西路以军区三号院为界（不含军区三号院）",
+      "西至四季西巷-永松路",
+      "南至电子一路",
+      "北至南二环南侧（不含交大一附院及其家属院）"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区明德门小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "明德门安居工程东区",
+      "明德门安居工程西区",
+      "明德门安居工程南区",
+      "明德门安居工程北区",
+      "明德门廉租房",
+      "明德门市容局家属院",
+      "明德门5号院",
+      "明德门怡心居一期",
+      "明德门怡心居二期"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区燎原小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "东至太白南路（科创路至科技路段）、永松路（吉祥路至南二环段）",
+      "西至高新路（南二环至科技路段）、博文路（科技路至科创路段）",
+      "南至科技路（高新路至博文路段）、科创路（博文路至太白南路段）、吉祥路（太白南路至永松路段）",
+      "北至南二环（永松路至高新路段）（不含西安电子科技大学及其家属院）"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区红星小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "706部队",
+      "绿地乐和城"
+    ],
+    "roads": [
+      "东至经九路",
+      "西至雁塔北路",
+      "南至芙蓉东路西段",
+      "北至南二环"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区西影路小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "双馨园小区",
+      "青龙社区（雁塔户籍）",
+      "雁翔社区（雁塔户籍）",
+      "西安工程技术学校",
+      "西北有色地质研究所"
+    ],
+    "roads": [
+      "东至雁翔路",
+      "西至曲江大道",
+      "南至新开门北路双馨园小区",
+      "北至南二环东段"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陕西师范大学附属小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "陕西师范大学雁塔辖区附属单位及家属院"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026",
+    "notes": "别名陕师大附小，高校附属小学。"
+  },
+  {
+    "schoolName": "西安电子科技大学附属小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "西安电子科技大学北校区、南校区及其附属单位、家属院"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026",
+    "notes": "别名西电科大附小。"
+  },
+  {
+    "schoolName": "西安交通大学附属小学雁塔校区",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "西安交通大学雁塔辖区附属单位及家属院"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026",
+    "notes": "含交大医学院、财经校区及附属医院家属院。"
+  },
+  {
+    "schoolName": "西安市雁塔区长安南路小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "政法大学雁塔校区"
+    ],
+    "roads": [
+      "东至翠华路（不含钟研所、翰林世家）",
+      "西至明德路",
+      "南至昌明路",
+      "北至健康路"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区明德小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "潘家庄村",
+      "西安市第八医院",
+      "长延居"
+    ],
+    "roads": [
+      "东至长安南路",
+      "西至东仪路",
+      "南至丈八东路",
+      "北至昌明路"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区电子城小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "705所家属院",
+      "果树研究所家属院",
+      "圣都大厦",
+      "北山门口村",
+      "南山门口村",
+      "沙泘沱村"
+    ],
+    "roads": [
+      "东至东仪路",
+      "西至紫薇西坊-子午大道",
+      "南至南三环（雁塔区第五小学、钟机子校、南苑中学、西姜村小学、杜城小学学区除外）",
+      "北至雁南二路"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区大雁塔小学西沣分校",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "南沈家桥",
+      "高家堡",
+      "曹家堡",
+      "翟家堡",
+      "金地西沣公元一期",
+      "金地西沣公元二期",
+      "金地中央公园一期",
+      "金地中央公园二期"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区大雁塔小学雁南分校",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "瓦胡同村",
+      "瑞禾村",
+      "南窑村",
+      "新小寨村",
+      "庙坡头村"
+    ],
+    "roads": [
+      "东至芙蓉西路",
+      "西至长安南路以东",
+      "南至南三环曲江文化大厦",
+      "北至雁南一路"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安雁塔金泰假日花城小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "金泰假日花城小区",
+      "高速太白锦苑",
+      "家立方",
+      "紫薇尚层小区"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区第四小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "赵家坡小区",
+      "城市皇冠",
+      "新西蓝一期",
+      "新西蓝二期",
+      "大都荟小区",
+      "世纪颐园",
+      "焦化嘉苑",
+      "焦化厂丈八北路小区",
+      "焦化厂新南区"
+    ],
+    "roads": [
+      "东至沣惠南路",
+      "西至丈八北路",
+      "南至科技路",
+      "北至民新路-枫林华府北界-大寨路"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区第七小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "融创西安宸院",
+      "新城首府",
+      "紫郡国韵",
+      "书香林苑",
+      "雁南朗境",
+      "雁南云境",
+      "和悦雅境"
+    ],
+    "roads": [],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市雁塔区杜城小学",
+    "district": "雁塔区",
+    "stage": "小学",
+    "communities": [
+      "齐王村",
+      "江林新城",
+      "高新领域"
+    ],
+    "roads": [
+      "东至电子南街",
+      "西至子午大道（含齐王村）",
+      "南至西部大道",
+      "北至南三环"
+    ],
+    "sourceUrl": "http://www.yanta.gov.cn/web_files/yanta/file/2026/06/05/202606051231316791024.pdf",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安高新第二学校",
+    "district": "高新区",
+    "stage": "小学",
+    "communities": [
+      "高新枫尚",
+      "高新银座"
+    ],
+    "roads": [
+      "小学部：丈八北路以东，博文路、太白南路以西，科技路以南，丈八东路以北住宅小区落户业主子女及双水磨、南窑头户籍适龄儿童",
+      "初中部：丈八北路以东，唐延路以西，科技路以南，丈八东路以北行政村组户籍适龄少年及住宅小区落户业主子女"
+    ],
+    "sourceUrl": "https://xdz.xa.gov.cn/web_files/xdz/file/2026/06/05/202606051443391166718.pdf",
+    "year": "2026",
+    "notes": "九年一贯制学校；高新区为独立开发区，2026高新区学区划分方案。"
+  }
+]

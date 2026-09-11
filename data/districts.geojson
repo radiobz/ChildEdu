@@ -1,0 +1,30 @@
+{
+  "_comment": "这是一个示例 GeoJSON 文件，仅包含一个虚构的学区多边形用于演示渲染效果。实际学区数据将在二期上线。",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "schoolId": "bl-005",
+        "schoolName": "西安市碑林区大学南路小学（示例学区）",
+        "district": "碑林区",
+        "sourceUrl": null,
+        "year": null,
+        "_isDemo": true,
+        "_demoNote": "此多边形为虚构示例，不代表真实学区范围。真实学区数据将在二期上线。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.9300, 34.2520],
+            [108.9390, 34.2520],
+            [108.9390, 34.2480],
+            [108.9300, 34.2480],
+            [108.9300, 34.2520]
+          ]
+        ]
+      }
+    }
+  ]
+}
