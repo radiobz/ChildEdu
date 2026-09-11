@@ -29,6 +29,10 @@
   background: var(--primary);
   color: #fff;
 }
+.level-chip.rect-btn.active {
+  background: #ff4d4f;
+  color: #fff;
+}
 .level-chip:active { transform: scale(0.95); }
 
 /* 自定义InfoWindow */

@@ -34,35 +34,31 @@ const SearchManager = (() => {
     // 框选按钮
     let isRectActive = false;
     document.getElementById('rectBtn').addEventListener('click', () => {
-      if (isRectActive) {
-        exitRectMode();
-      } else {
-        enterRectMode();
-      }
+      if (isRectActive) exitRectMode();
+      else enterRectMode();
     });
-
-    document.getElementById('rectCancel').addEventListener('click', () => {
-      exitRectMode();
-    });
+    document.getElementById('rectClearBtn').addEventListener('click', clearRectSelection);
 
     function enterRectMode() {
       isRectActive = true;
-      document.getElementById('rectBtn').textContent = '✕ 退出框选';
-      document.getElementById('rectBtn').style.background = '#1677ff';
-      document.getElementById('rectBtn').style.color = '#fff';
+      document.getElementById('rectBtn').textContent = '✕ 退出';
+      document.getElementById('rectBtn').classList.add('active');
       document.getElementById('rectHint').style.display = 'block';
-      document.getElementById('rectCancel').style.display = 'block';
       MapManager.startRectangle();
     }
 
     function exitRectMode() {
       isRectActive = false;
-      document.getElementById('rectBtn').textContent = '□ 框选区域';
-      document.getElementById('rectBtn').style.background = '#fff';
-      document.getElementById('rectBtn').style.color = '#333';
+      document.getElementById('rectBtn').textContent = '□ 框选';
+      document.getElementById('rectBtn').classList.remove('active');
       document.getElementById('rectHint').style.display = 'none';
-      document.getElementById('rectCancel').style.display = 'none';
       MapManager.stopRectangle();
+    }
+
+    function clearRectSelection() {
+      MapManager.clearRect();
+      document.getElementById('rectClearBtn').style.display = 'none';
+      exitRectMode();
     }
 
     // ESC退出框选
@@ -100,6 +96,7 @@ const SearchManager = (() => {
       });
       showSchoolList(inBounds, '框选区域内学校');
       exitRectMode();
+      document.getElementById('rectClearBtn').style.display = 'block';
     };
 
     // 地图移动后自动筛选视野内学校

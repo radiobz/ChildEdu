@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>西安学区地图 | ChildEdu</title>
-  <link rel="stylesheet" href="css/base.css?v=6">
-  <link rel="stylesheet" href="css/map.css?v=6">
-  <link rel="stylesheet" href="css/panel.css?v=6">
+  <link rel="stylesheet" href="css/base.css?v=7">
+  <link rel="stylesheet" href="css/map.css?v=7">
+  <link rel="stylesheet" href="css/panel.css?v=7">
   <script>
     window._AMapSecurityConfig = {
       securityJsCode: '779a904a1f6470346e28266b4135d91'
@@ -42,7 +42,16 @@
     <button class="level-chip" data-level="primary">小学</button>
     <button class="level-chip" data-level="junior">初中</button>
     <button class="level-chip" data-level="high">高中</button>
+    <button id="rectBtn" class="level-chip rect-btn">□ 框选</button>
+    <button id="rectClearBtn" class="level-chip" style="display:none;color:#ff4d4f;">✕ 清除</button>
   </div>
+
+  <!-- 框选提示 -->
+  <div id="rectHint" style="
+    display:none;position:fixed;bottom:100px;left:50%;transform:translateX(-50%);
+    z-index:200;padding:10px 20px;background:rgba(0,0,0,0.75);color:#fff;
+    border-radius:24px;font-size:13px;white-space:nowrap;
+  ">🖱️ 在地图上拖拽框选区域，松开出结果</div>
 
   <!-- 底部详情抽屉 -->
   <div class="drawer-mask" id="drawerMask"></div>
@@ -56,37 +65,17 @@
     </div>
   </aside>
 
-  <!-- 框选按钮 + 提示 -->
-  <button id="rectBtn" style="
-    position:absolute;top:110px;right:12px;z-index:150;
-    padding:8px 14px;background:#fff;border:1px solid #e8e8e8;
-    border-radius:20px;font-size:12px;color:#333;cursor:pointer;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
-  ">□ 框选区域</button>
-
-  <div id="rectHint" style="
-    display:none;position:absolute;top:155px;right:12px;z-index:150;
-    padding:8px 14px;background:rgba(22,119,255,0.9);color:#fff;
-    border-radius:8px;font-size:12px;max-width:220px;line-height:1.5;
-  ">🖱️ 在地图上拖拽框选，松开出结果<br>按 ESC 或点取消退出</div>
-
-  <button id="rectCancel" style="
-    display:none;position:absolute;top:200px;right:12px;z-index:150;
-    padding:6px 12px;background:#fff;border:1px solid #ff4d4f;
-    border-radius:16px;font-size:12px;color:#ff4d4f;cursor:pointer;
-  ">✕ 取消框选</button>
-
   <!-- 加载遮罩 -->
   <div class="loading-mask" id="loadingMask" style="display:none">
     <div class="loading-spinner"></div>
     <p id="loadingText">正在查询学校信息...</p>
   </div>
 
-  <script src="js/config.js?v=6"></script>
-  <script src="js/data.js?v=6"></script>
-  <script src="js/map.js?v=6"></script>
-  <script src="js/search.js?v=6"></script>
-  <script src="js/sidebar.js?v=6"></script>
-  <script src="js/main.js?v=6"></script>
+  <script src="js/config.js?v=7"></script>
+  <script src="js/data.js?v=7"></script>
+  <script src="js/map.js?v=7"></script>
+  <script src="js/search.js?v=7"></script>
+  <script src="js/sidebar.js?v=7"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

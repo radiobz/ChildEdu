@@ -5,6 +5,7 @@ const MapManager = (() => {
   let zonePolygons = [];
   let houseMarkers = [];
   let mouseTool = null;
+  let currentRect = null; // 当前框选矩形
   let currentBounds = null;
 
   function init() {
@@ -19,10 +20,12 @@ const MapManager = (() => {
     map.plugin(['AMap.MouseTool'], function() {
       mouseTool = new AMap.MouseTool(map);
       mouseTool.on('draw', function(e) {
+        // 清除旧矩形
+        if (currentRect) { currentRect.setMap(null); currentRect = null; }
+        currentRect = e.obj;
         const bounds = e.obj.getBounds();
         currentBounds = bounds;
         if (window.onBoundsFilter) window.onBoundsFilter(bounds);
-        mouseTool.close(false);
       });
     });
 
@@ -160,6 +163,12 @@ const MapManager = (() => {
     if (mouseTool) mouseTool.close(false);
   }
 
+  // 清除框选矩形
+  function clearRect() {
+    if (currentRect) { currentRect.setMap(null); currentRect = null; }
+    currentBounds = null;
+  }
+
   return {
     init,
     showSchools,
@@ -171,6 +180,7 @@ const MapManager = (() => {
     clearHouseMarkers,
     startRectangle,
     stopRectangle,
+    clearRect,
     getMap: () => map
   };
 })();
