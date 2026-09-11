@@ -14,9 +14,9 @@ PATHWAYS_FILE = os.path.join(DATA_DIR, 'pathways.json')
 ZONES_FILE = os.path.join(DATA_DIR, 'school_zones.json')
 
 BATCH_SIZE = int(os.environ.get('BATCH_SIZE', '10'))
-AI_API_BASE = os.environ.get('AI_API_BASE', 'https://api.deepseek.com/v1')
+AI_API_BASE = os.environ.get('AI_API_BASE', 'https://open.bigmodel.cn/api/paas/v4')
 AI_API_KEY = os.environ.get('AI_API_KEY', '')
-AI_MODEL = os.environ.get('AI_MODEL', 'deepseek-chat')
+AI_MODEL = os.environ.get('AI_MODEL', 'glm-4-flash')
 
 
 def load_json(path):

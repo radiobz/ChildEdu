@@ -626,5 +626,20 @@
     "sourceUrl": "https://xdz.xa.gov.cn/web_files/xdz/file/2026/06/05/202606051443391166718.pdf",
     "year": "2026",
     "notes": "九年一贯制学校；高新区为独立开发区，2026高新区学区划分方案。"
+  },
+  {
+    "schoolName": "西安新城华旗东郡幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "华旗·东郡小区",
+      "附近其他小区"
+    ],
+    "roads": [
+      "公园北路",
+      "附近其他路段"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
   }
 ]
