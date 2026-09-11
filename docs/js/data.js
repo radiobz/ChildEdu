@@ -95,6 +95,7 @@ const DataLoader = (() => {
       );
 
       // 组装详情
+      const qd = school.qualityDetail || {};
       const detail = {
         name: school.name,
         district: school.district,
@@ -104,14 +105,14 @@ const DataLoader = (() => {
         year: 2026,
         location: school.location,
         quality: {
-          tier: school.intro || '暂无公开梯队信息',
-          teaching: school.teachers || '暂无公开师资详情',
-          students: '',
-          admission: pathway ? pathway.notes : '暂无公开升学数据',
-          class_type: '',
-          facilities: school.facility ? `硬件评分：${school.facility}/100（非官方）` : '暂无硬件信息',
-          verdict: school.score ? `综合评分：${school.score}/100（非官方，仅供参考）` : '暂无评分数据',
-          suitable: ''
+          tier: qd.tier || school.intro || '暂无公开梯队信息',
+          teaching: qd.teaching || school.teachers || '暂无公开师资详情',
+          students: qd.students || '暂无生源信息',
+          admission: pathway ? pathway.notes : (qd.admission || '暂无公开升学数据'),
+          class_type: qd.class_type || '暂无班型信息',
+          facilities: qd.facilities || (school.facility ? `硬件评分：${school.facility}/100（非官方）` : '暂无硬件信息'),
+          verdict: qd.verdict || (school.score ? `综合评分：${school.score}/100（非官方，仅供参考）` : '暂无评分数据'),
+          suitable: qd.suitable || ''
         },
         pathways: {
           primary: pathway ? pathway.primarySchool : school.name,
