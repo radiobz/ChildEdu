@@ -1,0 +1,12 @@
+[
+  {"id":"1","name":"仁厚庄小学","shortName":"仁厚庄","level":"primary","district":"碑林区","address":"碑林区仁厚庄北路","location":{"lng":108.965,"lat":34.258},"tags":["公办"],"score":4.2,"year":2026},
+  {"id":"2","name":"翠华路小学","shortName":"翠华路","level":"primary","district":"雁塔区","address":"雁塔区翠华路356号","location":{"lng":108.958,"lat":34.228},"tags":["公办","名校"],"score":4.6,"year":2026},
+  {"id":"3","name":"西安市第三中学","shortName":"市三中","level":"high","district":"碑林区","address":"碑林区长乐西路","location":{"lng":108.970,"lat":34.265},"tags":["公办","省重点"],"score":4.5,"year":2026},
+  {"id":"4","name":"西安市第八十五中学","shortName":"市85中","level":"high","district":"雁塔区","address":"雁塔区翠华路","location":{"lng":108.956,"lat":34.235},"tags":["公办","省重点"],"score":4.4,"year":2026},
+  {"id":"5","name":"西安市铁一中学","shortName":"铁一中","level":"high","district":"碑林区","address":"碑林区友谊东路","location":{"lng":108.950,"lat":34.248},"tags":["公办","名校"],"score":4.8,"year":2026},
+  {"id":"6","name":"西安高新第一小学","shortName":"高新一小","level":"primary","district":"雁塔区","address":"雁塔区高新路","location":{"lng":108.880,"lat":34.230},"tags":["公办","热门"],"score":4.7,"year":2026},
+  {"id":"7","name":"西北工业大学附属中学","shortName":"西工大附中","level":"high","district":"碑林区","address":"碑林区友谊西路","location":{"lng":108.910,"lat":34.238},"tags":["公办","名校"],"score":4.9,"year":2026},
+  {"id":"8","name":"西安交通大学附属中学","shortName":"交大附中","level":"high","district":"雁塔区","address":"雁塔区咸宁西路","location":{"lng":108.980,"lat":34.245},"tags":["公办","省重点"],"score":4.6,"year":2026},
+  {"id":"9","name":"西安市实验小学","shortName":"市实验","level":"primary","district":"新城区","address":"新城区尚德路","location":{"lng":108.948,"lat":34.262},"tags":["公办","示范"],"score":4.3,"year":2026},
+  {"id":"10","name":"莲湖区青年路小学","shortName":"青年路","level":"primary","district":"莲湖区","address":"莲湖区青年路","location":{"lng":108.938,"lat":34.262},"tags":["公办"],"score":4.1,"year":2026}
+]

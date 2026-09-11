@@ -1,0 +1,13 @@
+{
+  "name": "childedu",
+  "version": "1.0.0",
+  "description": "西安学区地图 - 学校信息聚合可视化",
+  "scripts": {
+    "dev": "node api/dev-server.js",
+    "build": "echo 'Static site, no build needed'"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>西安学区地图 | ChildEdu</title>
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/map.css">
+  <link rel="stylesheet" href="/css/panel.css">
+  <script>
+    window._AMapSecurityConfig = {
+      securityJsCode: '779a904a1f6470346e28266b4135d91'
+    };
+  </script>
+  <script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.MarkerCluster,AMap.MouseTool,AMap.Polygon,AMap.CircleEditor"></script>
+</head>
+<body>
+  <!-- 顶部搜索栏 -->
+  <header class="top-bar">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="输入学校名称，如：仁厚庄小学" autocomplete="off">
+      <button id="searchBtn">搜索</button>
+    </div>
+    <div class="district-chips" id="districtChips">
+      <button class="chip active" data-district="all">全部</button>
+      <button class="chip" data-district="新城区">新城</button>
+      <button class="chip" data-district="碑林区">碑林</button>
+      <button class="chip" data-district="莲湖区">莲湖</button>
+      <button class="chip" data-district="灞桥区">灞桥</button>
+      <button class="chip" data-district="未央区">未央</button>
+      <button class="chip" data-district="雁塔区">雁塔</button>
+    </div>
+  </header>
+
+  <!-- 地图容器 -->
+  <div id="mapContainer"></div>
+
+  <!-- 学段筛选浮层 -->
+  <div class="level-filter" id="levelFilter">
+    <button class="level-chip active" data-level="all">全部</button>
+    <button class="level-chip" data-level="kindergarten">幼儿园</button>
+    <button class="level-chip" data-level="primary">小学</button>
+    <button class="level-chip" data-level="junior">初中</button>
+    <button class="level-chip" data-level="high">高中</button>
+  </div>
+
+  <!-- 底部详情抽屉 -->
+  <div class="drawer-mask" id="drawerMask"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer-handle"></div>
+    <div class="drawer-content" id="drawerContent">
+      <div class="drawer-empty">
+        <p>🔍 搜索学校查看详情</p>
+        <p class="hint">支持学区划分、升学路径、学区房源、学费排名等信息</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 加载遮罩 -->
+  <div class="loading-mask" id="loadingMask" style="display:none">
+    <div class="loading-spinner"></div>
+    <p id="loadingText">正在查询学校信息...</p>
+  </div>
+
+  <script src="/js/config.js"></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/map.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/sidebar.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
