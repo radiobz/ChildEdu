@@ -1,7 +1,9 @@
 // 前端配置
 window.APP_CONFIG = {
-  // API 基础路径（开发时本地，生产时同源）
-  API_BASE: '/api',
+  // GitHub Pages 子路径
+  BASE_PATH: '/ChildEdu',
+  // API 基础路径（Vercel 部署时可用，Pages 上会 fallback 到 mock）
+  API_BASE: '/ChildEdu/api',
   // 西安中心坐标
   DEFAULT_CENTER: [108.9402, 34.3416],
   DEFAULT_ZOOM: 11,
