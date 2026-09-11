@@ -127,6 +127,33 @@ const Sidebar = (() => {
       pitfallsHTML = `<ul class="pitfall-list">${data.pitfalls.map(p => `<li>${p}</li>`).join('')}</ul>`;
     }
 
+    // 办学质量分维度
+    let qualityHTML = '';
+    if (data.quality) {
+      const q = data.quality;
+      const rows = [];
+      if (q.tier) rows.push(['梯队定位', q.tier]);
+      if (q.teaching) rows.push(['师资教学', q.teaching]);
+      if (q.students) rows.push(['生源结构', q.students]);
+      if (q.admission) rows.push(['升学情况', q.admission]);
+      if (q.class_type) rows.push(['班型教学', q.class_type]);
+      if (q.facilities) rows.push(['硬件地段', q.facilities]);
+
+      qualityHTML = rows.map(([label, val]) => `
+        <div style="display:flex;gap:8px;padding:6px 0;border-bottom:1px solid #f5f5f5;">
+          <div style="flex-shrink:0;width:60px;font-size:12px;color:#999;">${label}</div>
+          <div style="flex:1;font-size:13px;color:#333;line-height:1.6;">${val}</div>
+        </div>
+      `).join('');
+
+      if (q.verdict) {
+        qualityHTML += `<div style="margin-top:10px;padding:10px;background:#f0f7ff;border-radius:8px;font-size:13px;color:#1677ff;line-height:1.6;">💡 ${q.verdict}</div>`;
+      }
+      if (q.suitable) {
+        qualityHTML += `<div style="margin-top:8px;font-size:12px;color:#666;line-height:1.6;">👥 ${q.suitable}</div>`;
+      }
+    }
+
     content.innerHTML = `
       <div class="school-header">
         <div class="name">${data.name || ''}</div>
@@ -137,21 +164,26 @@ const Sidebar = (() => {
         </div>
       </div>
 
+      ${data.tuition ? `
+        <div class="info-section">
+          <div class="section-title">基本信息</div>
+          <div class="section-body">
+            💰 ${data.tuition}
+          </div>
+        </div>
+      ` : ''}
+
+      ${qualityHTML ? `
+        <div class="info-section">
+          <div class="section-title">办学质量（非官方，仅供参考）</div>
+          <div class="section-body">${qualityHTML}</div>
+        </div>
+      ` : ''}
+
       ${pathwayHTML ? `
         <div class="info-section">
           <div class="section-title">升学路径</div>
           <div class="section-body">${pathwayHTML}</div>
-        </div>
-      ` : ''}
-
-      ${data.tuition || data.rank ? `
-        <div class="info-section">
-          <div class="section-title">学校信息</div>
-          <div class="section-body">
-            ${data.tuition ? `💰 学费：${data.tuition}<br>` : ''}
-            ${data.rank ? `📊 排名：${data.rank}（非官方，仅供参考）<br>` : ''}
-            ${data.rating ? `⭐ 评价：${data.rating}` : ''}
-          </div>
         </div>
       ` : ''}
 
@@ -177,7 +209,7 @@ const Sidebar = (() => {
       ` : ''}
 
       <div class="disclaimer">
-        数据由 AI 从公开信息聚合，标注来源与年份，仅供参考。<br>
+        办学质量评价由 AI 从公开信息聚合，非官方排名，仅供参考。<br>
         学区划分以教育局当年公布为准；升学路径非官方直升表。<br>
         房源价格来自公开平台，具体以实际成交为准。
       </div>

@@ -13,10 +13,18 @@ const MOCK_DATA = {
     school_type: '公办',
     level: 'primary',
     tuition: '公办免学费，代收书本费约200元/学期',
-    rank: '碑林区中上水平（非官方，仅供参考）',
-    rating: '家长评价：校风严谨，作业量适中，注重素质教育',
     year: 2026,
     location: { lng: 108.965, lat: 34.258 },
+    quality: {
+      tier: '碑林区第二梯队公办小学，原企办校，口碑中上',
+      teaching: '师资稳定，管理偏传统，抓常规作业，教研活动一般，无明显教学特色招牌',
+      students: '以仁厚庄家属院学区生源为主，附近单位子弟+部分社会生源，生源结构普通',
+      admission: '对口市三中初中部，小学初中一体化，不用摇号',
+      class_type: '平行班为主，无明显重点班，班额约45人',
+      facilities: '老校园，设施够用但偏旧，操场较小，课后服务有基础社团',
+      verdict: '合格的家门口公办小学，稳妥但不拔尖，优势是对口三中确定性高',
+      suitable: '适合：求稳、重视升学确定性、预算有限的家庭；不适合：追求名校师资/素质教育特色的家庭'
+    },
     pathways: {
       primary: '仁厚庄小学',
       junior: ['西安市第三中学（初中部）'],
@@ -49,10 +57,18 @@ const MOCK_DATA = {
     school_type: '公办',
     level: 'primary',
     tuition: '公办免学费',
-    rank: '雁塔区热门名校（非官方，仅供参考）',
-    rating: '家长评价：师资强，活动多，但作业量较大',
     year: 2026,
     location: { lng: 108.958, lat: 34.228 },
+    quality: {
+      tier: '雁塔区热门公办小学，区一级示范，曲江片区头部',
+      teaching: '师资较强，活动多，英语/素质教育有特色，作业量偏大，管理严格',
+      students: '翠华路周边公务员/事业单位子弟为主，生源质量在雁塔区属中上',
+      admission: '对口市85中初中部，也有部分分流其他初中，摇号民办可选唐南等',
+      class_type: '班额偏大（约50人），有隐性分层，英语特色班',
+      facilities: '校园硬件较好，曲江片区配套新，近大雁塔/陕博',
+      verdict: '雁塔区热门校，硬件师资都不错，但学区房贵、班额大',
+      suitable: '适合：预算充足、重视综合素质、接受大班额的家庭；不适合：追求小班教学、预算有限的家庭'
+    },
     pathways: {
       primary: '翠华路小学',
       junior: ['西安市第八十五中学（初中部）'],
@@ -112,17 +128,29 @@ function buildPrompt(name) {
   "school_type": "公办/民办",
   "level": "primary/junior/high/kindergarten",
   "tuition": "学费信息",
-  "rank": "民间排名（标注非官方）",
-  "rating": "家长评价摘要",
   "year": 2026,
   "location": {"lng": 经度, "lat": 纬度},
+  "quality": {
+    "tier": "梯队定位：在区内第几梯队、什么级别（省示范/市一级等）",
+    "teaching": "师资教学：师资水平、教学风格、管理严格度、作业量、教研特色",
+    "students": "生源结构：学生来源、生源质量、是否筛选",
+    "admission": "升学情况：对口学校、普高率/重点率（初中高中填）",
+    "class_type": "班型教学：班额、是否有重点班、教学模式",
+    "facilities": "硬件地段：校园条件、位置、周边配套",
+    "verdict": "一句话总结：这所学校的核心优劣势",
+    "suitable": "适合谁/不适合谁：分场景建议"
+  },
   "pathways": {"primary": "", "junior": [], "high": [], "notes": ""},
   "zone": {"communities": [], "roads": "", "source": "", "coords": [[lng,lat]]},
   "houses": [{"community": "", "price": "", "year": "", "location": {"lng":0,"lat":0}, "url": ""}],
   "pitfalls": [],
   "confidence": "high/medium/low"
 }
-不确定的字段填null，不要编造。排名标注"非官方仅供参考"。升学标注"非官方直升"。`;
+要求：
+- 不确定的字段填null，不要编造
+- quality各字段要具体、有信息量，不要空话
+- 升学标注"非官方直升"
+- 所有评价标注"非官方，仅供参考"`;
 }
 
 // ===== 主 Handler =====
