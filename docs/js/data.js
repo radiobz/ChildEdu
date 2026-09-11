@@ -107,10 +107,17 @@ const DataLoader = (() => {
         quality: {
           tier: qd.tier || school.intro || '暂无公开梯队信息',
           teaching: qd.teaching || school.teachers || '暂无公开师资详情',
+          homework: qd.homework || '',
+          cafeteria: qd.cafeteria || '',
+          afterSchool: qd.afterSchool || '',
           students: qd.students || '暂无生源信息',
           admission: pathway ? pathway.notes : (qd.admission || '暂无公开升学数据'),
+          lottery: qd.lottery || '',
+          choiceAdvice: qd.choiceAdvice || '',
+          housePrice: qd.housePrice || '',
           class_type: qd.class_type || '暂无班型信息',
           facilities: qd.facilities || (school.facility ? `硬件评分：${school.facility}/100（非官方）` : '暂无硬件信息'),
+          contact: qd.contact || school.phone || '',
           verdict: qd.verdict || (school.score ? `综合评分：${school.score}/100（非官方，仅供参考）` : '暂无评分数据'),
           suitable: qd.suitable || ''
         },

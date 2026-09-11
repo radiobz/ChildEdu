@@ -60,12 +60,19 @@ def build_prompt(school):
 
 {{
   "tier": "梯队定位：在所在区的第几梯队、什么级别（省示范/市一级/普通公办等），一句话",
-  "teaching": "师资教学：师资水平、教学风格、管理严格度、作业量、教研特色，2-3句",
+  "teaching": "师资教学：师资水平、教学风格、管理严格度、教研特色，2-3句",
+  "homework": "作业量与晚自习：每天作业时长、是否有晚自习、晚自习到几点，一句话",
+  "cafeteria": "食堂伙食：是否有食堂、伙食评价、是否可校外订餐，一句话",
+  "afterSchool": "午休与课后服务：是否有午休/宿舍、课后服务内容、延时放学到几点，一句话",
   "students": "生源结构：学生来源、生源质量、是否筛选，一句话",
   "admission": "升学情况：对口初中/高中、普高率、重点率（初中高中填，小学填对口初中），2-3句",
+  "lottery": "摇号录取比例：民办学校填报人数/录取比例，公办填暂无",
+  "choiceAdvice": "小升初择校建议：针对这所小学的家长，小升初怎么选，2-3句",
+  "housePrice": "学区房价格区间：附近小区均价范围，如约1.2-1.8万/㎡，一句话",
   "class_type": "班型教学：班额大小、是否有重点班、教学模式，一句话",
   "facilities": "硬件地段：校园条件、位置、周边配套，一句话",
   "tuition": "学费标准",
+  "contact": "联系方式与官网：学校电话或官网，没有就填暂无",
   "verdict": "一句话总结：这所学校的核心优劣势",
   "suitable": "适合谁/不适合谁",
   "tags": ["标签1","标签2"],
@@ -104,10 +111,17 @@ def main():
         school['qualityDetail'] = {
             'tier': result.get('tier', ''),
             'teaching': result.get('teaching', ''),
+            'homework': result.get('homework', ''),
+            'cafeteria': result.get('cafeteria', ''),
+            'afterSchool': result.get('afterSchool', ''),
             'students': result.get('students', ''),
             'admission': result.get('admission', ''),
+            'lottery': result.get('lottery', ''),
+            'choiceAdvice': result.get('choiceAdvice', ''),
+            'housePrice': result.get('housePrice', ''),
             'class_type': result.get('class_type', ''),
             'facilities': result.get('facilities', ''),
+            'contact': result.get('contact', ''),
             'verdict': result.get('verdict', ''),
             'suitable': result.get('suitable', '')
         }

@@ -138,10 +138,17 @@ const Sidebar = (() => {
       const rows = [];
       if (q.tier) rows.push(['梯队定位', q.tier]);
       if (q.teaching) rows.push(['师资教学', q.teaching]);
+      if (q.homework) rows.push(['作业/晚自习', q.homework]);
+      if (q.cafeteria) rows.push(['食堂伙食', q.cafeteria]);
+      if (q.afterSchool) rows.push(['课后服务', q.afterSchool]);
       if (q.students) rows.push(['生源结构', q.students]);
       if (q.admission) rows.push(['升学情况', q.admission]);
+      if (q.lottery) rows.push(['摇号比例', q.lottery]);
+      if (q.choiceAdvice) rows.push(['择校建议', q.choiceAdvice]);
+      if (q.housePrice) rows.push(['学区房价', q.housePrice]);
       if (q.class_type) rows.push(['班型教学', q.class_type]);
       if (q.facilities) rows.push(['硬件地段', q.facilities]);
+      if (q.contact) rows.push(['联系方式', q.contact]);
 
       qualityHTML = rows.map(([label, val]) => `
         <div style="display:flex;gap:8px;padding:6px 0;border-bottom:1px solid #f5f5f5;">
