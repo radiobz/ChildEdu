@@ -32,8 +32,42 @@ const SearchManager = (() => {
     });
 
     // 框选按钮
+    let isRectActive = false;
     document.getElementById('rectBtn').addEventListener('click', () => {
+      if (isRectActive) {
+        exitRectMode();
+      } else {
+        enterRectMode();
+      }
+    });
+
+    document.getElementById('rectCancel').addEventListener('click', () => {
+      exitRectMode();
+    });
+
+    function enterRectMode() {
+      isRectActive = true;
+      document.getElementById('rectBtn').textContent = '✕ 退出框选';
+      document.getElementById('rectBtn').style.background = '#1677ff';
+      document.getElementById('rectBtn').style.color = '#fff';
+      document.getElementById('rectHint').style.display = 'block';
+      document.getElementById('rectCancel').style.display = 'block';
       MapManager.startRectangle();
+    }
+
+    function exitRectMode() {
+      isRectActive = false;
+      document.getElementById('rectBtn').textContent = '□ 框选区域';
+      document.getElementById('rectBtn').style.background = '#fff';
+      document.getElementById('rectBtn').style.color = '#333';
+      document.getElementById('rectHint').style.display = 'none';
+      document.getElementById('rectCancel').style.display = 'none';
+      MapManager.stopRectangle();
+    }
+
+    // ESC退出框选
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isRectActive) exitRectMode();
     });
 
     // 点击地图marker直接跳详情
@@ -65,6 +99,7 @@ const SearchManager = (() => {
         return bounds.contains([s.location.lng, s.location.lat]);
       });
       showSchoolList(inBounds, '框选区域内学校');
+      exitRectMode();
     };
 
     // 地图移动后自动筛选视野内学校

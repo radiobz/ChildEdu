@@ -156,6 +156,10 @@ const MapManager = (() => {
     if (mouseTool) mouseTool.rectangle();
   }
 
+  function stopRectangle() {
+    if (mouseTool) mouseTool.close(false);
+  }
+
   return {
     init,
     showSchools,
@@ -166,6 +170,7 @@ const MapManager = (() => {
     showHouseMarkers,
     clearHouseMarkers,
     startRectangle,
+    stopRectangle,
     getMap: () => map
   };
 })();
