@@ -1,11 +1,11 @@
 // 地图核心逻辑
 const MapManager = (() => {
   let map = null;
-  let markerCluster = null;
   let currentMarkers = [];
   let zonePolygons = [];
   let houseMarkers = [];
   let mouseTool = null;
+  let currentBounds = null;
 
   function init() {
     map = new AMap.Map('mapContainer', {
@@ -15,46 +15,23 @@ const MapManager = (() => {
       resizeEnable: true
     });
 
-    // 点聚合
-    markerCluster = new AMap.MarkerCluster(map, [], {
-      gridSize: 70,
-      maxZoom: 16,
-      renderClusterMarker: function(context) {
-        const count = context.markers.length;
-        let color = '#1677ff'; // 蓝 <10
-        if (count >= 50) color = '#ff4d4f';
-        else if (count >= 10) color = '#722ed1';
-        context.marker.setContent(
-          `<div style="
-            width:36px;height:36px;line-height:36px;text-align:center;
-            background:${color};color:#fff;border-radius:50%;
-            font-size:12px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.3);
-          ">${count}</div>`
-        );
-        context.marker.setOffset(new AMap.Pixel(-18, -18));
-      },
-      renderMarker: function(context) {
-        const data = context.data;
-        context.marker.setContent(
-          `<div style="
-            width:24px;height:24px;line-height:24px;text-align:center;
-            background:#fff;border:2px solid #1677ff;border-radius:50%;
-            font-size:10px;font-weight:600;color:#1677ff;
-            box-shadow:0 1px 4px rgba(0,0,0,0.2);
-          ">${getLevelIcon(data.level)}</div>`
-        );
-        context.marker.setOffset(new AMap.Pixel(-12, -12));
-      }
-    });
-
     // 框选工具
     map.plugin(['AMap.MouseTool'], function() {
       mouseTool = new AMap.MouseTool(map);
       mouseTool.on('draw', function(e) {
         const bounds = e.obj.getBounds();
-        filterByBounds(bounds);
+        currentBounds = bounds;
+        if (window.onBoundsFilter) window.onBoundsFilter(bounds);
         mouseTool.close(false);
       });
+    });
+
+    // 地图移动结束后自动筛选当前视野内学校
+    map.on('moveend', function() {
+      if (window.onMapMoveEnd) window.onMapMoveEnd();
+    });
+    map.on('zoomend', function() {
+      if (window.onMapMoveEnd) window.onMapMoveEnd();
     });
   }
 
@@ -68,6 +45,16 @@ const MapManager = (() => {
     }
   }
 
+  function getLevelColor(level) {
+    switch(level) {
+      case 'kindergarten': return '#52c41a';
+      case 'primary': return '#1677ff';
+      case 'junior': return '#722ed1';
+      case 'high': return '#fa8c16';
+      default: return '#666';
+    }
+  }
+
   function showSchools(schools) {
     // 清除旧 markers
     currentMarkers.forEach(m => m.setMap(null));
@@ -75,23 +62,36 @@ const MapManager = (() => {
 
     schools.forEach(school => {
       if (!school.location || !school.location.lng) return;
+      const color = getLevelColor(school.level);
       const marker = new AMap.Marker({
         position: [school.location.lng, school.location.lat],
-        title: school.name
+        title: school.name,
+        content: `<div style="
+          width:26px;height:26px;line-height:26px;text-align:center;
+          background:#fff;border:2px solid ${color};border-radius:50%;
+          font-size:11px;font-weight:600;color:${color};
+          box-shadow:0 1px 4px rgba(0,0,0,0.3);cursor:pointer;
+        ">${getLevelIcon(school.level)}</div>`,
+        offset: new AMap.Pixel(-13, -13),
+        zIndex: 100
       });
       marker.setExtData(school);
       marker.on('click', () => {
-        Sidebar.showSchoolCard(school);
+        // 点击直接跳详情
+        if (window.onSchoolMarkerClick) window.onSchoolMarkerClick(school);
       });
+      marker.setMap(map);
       currentMarkers.push(marker);
     });
-
-    markerCluster.setData(currentMarkers);
   }
 
   function flyTo(lng, lat, zoom = 15) {
     if (!map) return;
     map.setZoomAndCenter(zoom, [lng, lat], false, 700);
+  }
+
+  function getBounds() {
+    return map ? map.getBounds() : null;
   }
 
   // 高亮学区多边形
@@ -152,11 +152,6 @@ const MapManager = (() => {
     houseMarkers = [];
   }
 
-  function filterByBounds(bounds) {
-    // 通知外部筛选框内学校
-    if (window.onBoundsFilter) window.onBoundsFilter(bounds);
-  }
-
   function startRectangle() {
     if (mouseTool) mouseTool.rectangle();
   }
@@ -165,6 +160,7 @@ const MapManager = (() => {
     init,
     showSchools,
     flyTo,
+    getBounds,
     highlightZone,
     clearZoneHighlights,
     showHouseMarkers,

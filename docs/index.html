@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>西安学区地图 | ChildEdu</title>
-  <link rel="stylesheet" href="css/base.css?v=3">
-  <link rel="stylesheet" href="css/map.css?v=3">
-  <link rel="stylesheet" href="css/panel.css?v=3">
+  <link rel="stylesheet" href="css/base.css?v=4">
+  <link rel="stylesheet" href="css/map.css?v=4">
+  <link rel="stylesheet" href="css/panel.css?v=4">
   <script>
     window._AMapSecurityConfig = {
       securityJsCode: '779a904a1f6470346e28266b4135d91'
@@ -56,17 +56,25 @@
     </div>
   </aside>
 
+  <!-- 框选按钮 -->
+  <button id="rectBtn" style="
+    position:absolute;top:110px;right:12px;z-index:150;
+    padding:8px 14px;background:#fff;border:1px solid #e8e8e8;
+    border-radius:20px;font-size:12px;color:#333;cursor:pointer;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  ">□ 框选区域</button>
+
   <!-- 加载遮罩 -->
   <div class="loading-mask" id="loadingMask" style="display:none">
     <div class="loading-spinner"></div>
     <p id="loadingText">正在查询学校信息...</p>
   </div>
 
-  <script src="js/config.js?v=3"></script>
-  <script src="js/data.js?v=3"></script>
-  <script src="js/map.js?v=3"></script>
-  <script src="js/search.js?v=3"></script>
-  <script src="js/sidebar.js?v=3"></script>
-  <script src="js/main.js?v=3"></script>
+  <script src="js/config.js?v=4"></script>
+  <script src="js/data.js?v=4"></script>
+  <script src="js/map.js?v=4"></script>
+  <script src="js/search.js?v=4"></script>
+  <script src="js/sidebar.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
 </body>
 </html>
