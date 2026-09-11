@@ -68,22 +68,26 @@ const Sidebar = (() => {
     `;
   }
 
-  function renderSchoolDetail(data) {
+  function renderSchoolDetail(data, fromName) {
     open();
     const content = document.getElementById('drawerContent');
 
-    // 升学链 HTML
+    // 升学链 HTML（节点可点击）
     let pathwayHTML = '';
     if (data.pathways) {
       const nodes = [];
       nodes.push(`<div class="pathway-node">${data.pathways.primary || data.name}</div>`);
       if (data.pathways.junior && data.pathways.junior.length) {
         nodes.push(`<div class="pathway-arrow">→</div>`);
-        nodes.push(`<div class="pathway-node">${data.pathways.junior.join('、')}</div>`);
+        data.pathways.junior.forEach(j => {
+          nodes.push(`<div class="pathway-node clickable" onclick="Sidebar.navigateTo('${j}')">${j}</div>`);
+        });
       }
       if (data.pathways.high && data.pathways.high.length) {
         nodes.push(`<div class="pathway-arrow">→</div>`);
-        nodes.push(`<div class="pathway-node">${data.pathways.high.join('、')}</div>`);
+        data.pathways.high.forEach(h => {
+          nodes.push(`<div class="pathway-node clickable" onclick="Sidebar.navigateTo('${h}')">${h}</div>`);
+        });
       }
       pathwayHTML = `<div class="pathway-chain">${nodes.join('')}</div>`;
       if (data.pathways.notes) {
@@ -155,6 +159,14 @@ const Sidebar = (() => {
     }
 
     content.innerHTML = `
+      ${fromName ? `
+        <div style="margin-bottom:12px;">
+          <button onclick="Sidebar.goBack()" style="
+            padding:6px 14px;background:#f5f5f5;border-radius:16px;
+            font-size:13px;color:#1677ff;cursor:pointer;border:none;
+          ">← 返回 ${fromName}</button>
+        </div>
+      ` : ''}
       <div class="school-header">
         <div class="name">${data.name || ''}</div>
         <div class="tags">
@@ -231,5 +243,59 @@ const Sidebar = (() => {
     return map[level] || '学校';
   }
 
-  return { init, open, close, showSchoolCard, renderSchoolDetail, showError };
+  // 历史栈：用于升学链跳转后的返回
+  let navStack = [];
+
+  async function navigateTo(schoolName) {
+    SearchManager.showLoading('正在查询...');
+    const result = await DataLoader.querySchoolDetail(schoolName);
+    SearchManager.hideLoading();
+
+    if (result && result.success) {
+      // 把当前页面push到栈里
+      const currentName = document.querySelector('.school-header .name')?.textContent;
+      navStack.push(currentName);
+
+      renderSchoolDetail(result.data, currentName);
+
+      // 地图flyTo
+      if (result.data.location) {
+        MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
+      }
+      // 清学区高亮（初中/高中一般没有学区）
+      MapManager.clearZoneHighlights();
+      MapManager.clearHouseMarkers();
+    } else {
+      showError(`未找到「${schoolName}」的详细信息`);
+    }
+  }
+
+  async function goBack() {
+    if (navStack.length === 0) return;
+    const prevName = navStack.pop();
+    if (!prevName) return;
+
+    SearchManager.showLoading('正在返回...');
+    const result = await DataLoader.querySchoolDetail(prevName);
+    SearchManager.hideLoading();
+
+    if (result && result.success) {
+      renderSchoolDetail(result.data, navStack.length > 0 ? navStack[navStack.length-1] : null);
+      if (result.data.location) {
+        MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
+      }
+      // 恢复学区高亮
+      if (result.data.zone && result.data.zone.coords) {
+        MapManager.highlightZone(result.data.zone.coords);
+      }
+      if (result.data.houses) {
+        MapManager.showHouseMarkers(result.data.houses);
+      }
+    }
+  }
+
+  return { init, open, close, showSchoolCard, renderSchoolDetail, showError, navigateTo, goBack };
 })();
+
+// 暴露到全局供 onclick 调用
+window.Sidebar = Sidebar;

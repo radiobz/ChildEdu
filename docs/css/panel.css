@@ -166,6 +166,15 @@
   color: var(--primary);
   font-weight: 500;
 }
+.pathway-node.clickable {
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px dashed var(--primary);
+}
+.pathway-node.clickable:active {
+  background: var(--primary);
+  color: #fff;
+}
 .pathway-arrow {
   color: var(--text-light);
   font-size: 14px;

@@ -92,6 +92,70 @@ const DataLoader = (() => {
         '班级人数较多，关注是否有大班额问题'
       ],
       confidence: 'medium'
+    },
+    '西安市第三中学': {
+      name: '西安市第三中学',
+      district: '碑林区',
+      school_type: '公办',
+      level: 'high',
+      tuition: '公办高中学费约800元/学期',
+      year: 2026,
+      location: { lng: 108.970, lat: 34.265 },
+      quality: {
+        tier: '碑林区公办第二梯队高中，省重点，有初中部',
+        teaching: '师资稳定，管理严格，高中部成绩在碑林属中上，初中部对口仁厚庄',
+        students: '生源以对口小学+中考录取为主，生源层次中等',
+        admission: '普高率约80%，一本上线率约30%（非官方），有定向生名额',
+        class_type: '高中有重点班/平行班，初中部平行班',
+        facilities: '校园中等，长乐西路地段，交通便利',
+        verdict: '口碑不错的区属重点，中等生加工能力强，适合成绩中等偏上学生',
+        suitable: '适合：成绩中等偏上、求稳的学生；不适合：冲五大名校尖子生'
+      },
+      pathways: {
+        primary: [],
+        junior: ['西安市第三中学（初中部）'],
+        high: ['西安市第三中学'],
+        notes: '高中按中考分数线录取，无学区'
+      },
+      zone: null,
+      houses: [],
+      pitfalls: [
+        '高中按分数线录取，买房不能直接上',
+        '高考成绩与五大名校有差距'
+      ],
+      confidence: 'medium'
+    },
+    '西安市第八十五中学': {
+      name: '西安市第八十五中学',
+      district: '雁塔区',
+      school_type: '公办',
+      level: 'high',
+      tuition: '公办高中学费约800元/学期',
+      year: 2026,
+      location: { lng: 108.956, lat: 34.235 },
+      quality: {
+        tier: '雁塔区公办头部高中，省示范，有初中部',
+        teaching: '师资较强，管理严格，高考成绩在雁塔区属前列',
+        students: '生源以翠华路等小学对口+中考录取，生源质量较好',
+        admission: '普高率约85%，一本上线率约40%（非官方），有航天实验班',
+        class_type: '高中有航天实验班/重点班，初中部对口翠华路小学',
+        facilities: '校园较大，翠华路地段好，近大雁塔',
+        verdict: '雁塔区热门公办完中，初中对口翠华路，高中成绩稳步提升',
+        suitable: '适合：成绩中上、居住曲江/翠华路片区的学生；不适合：冲五大名校'
+      },
+      pathways: {
+        primary: ['翠华路小学'],
+        junior: ['西安市第八十五中学（初中部）'],
+        high: ['西安市第八十五中学'],
+        notes: '高中按中考分数线录取，无学区'
+      },
+      zone: null,
+      houses: [],
+      pitfalls: [
+        '高中按分数线录取，买房不能直接上',
+        '航天实验班竞争激烈'
+      ],
+      confidence: 'medium'
     }
   };
 
