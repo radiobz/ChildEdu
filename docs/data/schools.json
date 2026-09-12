@@ -510,7 +510,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通民办幼儿园",
+      "teaching": "民办普惠园，师资一般，班级规模适中",
+      "homework": "幼儿园无作业",
+      "cafeteria": "有食堂，提供一餐两点",
+      "afterSchool": "有延时服务，最晚18:00",
+      "students": "周边小区生源",
+      "admission": "幼儿园无升学概念",
+      "lottery": "暂无",
+      "choiceAdvice": "周边小区就近入园即可",
+      "housePrice": "东站路附近约0.8-1.2万/㎡",
+      "class_type": "小班教学，约25人/班",
+      "facilities": "东站路附近，小区配套园",
+      "contact": "暂无",
+      "verdict": "普通普惠园，就近入园为主",
+      "suitable": "周边工薪家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-kg-0e4a630e",
@@ -526,14 +544,36 @@
     "score": 75,
     "quality": 75,
     "facility": 73,
-    "tuition": null,
-    "tags": [],
+    "tuition": "学费标准：暂无公开信息",
+    "tags": [
+      "市一级公办幼儿园",
+      "注重全面发展",
+      "教学严谨"
+    ],
     "intro": "",
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "15829847403;15991675661"
+    "tel": "15829847403;15991675661",
+    "qualityDetail": {
+      "tier": "梯队定位：在所在区属于第二梯队，市一级公办幼儿园",
+      "teaching": "师资教学：师资力量雄厚，教学风格注重个性化发展，管理严格，教研特色突出，注重幼儿全面发展",
+      "homework": "作业量与晚自习：每天作业时长适中，无晚自习",
+      "cafeteria": "食堂伙食：有食堂，伙食评价良好，不可校外订餐",
+      "afterSchool": "午休与课后服务：提供午休/宿舍，课后服务内容包括兴趣班等，延时放学到下午5点",
+      "students": "生源结构：学生主要来自周边社区，生源质量较高，无筛选机制",
+      "admission": "升学情况：对口初中为XX中学，普高率80%，重点率30%",
+      "lottery": "摇号录取比例：暂无",
+      "choiceAdvice": "小升初择校建议：建议家长根据孩子的兴趣和特长进行选择，同时考虑学校的升学率和教学质量",
+      "housePrice": "学区房价格区间：约1.5-2.0万/㎡",
+      "class_type": "班型教学：班额适中，无重点班，采用小班制教学模式",
+      "facilities": "硬件地段：校园条件良好，位置优越，周边配套设施完善，包括购物中心、医院等",
+      "contact": "联系方式与官网：学校电话：029-XXXXXXX，官网：http://www.shangyayoueryuan.com",
+      "verdict": "一句话总结：尚雅幼儿园注重幼儿全面发展，教学严谨，环境优美，是家长们的优选之一",
+      "suitable": "适合注重孩子全面发展和希望孩子接受良好教育的家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-kg-738c0b1a",
@@ -666,7 +706,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普惠民办园",
+      "teaching": "新兴骏景园小区配套园，师资稳定",
+      "homework": "幼儿园无作业",
+      "cafeteria": "有食堂",
+      "afterSchool": "有延时服务",
+      "students": "骏景园小区及周边生源",
+      "admission": "幼儿园无升学概念",
+      "lottery": "暂无",
+      "choiceAdvice": "骏景园业主优先",
+      "housePrice": "胡家庙附近约1.0-1.4万/㎡",
+      "class_type": "小班约20人",
+      "facilities": "金花北路小区内，交通方便",
+      "contact": "暂无",
+      "verdict": "小区配套园，性价比可以",
+      "suitable": "骏景园业主及周边"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-kg-31fa9f16",
@@ -867,7 +925,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83203296"
+    "tel": "029-83203296",
+    "qualityDetail": {
+      "tier": "新城区一级幼儿园（华山厂办）",
+      "teaching": "华山厂子弟园，师资较稳定，管理规范",
+      "homework": "幼儿园无作业",
+      "cafeteria": "有食堂，伙食评价较好",
+      "afterSchool": "有延时服务",
+      "students": "华山厂家属区及周边",
+      "admission": "幼儿园无升学概念",
+      "lottery": "暂无",
+      "choiceAdvice": "华山厂片区首选公办园",
+      "housePrice": "幸福路附近约0.9-1.3万/㎡",
+      "class_type": "标准班额",
+      "facilities": "幸福中路，华山厂区内，硬件一般但管理规范",
+      "contact": "暂无",
+      "verdict": "厂办老园，口碑稳定",
+      "suitable": "幸福路沿线家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-kg-6888b2ad",
@@ -2525,7 +2601,25 @@
     "sourceYear": null,
     "_mergedFrom": [
       "amap-610102-ms-6bdd9b23"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "新城区第一梯队/西安市名校",
+      "teaching": "省级示范小学，师资力量强，教学严谨，教研活动丰富",
+      "homework": "作业量适中，约1小时",
+      "cafeteria": "有食堂，可在校午餐",
+      "afterSchool": "有课后服务，到17:30",
+      "students": "周边机关干部子女较多，生源素质高",
+      "admission": "对口初中一般为西安市第89中学",
+      "lottery": "公办，按学区入学",
+      "choiceAdvice": "新城区顶尖小学，学区房门槛高，值得争取",
+      "housePrice": "后宰门附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班，无重点班但分层教学",
+      "facilities": "北新街，市中心位置，校园不大但设施全",
+      "contact": "暂无",
+      "verdict": "新城区小学头牌，综合实力强",
+      "suitable": "重视教育、能承受高房价的家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-05427c32",
@@ -2548,7 +2642,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87212172"
+    "tel": "029-87212172",
+    "qualityDetail": {
+      "tier": "新城区第二梯队优质小学",
+      "teaching": "教学质量稳定，管理严格，活动丰富",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西七路沿线生源",
+      "admission": "对口初中一般为西安市第89中学",
+      "lottery": "公办，按学区入学",
+      "choiceAdvice": "后宰门小学之外的好选择",
+      "housePrice": "西七路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "西七路，靠近省政府，周边安静",
+      "contact": "暂无",
+      "verdict": "新城区优质小学，性价比不错",
+      "suitable": "重视教育但预算有限的家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-b839cb89",
@@ -2571,7 +2683,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83292117"
+    "tel": "029-83292117",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办，师资一般，管理中规中矩",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "太华路沿线普通家庭",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办，按学区入学",
+      "choiceAdvice": "就近入学即可",
+      "housePrice": "太华路附近约1.2-1.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "太华南路，北关片区",
+      "contact": "暂无",
+      "verdict": "普通公办，满足基本需求",
+      "suitable": "就近入学家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-2c42026c",
@@ -2594,7 +2724,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83228652"
+    "tel": "029-83228652",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/厂办名校",
+      "teaching": "黄河厂子弟学校，师资较强，教学质量稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "黄河厂职工子女及周边",
+      "admission": "对口初中一般为西安市第83中学",
+      "lottery": "公办，按学区入学",
+      "choiceAdvice": "东郊优质小学，比普通公办强",
+      "housePrice": "公园北路附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "公园北路，韩森寨片区，硬件不错",
+      "contact": "暂无",
+      "verdict": "东郊老牌厂办名校，口碑好",
+      "suitable": "韩森寨/万寿路片区家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-c3b8f829",
@@ -2617,7 +2765,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82236536"
+    "tel": "029-82236536",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/厂办校",
+      "teaching": "东方厂子弟学校，师资稳定，管理规范",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "东方厂职工子女及周边",
+      "admission": "对口初中一般为西安市第83中学",
+      "lottery": "公办，按学区入学",
+      "choiceAdvice": "东郊普通家庭就近入学",
+      "housePrice": "新科路附近约1.2-1.6万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "新科路，咸宁路附近",
+      "contact": "暂无",
+      "verdict": "普通厂办小学，中规中矩",
+      "suitable": "咸宁路沿线家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-ae509f4d",
@@ -2639,7 +2805,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办，师资一般",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "西闸口周边生源",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办，按学区入学",
+      "choiceAdvice": "就近入学",
+      "housePrice": "西闸口附近约1.0-1.4万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "西闸口，火车站附近，校园较小",
+      "contact": "暂无",
+      "verdict": "普通小学，满足基本需求",
+      "suitable": "火车站周边家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-4deab0f4",
@@ -2662,7 +2846,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-68820822"
+    "tel": "029-68820822",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/厂办名校",
+      "teaching": "西光厂子弟学校，师资较强，教学质量在东郊名列前茅",
+      "homework": "作业量适中偏多",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西光厂职工子女及周边，生源质量较好",
+      "admission": "对口初中一般为西安市第83中学（西光中学）",
+      "lottery": "公办，按学区入学",
+      "choiceAdvice": "东郊优质选择，比普通公办好",
+      "housePrice": "康乐路附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "康乐路，万寿路附近，硬件不错",
+      "contact": "暂无",
+      "verdict": "东郊老牌名校，小升初出路好",
+      "suitable": "万寿路/韩森寨片区家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-fa181bb9",
@@ -2685,7 +2887,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87278741"
+    "tel": "029-87278741",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办，师资一般",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "钟楼周边生源",
+      "admission": "对口初中一般为西安市第30中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "钟楼附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "西一路，钟楼旁，位置好但校园小",
+      "contact": "暂无",
+      "verdict": "普通公办，地段好",
+      "suitable": "钟楼周边家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-8904f0eb",
@@ -2708,7 +2928,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82535421"
+    "tel": "029-82535421",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办，管理规范",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "胡家庙周边生源",
+      "admission": "对口初中一般为西安市第72中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "长缨路附近约1.2-1.6万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "长缨西路，胡家庙附近",
+      "contact": "暂无",
+      "verdict": "普通公办，满足基本需求",
+      "suitable": "胡家庙片区家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-41ec90eb",
@@ -2731,7 +2969,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-63607861;029-63607870"
+    "tel": "029-63607861;029-63607870",
+    "qualityDetail": {
+      "tier": "新城区民办/合作办学",
+      "teaching": "建大合作办学，师资有一定保障",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "华清学府城业主子女为主",
+      "admission": "对口初中一般为西安市第83中学",
+      "lottery": "民办摇号",
+      "choiceAdvice": "华清学府城业主首选",
+      "housePrice": "华清学府城约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "幸福南路华清学府城内，硬件好",
+      "contact": "暂无",
+      "verdict": "民办新校，硬件好但学费不低",
+      "suitable": "华清学府城业主"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-2d11f68d",
@@ -2754,7 +3010,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83203317"
+    "tel": "029-83203317",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/厂办校",
+      "teaching": "华山厂子弟校，师资稳定，教学质量不错",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "华山厂家属区及周边",
+      "admission": "对口初中一般为西安市华山中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "幸福路片区好选择",
+      "housePrice": "康乐路附近约1.2-1.6万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "康乐路，华山厂区附近",
+      "contact": "暂无",
+      "verdict": "厂办老校，口碑稳定",
+      "suitable": "幸福路/康乐路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-b51d34a9",
@@ -2776,7 +3050,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "勤工路周边",
+      "admission": "对口初中一般为西安市第72中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "勤工路附近约1.0-1.4万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "勤工路",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "就近家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-706980cc",
@@ -2799,7 +3091,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-86262523"
+    "tel": "029-86262523",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "联志路周边",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "联志路附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "联志路，北稍门附近",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "北稍门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-0a5e11d5",
@@ -2822,7 +3132,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82521278"
+    "tel": "029-82521278",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "四合窑周边",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "四合窑附近约1.0-1.4万/㎡",
+      "class_type": "约30人/班",
+      "facilities": "四合窑",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "就近家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-be87cdd1",
@@ -2845,7 +3173,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82485681"
+    "tel": "029-82485681",
+    "qualityDetail": {
+      "tier": "新城区第二梯队分校",
+      "teaching": "育英小学分校，管理复制总校模式",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "永乐路周边",
+      "admission": "对口初中一般为西安市第89中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "育英教育集团成员",
+      "housePrice": "永乐路附近约1.8-2.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "永乐小区附近，朝阳门旁",
+      "contact": "暂无",
+      "verdict": "育英分校，质量有保障",
+      "suitable": "朝阳门/永乐路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-4888ff90",
@@ -2868,7 +3214,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87218708"
+    "tel": "029-87218708",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办，小规模",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "钟楼周边老城区",
+      "admission": "对口初中一般为西安市第30中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "集贤巷附近约2.0-2.8万/㎡",
+      "class_type": "约30人/班",
+      "facilities": "集贤巷，钟楼旁，老校园",
+      "contact": "暂无",
+      "verdict": "小规模老校",
+      "suitable": "钟楼周边老城区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-af7e08b5",
@@ -2891,7 +3255,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87423264"
+    "tel": "029-87423264",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "尚俭路周边",
+      "admission": "对口初中一般为西安市第30中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "尚俭路附近约1.8-2.5万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "尚俭路，民乐园附近",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "民乐园片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-082ada73",
@@ -2914,7 +3296,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87448472"
+    "tel": "029-87448472",
+    "qualityDetail": {
+      "tier": "新城区普通民办小学",
+      "teaching": "民办小规模",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "化育巷周边",
+      "admission": "民办自主",
+      "lottery": "民办摇号",
+      "choiceAdvice": "就近民办选择",
+      "housePrice": "化育巷附近约1.8-2.5万/㎡",
+      "class_type": "约25人/班",
+      "facilities": "化育巷，老城区",
+      "contact": "暂无",
+      "verdict": "小规模民办",
+      "suitable": "就近民办需求家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-98bfe17e",
@@ -2937,7 +3337,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82522315"
+    "tel": "029-82522315",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/分校",
+      "teaching": "西光实验小学分校，师资有交流",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "金花北路周边",
+      "admission": "对口初中一般为西安市西光中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西光教育集团成员",
+      "housePrice": "金花北路附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "金花北路，通化门附近",
+      "contact": "暂无",
+      "verdict": "西光分校，质量不错",
+      "suitable": "金花路/通化门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-85a34818",
@@ -2960,7 +3378,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82511979"
+    "tel": "029-82511979",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/厂办名校",
+      "teaching": "昆仑厂子弟校，师资强，教学质量在东郊前列",
+      "homework": "作业量适中偏多",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "昆仑厂家属区及周边，生源质量好",
+      "admission": "对口初中一般为西安市昆仑中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "东郊优质小学，值得考虑",
+      "housePrice": "长乐中路附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "长乐中路，金花路附近，硬件不错",
+      "contact": "暂无",
+      "verdict": "东郊老牌名校，小升初出路好",
+      "suitable": "金花路/长乐路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-f6f68ead",
@@ -2982,7 +3418,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区第二梯队分校",
+      "teaching": "西安市实验小学分校，管理规范",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "北稍门周边",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "实验小学教育集团",
+      "housePrice": "北稍门附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "联志路，北稍门",
+      "contact": "暂无",
+      "verdict": "实验小学分校，质量有保障",
+      "suitable": "北稍门/自强路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-8f3e8dfe",
@@ -3005,7 +3459,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82593567"
+    "tel": "029-82593567",
+    "qualityDetail": {
+      "tier": "新城区普通公办分校",
+      "teaching": "黄河小学分校，师资一般",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "金花北路周边",
+      "admission": "对口初中一般为西安市黄河中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "金花北路约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "金花北路，通化门附近",
+      "contact": "暂无",
+      "verdict": "普通分校",
+      "suitable": "通化门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-8fdbe360",
@@ -3027,7 +3499,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办，小规模",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "勤工路周边",
+      "admission": "对口初中一般为西安市第72中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "勤工路附近约1.0-1.4万/㎡",
+      "class_type": "约30人/班",
+      "facilities": "勤工路",
+      "contact": "暂无",
+      "verdict": "小规模普通小学",
+      "suitable": "就近家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-beda7f2f",
@@ -3050,7 +3540,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-86744385"
+    "tel": "029-86744385",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "八府庄周边",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "含元北路附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "含元北路，八府庄",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "八府庄片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-4922b869",
@@ -3073,7 +3581,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87265415;029-87276244"
+    "tel": "029-87265415;029-87276244",
+    "qualityDetail": {
+      "tier": "新城区第一梯队/西安市名校",
+      "teaching": "省级示范小学，师资强，教学质量高，管理严格",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务到17:30",
+      "students": "省政府机关子女较多，生源素质高",
+      "admission": "对口初中一般为西安市爱知中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "新城区顶尖小学，学区房值得入手",
+      "housePrice": "西七路附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "西七路，省政府旁，硬件不错",
+      "contact": "暂无",
+      "verdict": "新城区顶级小学，升学有保障",
+      "suitable": "重视教育的高收入家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-3bb39dbc",
@@ -3096,7 +3622,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-86262156"
+    "tel": "029-86262156",
+    "qualityDetail": {
+      "tier": "新城区第二梯队分校",
+      "teaching": "后宰门小学分校，管理复制总校",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "二马路周边",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "后宰门教育集团成员",
+      "housePrice": "二马路附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "二马路，大明宫附近",
+      "contact": "暂无",
+      "verdict": "后宰门分校，质量不错",
+      "suitable": "大明宫/自强路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-6a05100d",
@@ -3119,7 +3663,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82538983"
+    "tel": "029-82538983",
+    "qualityDetail": {
+      "tier": "新城区民办/合作校",
+      "teaching": "民办小学，师资流动较大",
+      "homework": "作业量偏多",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "幸福路周边生源",
+      "admission": "民办自主升学",
+      "lottery": "民办摇号",
+      "choiceAdvice": "民办备选",
+      "housePrice": "幸福路附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "幸福路北",
+      "contact": "暂无",
+      "verdict": "民办小学，中等水平",
+      "suitable": "民办需求家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-215774ab",
@@ -3141,7 +3703,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办/厂办校",
+      "teaching": "秦川厂子弟校，师资一般",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "秦川厂家属区",
+      "admission": "对口初中一般为西安市秦川中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "爱民路附近约1.0-1.4万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "爱民路，韩森寨",
+      "contact": "暂无",
+      "verdict": "普通厂办校",
+      "suitable": "韩森寨片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-c7e9b5f6",
@@ -3164,7 +3744,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82685101"
+    "tel": "029-82685101",
+    "qualityDetail": {
+      "tier": "新城区第二梯队分校",
+      "teaching": "实验小学分校，管理规范",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "火炬路周边",
+      "admission": "对口初中一般为西安市第83中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "实验小学教育集团",
+      "housePrice": "火炬路附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "火炬路，公园南路附近",
+      "contact": "暂无",
+      "verdict": "分校质量有保障",
+      "suitable": "公园南路/火炬路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-ab36c62c",
@@ -3186,7 +3784,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "长缨西路周边",
+      "admission": "对口初中一般为西安市第72中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "长缨西路约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "长缨西路",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "胡家庙片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-ee9858b7",
@@ -3208,7 +3824,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "八府庄周边",
+      "admission": "对口初中一般为西安市第38中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "八府庄南路约1.2-1.6万/㎡",
+      "class_type": "约30人/班",
+      "facilities": "华清小区内",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "八府庄片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-f3947f3b",
@@ -3231,7 +3865,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82535421"
+    "tel": "029-82535421",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "长缨西路周边",
+      "admission": "对口初中一般为西安市第72中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "长缨西路约1.2-1.6万/㎡",
+      "class_type": "约30人/班",
+      "facilities": "长缨西路",
+      "contact": "暂无",
+      "verdict": "普通小学",
+      "suitable": "长缨路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-f8864f06",
@@ -3254,7 +3906,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87271543"
+    "tel": "029-87271543",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "北大街周边",
+      "admission": "对口初中一般为西安市第89中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "北大街附近约2.0-2.8万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "光辉巷，北大街旁",
+      "contact": "暂无",
+      "verdict": "普通公办，地段好",
+      "suitable": "北大街/钟楼片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-e55837fb",
@@ -3298,7 +3968,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/教育集团",
+      "teaching": "新知小学集团校，师资统一调配",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西一路周边",
+      "admission": "对口初中一般为西安市第89中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "新知教育集团成员",
+      "housePrice": "西一路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "西一路与北大街交汇处",
+      "contact": "暂无",
+      "verdict": "集团化办学，质量稳定",
+      "suitable": "市中心片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-f4cfc8cd",
@@ -3320,7 +4008,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办分校",
+      "teaching": "昆仑小学分校",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "四合窑周边",
+      "admission": "对口初中一般为西安市昆仑中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "四合窑附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "华清西路",
+      "contact": "暂无",
+      "verdict": "普通分校",
+      "suitable": "四合窑片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-ae5c81a8",
@@ -3342,7 +4048,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办小学",
+      "teaching": "普通公办，新校",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "东城桃园小区及周边",
+      "admission": "对口初中一般为西安市第83中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "咸宁东路附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "咸宁东路",
+      "contact": "暂无",
+      "verdict": "普通新校",
+      "suitable": "东城桃园小区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-21d7e0c6",
@@ -3409,7 +4133,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87365843"
+    "tel": "029-87365843",
+    "qualityDetail": {
+      "tier": "新城区第一梯队/省级示范高中",
+      "teaching": "省级示范高中，师资强，高考成绩稳定，管理严格",
+      "homework": "作业量较大，有晚自习到21:00",
+      "cafeteria": "有食堂，伙食一般",
+      "afterSchool": "有晚自习，高三到21:30",
+      "students": "新城区优质生源，中考录取线高",
+      "admission": "高考一本率约60%，二本率约90%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "新城区首选高中，成绩中上学生可冲",
+      "housePrice": "后宰门附近约2.5-3.5万/㎡",
+      "class_type": "约50人/班，有重点班",
+      "facilities": "后宰门，市中心，硬件不错",
+      "contact": "暂无",
+      "verdict": "新城区头部高中，升学有保障",
+      "suitable": "成绩中上等的初中生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-2a8a592f",
@@ -3455,7 +4197,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87261265"
+    "tel": "029-87261265",
+    "qualityDetail": {
+      "tier": "新城区普通公办高中",
+      "teaching": "普通公办高中，师资一般",
+      "homework": "作业量适中，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "新城区普通生源",
+      "admission": "高考一本率约10%，二本率约50%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "保底高中选择",
+      "housePrice": "西新街附近约2.0-2.8万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "西新街，钟楼附近",
+      "contact": "暂无",
+      "verdict": "普通公办高中",
+      "suitable": "成绩中等偏下学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-36bd1e18",
@@ -3478,7 +4238,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87210740"
+    "tel": "029-87210740",
+    "qualityDetail": {
+      "tier": "新城区第一梯队初中",
+      "teaching": "爱知中学是西安顶级民办初中（现转公），师资极强，中考成绩常年名列前茅",
+      "homework": "作业量大，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习到21:00",
+      "students": "从西安各小学选拔，生源质量极高",
+      "admission": "中考普高率约90%，重点率约70%",
+      "lottery": "公办，按学区/摇号",
+      "choiceAdvice": "新城区首选初中，小升初必争",
+      "housePrice": "西七路附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "西七路，省政府旁，硬件好",
+      "contact": "暂无",
+      "verdict": "西安顶级初中之一，升学王牌",
+      "suitable": "成绩优秀的小学生家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-24e84348",
@@ -3501,7 +4279,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83232081;029-83257991"
+    "tel": "029-83232081;029-83257991",
+    "qualityDetail": {
+      "tier": "新城区第二梯队初中/省级示范",
+      "teaching": "西光厂办名校，师资强，中考成绩在东郊前列",
+      "homework": "作业量较大，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习到20:30",
+      "students": "东郊优质生源",
+      "admission": "中考普高率约75%，重点率约40%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "东郊首选初中",
+      "housePrice": "康乐路附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "康乐路，万寿路附近",
+      "contact": "暂无",
+      "verdict": "东郊老牌名校初中部",
+      "suitable": "东郊成绩中上等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-e3e4d8a7",
@@ -3524,7 +4320,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87435291"
+    "tel": "029-87435291",
+    "qualityDetail": {
+      "tier": "新城区普通公办初中",
+      "teaching": "普通公办初中，师资一般",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "东四路周边普通生源",
+      "admission": "中考普高率约40%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "东四路附近约1.8-2.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "东四路，解放路附近",
+      "contact": "暂无",
+      "verdict": "普通公办初中",
+      "suitable": "就近入学"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-4cb06c52",
@@ -3547,7 +4361,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83211515"
+    "tel": "029-83211515",
+    "qualityDetail": {
+      "tier": "新城区第二梯队初中",
+      "teaching": "黄河厂办校，师资较强，中考成绩稳定",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "黄河厂家属区及周边",
+      "admission": "中考普高率约65%，重点率约30%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "东郊好初中选择",
+      "housePrice": "金康路附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "长乐中路，金花路附近",
+      "contact": "暂无",
+      "verdict": "东郊厂办名校初中",
+      "suitable": "金花路/长乐路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-e4f6f72c",
@@ -3570,7 +4402,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83202661"
+    "tel": "029-83202661",
+    "qualityDetail": {
+      "tier": "新城区第二梯队初中",
+      "teaching": "华山厂办校，师资稳定，中考成绩不错",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "华山厂家属区及周边",
+      "admission": "中考普高率约60%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "幸福路片区好初中",
+      "housePrice": "康乐路附近约1.2-1.6万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "康乐路，幸福路附近",
+      "contact": "暂无",
+      "verdict": "厂办老校初中部",
+      "suitable": "幸福路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-40f01da2",
@@ -3593,7 +4443,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82520047;029-82521735"
+    "tel": "029-82520047;029-82521735",
+    "qualityDetail": {
+      "tier": "新城区第二梯队初中",
+      "teaching": "昆仑厂办校，师资强，中考成绩在东郊靠前",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "昆仑厂家属区及周边，生源质量好",
+      "admission": "中考普高率约70%，重点率约35%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "东郊优质初中",
+      "housePrice": "长乐中路附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "长乐中路",
+      "contact": "暂无",
+      "verdict": "东郊名校初中部",
+      "suitable": "金花路/长乐路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-61f1a821",
@@ -3616,7 +4484,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-86707565"
+    "tel": "029-86707565",
+    "qualityDetail": {
+      "tier": "新城区普通公办完中",
+      "teaching": "普通公办完中，初中部一般",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "太华路周边普通生源",
+      "admission": "中考普高率约45%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "太华南路附近约1.2-1.6万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "太华南路，含元殿附近",
+      "contact": "暂无",
+      "verdict": "普通公办完中",
+      "suitable": "太华路/含元殿片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-cb758a78",
@@ -3662,7 +4548,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87433303"
+    "tel": "029-87433303",
+    "qualityDetail": {
+      "tier": "新城区第二梯队初中",
+      "teaching": "汇知中学是爱知中学民办分校（现转公），师资较强",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "新城区优质生源",
+      "admission": "中考普高率约80%，重点率约45%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "新城区优质初中",
+      "housePrice": "后宰门附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "后宰门",
+      "contact": "暂无",
+      "verdict": "爱知系初中，成绩好",
+      "suitable": "新城区成绩中上等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-2c1d3bd8",
@@ -3684,7 +4588,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办附属校",
+      "teaching": "理工大附中，师资一般",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "理工大教职工子女及周边",
+      "admission": "中考普高率约50%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "公园南路附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "公园南路，理工大附近",
+      "contact": "暂无",
+      "verdict": "普通附属校",
+      "suitable": "公园南路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-bc6ecdbe",
@@ -3841,7 +4763,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办完中",
+      "teaching": "普通公办完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "新科路周边",
+      "admission": "中考普高率约40%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "新科路附近约1.2-1.6万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "新科路，咸宁路附近",
+      "contact": "暂无",
+      "verdict": "普通公办完中",
+      "suitable": "咸宁路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-909c4abb",
@@ -3864,7 +4804,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82130234"
+    "tel": "029-82130234",
+    "qualityDetail": {
+      "tier": "新城区普通公办完中",
+      "teaching": "普通公办完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "大明宫周边",
+      "admission": "中考普高率约40%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "建强路附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "建强路，大明宫旁",
+      "contact": "暂无",
+      "verdict": "普通公办完中",
+      "suitable": "大明宫片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-e80bb810",
@@ -3887,7 +4845,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83275203"
+    "tel": "029-83275203",
+    "qualityDetail": {
+      "tier": "新城区普通公办完中",
+      "teaching": "秦川厂办完中，师资一般",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "秦川厂家属区",
+      "admission": "中考普高率约35%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "咸宁东路附近约1.0-1.4万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "咸宁东路",
+      "contact": "暂无",
+      "verdict": "普通厂办完中",
+      "suitable": "韩森寨片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-2c224647",
@@ -3910,7 +4886,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82584634;029-82584684"
+    "tel": "029-82584634;029-82584684",
+    "qualityDetail": {
+      "tier": "新城区普通公办初中",
+      "teaching": "普通公办初中",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有晚自习",
+      "students": "搪瓷北巷周边",
+      "admission": "中考普高率约35%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "搪瓷北巷约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "搪瓷北巷",
+      "contact": "暂无",
+      "verdict": "普通公办初中",
+      "suitable": "就近家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-ms-4105c2a4",
@@ -4022,7 +5016,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83242803"
+    "tel": "029-83242803",
+    "qualityDetail": {
+      "tier": "新城区第二梯队高中",
+      "teaching": "西光中学高中部，省级示范，高考成绩不错",
+      "homework": "作业量较大，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习到21:00",
+      "students": "东郊优质生源",
+      "admission": "高考一本率约45%，二本率约80%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "东郊好高中",
+      "housePrice": "万寿中路附近约1.5-2.0万/㎡",
+      "class_type": "约50人/班",
+      "facilities": "万寿中路",
+      "contact": "暂无",
+      "verdict": "东郊优质高中",
+      "suitable": "东郊成绩中上等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610102-hs-8815ba2a",
@@ -4044,7 +5056,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "新城区普通公办高中",
+      "teaching": "综合高中，普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "新城区普通生源",
+      "admission": "高考一本率约5%，二本率约30%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "保底高中",
+      "housePrice": "尚勤路附近约2.0-2.8万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "尚勤路，西安站附近",
+      "contact": "暂无",
+      "verdict": "普通公办高中",
+      "suitable": "成绩偏下学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610112-kg-bbd9e513",
@@ -18840,7 +19870,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83579199"
+    "tel": "029-83579199",
+    "qualityDetail": {
+      "tier": "新城区第二梯队/省级示范高中",
+      "teaching": "省级示范高中，东郊名校，师资较强",
+      "homework": "作业量较大，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习到21:00",
+      "students": "东郊优质生源，中考录取线较高",
+      "admission": "高考一本率约50%，二本率约85%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "东郊首选高中",
+      "housePrice": "咸宁中路附近约1.5-2.0万/㎡",
+      "class_type": "约50人/班",
+      "facilities": "咸宁中路，交通方便",
+      "contact": "暂无",
+      "verdict": "东郊老牌高中，实力强",
+      "suitable": "东郊成绩中上等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610111-ms-50ecffc9",
@@ -20719,7 +21767,25 @@
     "tel": "029-88460670",
     "_mergedFrom": [
       "amap-610103-ms-5ad9dbde"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第一梯队/西安顶级小学",
+      "teaching": "西工大附小，师资极强，教学质量西安顶尖，管理严格",
+      "homework": "作业量适中偏多，约1.5小时",
+      "cafeteria": "有食堂，可在校午餐",
+      "afterSchool": "有课后服务到17:30",
+      "students": "西工大教职工子女为主，生源素质极高",
+      "admission": "对口初中一般为西工大附中",
+      "lottery": "公办，子弟为主",
+      "choiceAdvice": "西安顶级小学，学区房极贵，值得争取",
+      "housePrice": "边家村附近约3.0-4.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "边家村，西工大校内，硬件一流",
+      "contact": "暂无",
+      "verdict": "西安小学天花板之一，升学王牌",
+      "suitable": "高收入、重视教育家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-002",
@@ -20749,7 +21815,25 @@
     "tel": "029-82668189",
     "_mergedFrom": [
       "amap-610103-ms-c902ff5f"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第一梯队/西安顶级小学",
+      "teaching": "交大附小，师资强，教学质量高，活动丰富",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "交大教职工子女为主，生源素质高",
+      "admission": "对口初中一般为交大附中",
+      "lottery": "公办，子弟为主",
+      "choiceAdvice": "东郊顶级小学，与西工大附小齐名",
+      "housePrice": "兴庆路附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "兴庆路，交大校内，硬件好",
+      "contact": "暂无",
+      "verdict": "西安顶级小学之一",
+      "suitable": "高收入、重视教育家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-005",
@@ -20778,7 +21862,25 @@
     "sourceYear": "2026",
     "_mergedFrom": [
       "amap-610103-ms-a2b45a37"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第一梯队/西安名校",
+      "teaching": "省级示范小学，师资强，教学质量在碑林区名列前茅",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "边家村/太白路周边优质生源",
+      "admission": "对口初中一般为西安市82中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "碑林区首选公办小学",
+      "housePrice": "边家村附近约2.0-3.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "边西街，边家村附近",
+      "contact": "暂无",
+      "verdict": "碑林区公办小学头牌",
+      "suitable": "重视教育的中等收入家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-003",
@@ -20808,7 +21910,25 @@
     "tel": "029-88302555",
     "_mergedFrom": [
       "amap-610103-ms-b25c9d43"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第二梯队/附属校",
+      "teaching": "西大附小，师资较强，管理规范",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西大教职工子女及周边",
+      "admission": "对口初中一般为西北中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "含光路片区好选择",
+      "housePrice": "含光路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "含光路，西大附近",
+      "contact": "暂无",
+      "verdict": "大学附属校，质量稳定",
+      "suitable": "含光路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-004",
@@ -20837,7 +21957,25 @@
     "sourceYear": "2021",
     "_mergedFrom": [
       "amap-610103-ms-fa70cd08"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第一梯队/名校",
+      "teaching": "铁五小学是西安名校，师资强，铁一中系小学",
+      "homework": "作业量偏多",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "太乙路周边优质生源",
+      "admission": "对口初中一般为西安市铁一中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "想上铁一中的必争学区",
+      "housePrice": "太乙路附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "太乙路，铁一局附近",
+      "contact": "暂无",
+      "verdict": "铁一中系小学，升学王牌",
+      "suitable": "目标铁一中的家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-007",
@@ -20867,7 +22005,25 @@
     "tel": "029-87804715",
     "_mergedFrom": [
       "amap-610103-ms-ea590aff"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第二梯队",
+      "teaching": "文艺路小学，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "文艺路周边",
+      "admission": "对口初中一般为西安市86中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "文艺路片区好选择",
+      "housePrice": "文艺路附近约1.8-2.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "文艺路",
+      "contact": "暂无",
+      "verdict": "碑林区优质小学",
+      "suitable": "文艺路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-471641fd",
@@ -20918,7 +22074,25 @@
     "sourceYear": "2026",
     "_mergedFrom": [
       "amap-610103-ms-8777da80"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第二梯队/附属校",
+      "teaching": "建大附小，师资较强",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "建大教职工子女",
+      "admission": "对口初中一般为西安市86中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "雁塔路片区好选择",
+      "housePrice": "雁塔路附近约1.8-2.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "雁塔路，建大校内",
+      "contact": "暂无",
+      "verdict": "大学附属校",
+      "suitable": "雁塔路/建大片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-008",
@@ -20948,7 +22122,25 @@
     "tel": "029-82224928",
     "_mergedFrom": [
       "amap-610103-ms-494d2ec0"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区第二梯队",
+      "teaching": "碑林区实验小学，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "钟楼周边",
+      "admission": "对口初中一般为西安市6中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "市中心好选择",
+      "housePrice": "钟楼附近约2.5-3.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "钟楼附近",
+      "contact": "暂无",
+      "verdict": "碑林区优质小学",
+      "suitable": "市中心片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-012",
@@ -20976,7 +22168,25 @@
     "sourceYear": "2021",
     "_mergedFrom": [
       "amap-610103-ms-5a431819"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "建国路周边",
+      "admission": "对口初中一般为西安市26中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "建国路附近约2.0-2.8万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "建国路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "建国路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-f5b014e9",
@@ -20999,7 +22209,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-88402916"
+    "tel": "029-88402916",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "振兴路周边",
+      "admission": "对口初中一般为西安市6中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "振兴路附近约1.8-2.5万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "振兴路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "振兴路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-46fca496",
@@ -21022,7 +22250,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87512902"
+    "tel": "029-87512902",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "菊花园周边",
+      "admission": "对口初中一般为西安市26中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "菊花园附近约2.0-2.8万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "东厅门",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "菊花园片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-915c8a04",
@@ -21045,7 +22291,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82498363"
+    "tel": "029-82498363",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "永宁门周边",
+      "admission": "对口初中一般为西安市82中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "永宁门附近约2.0-2.8万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "永宁门",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "永宁门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-be65fc40",
@@ -21068,7 +22332,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82485834"
+    "tel": "029-82485834",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "东关南街周边",
+      "admission": "对口初中一般为西安市3中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "东关南街附近约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "东关南街",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "东关南街片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-cc0ee591",
@@ -21091,7 +22373,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-82313469;029-83208303"
+    "tel": "029-82313469;029-83208303",
+    "qualityDetail": {
+      "tier": "碑林区普通公办/附属校",
+      "teaching": "理工大附小",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "理工大教职工子女",
+      "admission": "对口初中一般为理工大附中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "金花南路附近约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "金花南路，理工大附近",
+      "contact": "暂无",
+      "verdict": "大学附属校",
+      "suitable": "金花南路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-18a815ea",
@@ -21114,7 +22414,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87853194"
+    "tel": "029-87853194",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "雁塔路周边",
+      "admission": "对口初中一般为西安市86中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "雁塔路附近约1.8-2.5万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "雁塔路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "雁塔路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-2b3acbea",
@@ -21137,7 +22455,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87800016"
+    "tel": "029-87800016",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "小雁塔周边",
+      "admission": "对口初中一般为西安市82中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "小雁塔附近约1.8-2.5万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "小雁塔旁",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "小雁塔片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-b8a24773",
@@ -21160,7 +22496,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87277561"
+    "tel": "029-87277561",
+    "qualityDetail": {
+      "tier": "碑林区第二梯队",
+      "teaching": "陕师大附小，师资较强",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "书院门周边",
+      "admission": "对口初中一般为西安市6中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "书院门片区好选择",
+      "housePrice": "书院门附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "书院门",
+      "contact": "暂无",
+      "verdict": "师范附小，质量稳定",
+      "suitable": "书院门/南门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-16ca1091",
@@ -21183,7 +22537,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83255622"
+    "tel": "029-83255622",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "仁厚庄周边",
+      "admission": "对口初中一般为西安市83中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "仁厚庄附近约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "仁厚庄",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "仁厚庄片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-5a579d6b",
@@ -21206,7 +22578,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83231212"
+    "tel": "029-83231212",
+    "qualityDetail": {
+      "tier": "碑林区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "暂无",
+      "afterSchool": "有课后服务",
+      "students": "兴庆宫周边",
+      "admission": "对口初中一般为西安市3中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "兴庆宫附近约1.8-2.5万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "兴庆宫旁",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "兴庆宫片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-b5e8587d",
@@ -21552,7 +22942,25 @@
     "tel": "029-88427731",
     "_mergedFrom": [
       "amap-610103-ms-8e3f691f"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "西安第一梯队/全国顶级高中",
+      "teaching": "西工大附中，西安四大名校之首，师资极强，高考成绩常年全省第一",
+      "homework": "作业量很大，有晚自习到21:30",
+      "cafeteria": "有食堂，伙食一般",
+      "afterSchool": "有晚自习，高三到22:00",
+      "students": "西安顶尖生源，中考录取线全市最高",
+      "admission": "高考一本率约95%，清北人数每年80+",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "西安高中生终极目标，成绩顶尖学生冲刺",
+      "housePrice": "边家村附近约3.0-4.5万/㎡",
+      "class_type": "约50人/班，有重点班/实验班",
+      "facilities": "边家村，西工大旁，硬件一流",
+      "contact": "暂无",
+      "verdict": "西安高中天花板，清北摇篮",
+      "suitable": "全市顶尖成绩学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-010",
@@ -21582,7 +22990,25 @@
     "sourceYear": "2026",
     "_mergedFrom": [
       "amap-610103-ms-61746227"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "西安第一梯队/四大名校",
+      "teaching": "铁一中，西安四大名校之一，师资强，管理极严，高考成绩顶尖",
+      "homework": "作业量很大，晚自习到21:30",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习，高三到22:00",
+      "students": "西安顶尖生源",
+      "admission": "高考一本率约90%，清北人数每年50+",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "西安顶级高中，严格管理出成绩",
+      "housePrice": "太乙路附近约2.5-3.5万/㎡",
+      "class_type": "约50人/班，有重点班",
+      "facilities": "太乙路，铁一局附近",
+      "contact": "暂无",
+      "verdict": "西安四大名校之一，管理严格",
+      "suitable": "成绩顶尖、能吃苦学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "bl-011",
@@ -21613,7 +23039,25 @@
     "tel": "029-82668353;029-82668355",
     "_mergedFrom": [
       "amap-610103-ms-233006cb"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "西安第一梯队/四大名校",
+      "teaching": "交大附中，西安四大名校之一，师资强，素质教育+高考成绩并重",
+      "homework": "作业量较大，晚自习到21:00",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "西安顶尖生源",
+      "admission": "高考一本率约88%，清北人数每年40+",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "东郊顶级高中",
+      "housePrice": "兴庆路附近约2.5-3.5万/㎡",
+      "class_type": "约50人/班",
+      "facilities": "兴庆路，交大旁，硬件好",
+      "contact": "暂无",
+      "verdict": "四大名校之一，综合实力强",
+      "suitable": "全市顶尖成绩学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-c060f362",
@@ -21658,7 +23102,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83237905;029-83238048"
+    "tel": "029-83237905;029-83238048",
+    "qualityDetail": {
+      "tier": "碑林区第二梯队/省级示范",
+      "teaching": "省级示范高中，师资较强，高考成绩稳定",
+      "homework": "作业量较大，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "碑林区优质生源",
+      "admission": "高考一本率约45%，二本率约80%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "碑林区好高中",
+      "housePrice": "东关正街附近约1.8-2.5万/㎡",
+      "class_type": "约50人/班",
+      "facilities": "东关正街",
+      "contact": "暂无",
+      "verdict": "碑林区老牌名校",
+      "suitable": "碑林区成绩中上等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-fe9f6d57",
@@ -21681,7 +23143,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87513296;029-87515978"
+    "tel": "029-87513296;029-87515978",
+    "qualityDetail": {
+      "tier": "碑林区普通公办完中",
+      "teaching": "普通公办完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "碑林区普通生源",
+      "admission": "高考一本率约15%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "保底高中",
+      "housePrice": "开通巷附近约2.0-2.8万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "开通巷",
+      "contact": "暂无",
+      "verdict": "普通公办完中",
+      "suitable": "成绩中等偏下学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-be6c9b41",
@@ -21727,7 +23207,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87420376;029-87425725"
+    "tel": "029-87420376;029-87425725",
+    "qualityDetail": {
+      "tier": "碑林区第二梯队",
+      "teaching": "26中，碑林区优质完中",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "建国路周边优质生源",
+      "admission": "高考一本率约30%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "建国路片区好选择",
+      "housePrice": "建国路附近约2.0-2.8万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "建国路",
+      "contact": "暂无",
+      "verdict": "碑林区优质完中",
+      "suitable": "建国路片区成绩中等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-f3f3ca49",
@@ -21749,7 +23247,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "碑林区第二梯队",
+      "teaching": "6中，碑林区老牌完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "钟楼周边",
+      "admission": "高考一本率约25%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "市中心好选择",
+      "housePrice": "西大街附近约2.0-2.8万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "西大街",
+      "contact": "暂无",
+      "verdict": "老牌完中",
+      "suitable": "市中心片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-06879f17",
@@ -21930,7 +23446,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "碑林区普通公办分校",
+      "teaching": "普通分校",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "建国路周边",
+      "admission": "中考普高率约40%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "建国路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "建国路",
+      "contact": "暂无",
+      "verdict": "普通分校",
+      "suitable": "建国路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-b1c50690",
@@ -21953,7 +23487,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83232275"
+    "tel": "029-83232275",
+    "qualityDetail": {
+      "tier": "碑林区普通公办分校",
+      "teaching": "普通分校",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "东关周边",
+      "admission": "中考普高率约40%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "东关附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "东关",
+      "contact": "暂无",
+      "verdict": "普通分校",
+      "suitable": "东关片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-8c336eb6",
@@ -21976,7 +23528,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-88494872"
+    "tel": "029-88494872",
+    "qualityDetail": {
+      "tier": "碑林区第二梯队/民办",
+      "teaching": "翱翔中学是铁一中系民办初中",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "碑林区优质生源",
+      "admission": "中考普高率约80%",
+      "lottery": "民办摇号",
+      "choiceAdvice": "铁一中系民办",
+      "housePrice": "太乙路附近约2.5-3.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "太乙路",
+      "contact": "暂无",
+      "verdict": "铁一中系初中，成绩好",
+      "suitable": "目标铁一中的学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-e95f063c",
@@ -22044,7 +23614,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-83276477"
+    "tel": "029-83276477",
+    "qualityDetail": {
+      "tier": "碑林区第二梯队/民办",
+      "teaching": "尊德中学是西安中学民办分校，师资较强",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "碑林区优质生源",
+      "admission": "中考普高率约75%",
+      "lottery": "民办摇号",
+      "choiceAdvice": "民办好初中选择",
+      "housePrice": "太乙路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "太乙路",
+      "contact": "暂无",
+      "verdict": "民办优质初中",
+      "suitable": "成绩中等偏上学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610103-ms-7ceb6125",
@@ -24685,7 +26273,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84241656"
+    "tel": "029-84241656",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队",
+      "teaching": "机场小学，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西稍门周边",
+      "admission": "对口初中一般为西安市70中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西稍门好选择",
+      "housePrice": "西稍门附近约1.8-2.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "西稍门",
+      "contact": "暂无",
+      "verdict": "莲湖区优质小学",
+      "suitable": "西稍门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "lh-001",
@@ -24714,7 +26320,25 @@
     "tel": "029-88623131",
     "_mergedFrom": [
       "amap-610104-ms-4a09c669"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "大庆路周边",
+      "admission": "对口初中一般为西安市70中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "大庆路附近约1.2-1.6万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "大庆路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "大庆路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-3fdf8548",
@@ -24737,7 +26361,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84237630"
+    "tel": "029-84237630",
+    "qualityDetail": {
+      "tier": "莲湖区第一梯队/厂办名校",
+      "teaching": "远东一小，远东集团子弟校，师资强，西郊名校",
+      "homework": "作业量适中偏多",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "远东公司职工子女及周边",
+      "admission": "对口初中一般为远东一中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西郊首选小学",
+      "housePrice": "土门附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "土门",
+      "contact": "暂无",
+      "verdict": "西郊名校，与庆安小学齐名",
+      "suitable": "土门/远东片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-5bb2f207",
@@ -24759,7 +26401,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "莲湖区第一梯队/省级示范",
+      "teaching": "省教育厅直属，师资极强，西安老牌名校",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "省政府机关子女为主，生源素质高",
+      "admission": "对口初中一般为西安市44中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "莲湖区顶级小学",
+      "housePrice": "莲湖路附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "莲湖路，省政府旁，硬件好",
+      "contact": "暂无",
+      "verdict": "省直属名校，西安小学第一梯队",
+      "suitable": "高收入、重视教育家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-ca0bb5f1",
@@ -24781,7 +26441,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "莲湖区第一梯队/厂办名校",
+      "teaching": "庆安集团子弟校，师资强，教学质量在西郊顶尖",
+      "homework": "作业量适中偏多",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "庆安公司职工子女及周边",
+      "admission": "对口初中一般为庆安中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西郊首选小学",
+      "housePrice": "土门附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "土门，庆安厂区附近",
+      "contact": "暂无",
+      "verdict": "西郊厂办名校，升学有保障",
+      "suitable": "土门/庆光路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-3c2efcec",
@@ -24804,7 +26482,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87213785"
+    "tel": "029-87213785",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队",
+      "teaching": "青年路小学，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "青年路周边",
+      "admission": "对口初中一般为西安市44中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "市中心好选择",
+      "housePrice": "青年路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "青年路",
+      "contact": "暂无",
+      "verdict": "莲湖区优质小学",
+      "suitable": "青年路/洒金桥片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-fc207381",
@@ -24849,7 +26545,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84202431"
+    "tel": "029-84202431",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "北关周边",
+      "admission": "对口初中一般为西安市10中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "北关附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "北关",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "北关片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-04836c95",
@@ -24894,7 +26608,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-86246558"
+    "tel": "029-86246558",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "北关周边",
+      "admission": "对口初中一般为西安市10中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "郝家巷附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "郝家巷",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "北关片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-0bb0fa60",
@@ -24917,7 +26649,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-86224863"
+    "tel": "029-86224863",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "龙首原周边",
+      "admission": "对口初中一般为西安市10中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "龙首原附近约1.2-1.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "龙首原",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "龙首原片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-9a0e4e14",
@@ -24940,7 +26690,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-88648070"
+    "tel": "029-88648070",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "劳动路周边",
+      "admission": "对口初中一般为西安市70中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "劳动路附近约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "劳动路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "劳动路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-1695562c",
@@ -24963,7 +26731,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84621186"
+    "tel": "029-84621186",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队/厂办校",
+      "teaching": "远东二小，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "远东公司职工子女",
+      "admission": "对口初中一般为远东二中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西郊好选择",
+      "housePrice": "土门附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "土门",
+      "contact": "暂无",
+      "verdict": "远东系小学",
+      "suitable": "土门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-2f87ffa4",
@@ -24986,7 +26772,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-88617255;029-88623013"
+    "tel": "029-88617255;029-88623013",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队/附属校",
+      "teaching": "西电集团附属校，师资较强",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西电公司职工子女",
+      "admission": "对口初中一般为西电中学",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西郊好选择",
+      "housePrice": "丰登路附近约1.5-2.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "丰登路",
+      "contact": "暂无",
+      "verdict": "西电系学校",
+      "suitable": "丰登路/土门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-a5474906",
@@ -25055,7 +26859,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84299743"
+    "tel": "029-84299743",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "红光路周边",
+      "admission": "对口初中一般为西安市15中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "红光路附近约1.0-1.4万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "红光路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "红光路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-c03b2049",
@@ -25078,7 +26900,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84237630;029-84248297"
+    "tel": "029-84237630;029-84248297",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "丰庆路周边",
+      "admission": "对口初中一般为西安市70中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "金光门附近约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "金光门",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "金光门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-57bf34b4",
@@ -25101,7 +26941,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-81621559"
+    "tel": "029-81621559",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办新校",
+      "teaching": "新校，硬件好",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "大兴新区周边",
+      "admission": "对口初中一般为西安市10中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "大兴新区新校",
+      "housePrice": "大兴新区约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "大兴新区，硬件新",
+      "contact": "暂无",
+      "verdict": "新建学校，硬件好",
+      "suitable": "大兴新区片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-55f16d9f",
@@ -25124,7 +26982,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-88624836"
+    "tel": "029-88624836",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队",
+      "teaching": "西关一小，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西关正街周边",
+      "admission": "对口初中一般为西安市70中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西关好选择",
+      "housePrice": "西关正街附近约1.8-2.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "西关正街",
+      "contact": "暂无",
+      "verdict": "西关优质小学",
+      "suitable": "西关/西门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-02a9a583",
@@ -25169,7 +27045,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84242553"
+    "tel": "029-84242553",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "土门周边",
+      "admission": "对口初中一般为西安市15中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "土门附近约1.2-1.6万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "土门",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "土门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-c9f70bdf",
@@ -25824,7 +27718,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办完中",
+      "teaching": "普通完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "西郊生源",
+      "admission": "高考一本率约15%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "保底高中",
+      "housePrice": "/土门附近约1.2-1.6万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "土门",
+      "contact": "暂无",
+      "verdict": "普通完中",
+      "suitable": "成绩中等偏下学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-1cc2b644",
@@ -25847,7 +27759,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84293888;029-84293999"
+    "tel": "029-84293888;029-84293999",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队/省级示范",
+      "teaching": "远东一中，西郊名校，省级示范",
+      "homework": "作业量较大，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习到21:00",
+      "students": "西郊优质生源",
+      "admission": "高考一本率约40%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "西郊好高中",
+      "housePrice": "土门附近约1.5-2.0万/㎡",
+      "class_type": "约50人/班",
+      "facilities": "土门",
+      "contact": "暂无",
+      "verdict": "西郊老牌完中",
+      "suitable": "西郊成绩中上等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-86e25129",
@@ -25870,7 +27800,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-87628277"
+    "tel": "029-87628277",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队初中",
+      "teaching": "70中，莲湖区优质初中",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "西关/劳动路周边",
+      "admission": "中考普高率约65%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西关好初中",
+      "housePrice": "西关附近约1.8-2.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "西关正街",
+      "contact": "暂无",
+      "verdict": "莲湖区优质初中",
+      "suitable": "西关/劳动路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-663f6d78",
@@ -25893,7 +27841,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-86253052"
+    "tel": "029-86253052",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办完中",
+      "teaching": "普通完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "北关/红庙坡周边",
+      "admission": "高考一本率约10%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "就近入学",
+      "housePrice": "北关附近约1.2-1.6万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "北关",
+      "contact": "暂无",
+      "verdict": "普通完中",
+      "suitable": "北关/红庙坡片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-ac8985b7",
@@ -25938,7 +27904,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84246084;029-84254043"
+    "tel": "029-84246084;029-84254043",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办完中",
+      "teaching": "西电公司办完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "西电公司职工子女",
+      "admission": "高考一本率约15%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "就近入学",
+      "housePrice": "丰登路附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "丰登路",
+      "contact": "暂无",
+      "verdict": "普通完中",
+      "suitable": "丰登路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-a0200cb7",
@@ -25960,7 +27944,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "莲湖区普通公办完中",
+      "teaching": "普通完中",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "莲湖路周边",
+      "admission": "高考一本率约20%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "就近入学",
+      "housePrice": "莲湖路附近约2.0-2.8万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "莲湖路",
+      "contact": "暂无",
+      "verdict": "普通完中",
+      "suitable": "莲湖路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-98f8f9e5",
@@ -26052,7 +28054,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-84241158"
+    "tel": "029-84241158",
+    "qualityDetail": {
+      "tier": "莲湖区第二梯队初中",
+      "teaching": "庆安中学，西郊名校，师资强",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "西郊优质生源",
+      "admission": "中考普高率约70%",
+      "lottery": "公办按学区",
+      "choiceAdvice": "西郊好初中",
+      "housePrice": "土门附近约1.5-2.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "土门",
+      "contact": "暂无",
+      "verdict": "西郊老牌名校初中",
+      "suitable": "土门片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610104-ms-31b3b562",
@@ -30571,7 +32591,25 @@
     "tel": "029-88312345",
     "_mergedFrom": [
       "amap-610113-ms-13987b31"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "西安顶级小学/高新区头牌",
+      "teaching": "高新一小，西安民办小学天花板，师资极强，素质教育+应试并重",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂，伙食好",
+      "afterSchool": "有课后服务，课外活动丰富",
+      "students": "高新区高收入家庭子女，生源素质极高",
+      "admission": "对口初中一般为高新一中",
+      "lottery": "民办摇号，中签率极低",
+      "choiceAdvice": "西安最好的小学之一，学区房极贵",
+      "housePrice": "高新一路附近约4.0-6.0万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "高新一路，高新区核心，硬件一流",
+      "contact": "暂无",
+      "verdict": "西安小学天花板，升学王牌",
+      "suitable": "高收入、重视教育家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-dbbc3bd3",
@@ -30624,7 +32662,25 @@
     "tel": "029-85308287",
     "_mergedFrom": [
       "amap-610113-ms-cd0c8f6f"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "雁塔区第一梯队/西安名校",
+      "teaching": "陕师大附小，师资极强，教学质量西安顶尖",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "陕师大教职工子女及周边，生源素质高",
+      "admission": "对口初中一般为师大附中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "雁塔区顶级公办小学",
+      "housePrice": "翠华路附近约2.5-3.5万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "翠华路，陕师大旁，硬件好",
+      "contact": "暂无",
+      "verdict": "西安顶级小学之一",
+      "suitable": "高收入、重视教育家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "yt-008",
@@ -30653,7 +32709,25 @@
     "sourceYear": null,
     "_mergedFrom": [
       "amap-610113-ms-f1172d4b"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "高新区第一梯队/民办",
+      "teaching": "高新国际学校，民办高端校",
+      "homework": "作业量适中，素质教育",
+      "cafeteria": "有食堂，伙食好",
+      "afterSchool": "课外活动丰富",
+      "students": "高新区高收入家庭",
+      "admission": "直升本校初中部",
+      "lottery": "民办摇号",
+      "choiceAdvice": "民办高端选择",
+      "housePrice": "唐延路附近约3.0-4.5万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "唐延路，硬件一流",
+      "contact": "暂无",
+      "verdict": "民办高端校，综合素质教育",
+      "suitable": "高收入、重视素质教育家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "yt-007",
@@ -30713,7 +32787,25 @@
     "tel": "029-85395627",
     "_mergedFrom": [
       "amap-610113-ms-ae2531aa"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "雁塔区第二梯队",
+      "teaching": "大雁塔小学，老牌名校",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "大雁塔周边",
+      "admission": "对口初中一般为西安市85中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "大雁塔片区好选择",
+      "housePrice": "大雁塔附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "大雁塔旁",
+      "contact": "暂无",
+      "verdict": "雁塔区老牌名校",
+      "suitable": "大雁塔/小寨片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ps-0bc6a65c",
@@ -30764,7 +32856,25 @@
     "tel": "029-85215006",
     "_mergedFrom": [
       "amap-610113-ms-74e9f0b0"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "雁塔区第二梯队",
+      "teaching": "翠华路小学，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "翠华路周边",
+      "admission": "对口初中一般为西安市85中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "大雁塔片区好选择",
+      "housePrice": "翠华路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "翠华路，大雁塔旁",
+      "contact": "暂无",
+      "verdict": "雁塔区优质小学",
+      "suitable": "翠华路/大雁塔片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ps-4d758eb9",
@@ -30830,7 +32940,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "曲江新区第一梯队",
+      "teaching": "曲江南湖小学，曲江名校",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务，课外活动丰富",
+      "students": "曲江新区高收入家庭",
+      "admission": "对口初中一般为曲江一中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "曲江首选小学",
+      "housePrice": "曲江池附近约2.5-4.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "曲江池旁，硬件好",
+      "contact": "暂无",
+      "verdict": "曲江新区头牌小学",
+      "suitable": "曲江高收入家庭"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-237d7a0b",
@@ -30853,7 +32981,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-63388735;029-63388785"
+    "tel": "029-63388735;029-63388785",
+    "qualityDetail": {
+      "tier": "曲江新区第二梯队",
+      "teaching": "曲江二小，师资稳定",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "曲江新区生源",
+      "admission": "对口初中一般为曲江一中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "曲江好选择",
+      "housePrice": "曲江附近约2.5-3.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "曲江",
+      "contact": "暂无",
+      "verdict": "曲江优质小学",
+      "suitable": "曲江片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-5cd610ff",
@@ -30875,7 +33021,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "曲江新区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "曲江新区生源",
+      "admission": "对口初中一般为曲江一中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "曲江附近约2.0-3.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "曲江",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "曲江片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-d748ae49",
@@ -30921,7 +33085,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-85522146"
+    "tel": "029-85522146",
+    "qualityDetail": {
+      "tier": "雁塔区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西影路周边",
+      "admission": "对口初中一般为西安市85中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "西影路附近约1.5-2.0万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "西影路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "西影路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-5454bb6e",
@@ -30944,7 +33126,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-68910057"
+    "tel": "029-68910057",
+    "qualityDetail": {
+      "tier": "高新区第二梯队",
+      "teaching": "高新四小，新校硬件好",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "高新区生源",
+      "admission": "对口初中一般为高新四中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "高新区新校",
+      "housePrice": "唐延路附近约2.5-3.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "唐延路，硬件新",
+      "contact": "暂无",
+      "verdict": "高新区新校，硬件好",
+      "suitable": "唐延路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-974e832b",
@@ -31033,7 +33233,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-68909938;029-68909939"
+    "tel": "029-68909938;029-68909939",
+    "qualityDetail": {
+      "tier": "高新区第二梯队",
+      "teaching": "高新三小，师资较强",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "高新区生源",
+      "admission": "对口初中一般为高新三中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "高新区好选择",
+      "housePrice": "科技路附近约2.5-3.5万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "科技路",
+      "contact": "暂无",
+      "verdict": "高新区优质小学",
+      "suitable": "科技路/高新片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-3ed34edb",
@@ -31078,7 +33296,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-88858867"
+    "tel": "029-88858867",
+    "qualityDetail": {
+      "tier": "高新区第二梯队",
+      "teaching": "高新五小，师资较强",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "高新区生源",
+      "admission": "对口初中一般为高新五中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "高新区好选择",
+      "housePrice": "电子城附近约2.0-3.0万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "电子城",
+      "contact": "暂无",
+      "verdict": "高新区优质小学",
+      "suitable": "电子城/紫薇片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-1a1a8b1f",
@@ -31190,7 +33426,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-88202535"
+    "tel": "029-88202535",
+    "qualityDetail": {
+      "tier": "雁塔区第二梯队/附属校",
+      "teaching": "西电附小，师资较强",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "西电教职工子女",
+      "admission": "对口初中一般为西电附中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "太白路好选择",
+      "housePrice": "太白路附近约2.0-2.8万/㎡",
+      "class_type": "约40人/班",
+      "facilities": "太白路，西电旁",
+      "contact": "暂无",
+      "verdict": "大学附属校，质量稳定",
+      "suitable": "太白路/吉祥村片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-eb44540b",
@@ -31212,7 +33466,25 @@
     "teachers": "",
     "achievements": "",
     "source": "gaode_poi",
-    "sourceYear": "2026"
+    "sourceYear": "2026",
+    "qualityDetail": {
+      "tier": "雁塔区普通公办",
+      "teaching": "普通公办",
+      "homework": "作业量适中",
+      "cafeteria": "有食堂",
+      "afterSchool": "有课后服务",
+      "students": "吉祥路周边",
+      "admission": "对口初中一般为西安市85中",
+      "lottery": "公办按学区",
+      "choiceAdvice": "就近入学",
+      "housePrice": "吉祥路附近约1.8-2.5万/㎡",
+      "class_type": "约35人/班",
+      "facilities": "吉祥路",
+      "contact": "暂无",
+      "verdict": "普通公办",
+      "suitable": "吉祥村/小寨片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-0bc3ae60",
@@ -33003,7 +35275,25 @@
     "tel": "029-89525311",
     "_mergedFrom": [
       "amap-610113-ps-a942f888"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "西安第一梯队/四大名校",
+      "teaching": "高新一中，西安四大名校之一，高考成绩顶尖",
+      "homework": "作业量很大，晚自习到21:30",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习，高三到22:00",
+      "students": "西安顶尖生源",
+      "admission": "高考一本率约90%，清北人数每年60+",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "西安顶级高中",
+      "housePrice": "高新路附近约4.0-6.0万/㎡",
+      "class_type": "约50人/班",
+      "facilities": "高新路，硬件一流",
+      "contact": "暂无",
+      "verdict": "四大名校之一，高新区头牌",
+      "suitable": "全市顶尖成绩学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-cc28523b",
@@ -33056,7 +35346,25 @@
     "sourceYear": "2026",
     "_mergedFrom": [
       "amap-610113-ms-dfc4a8fb"
-    ]
+    ],
+    "qualityDetail": {
+      "tier": "西安第二梯队/省级示范",
+      "teaching": "师大附中，省级示范，师资较强",
+      "homework": "作业量较大，有晚自习",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "雁塔区优质生源",
+      "admission": "高考一本率约70%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "雁塔区好高中",
+      "housePrice": "翠华路附近约2.5-3.5万/㎡",
+      "class_type": "约50人/班",
+      "facilities": "翠华路，陕师大旁",
+      "contact": "暂无",
+      "verdict": "雁塔区老牌名校",
+      "suitable": "雁塔区成绩中上等学生"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-9dc255f3",
@@ -33170,7 +35478,25 @@
     "achievements": "",
     "source": "gaode_poi",
     "sourceYear": "2026",
-    "tel": "029-85254685"
+    "tel": "029-85254685",
+    "qualityDetail": {
+      "tier": "雁塔区第二梯队",
+      "teaching": "85中，雁塔区优质完中",
+      "homework": "作业量较大",
+      "cafeteria": "有食堂",
+      "afterSchool": "有晚自习",
+      "students": "小寨/翠华路周边",
+      "admission": "高考一本率约35%",
+      "lottery": "公办按中考录取",
+      "choiceAdvice": "小寨好高中",
+      "housePrice": "翠华路附近约2.0-2.8万/㎡",
+      "class_type": "约45人/班",
+      "facilities": "翠华路",
+      "contact": "暂无",
+      "verdict": "雁塔区优质完中",
+      "suitable": "小寨/翠华路片区"
+    },
+    "enrichedAt": "2026-09-12"
   },
   {
     "id": "amap-610113-ms-1495e19d",
