@@ -35,6 +35,7 @@ const DataLoader = (() => {
       tags: s.tags || [],
       score: s.score,
       quality: s.quality,
+      qualityDetail: s.qualityDetail,
       facility: s.facility,
       tuition: s.tuition,
       intro: s.intro,
