@@ -4357,5 +4357,82 @@
     ],
     "sourceUrl": "航天基地官网2026",
     "year": "2026"
+  },
+  {
+    "schoolName": "西咸新区沣东新城第五小学",
+    "district": "沣东新城",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "和盛花园、蓝光公园华府、保利和光尘樾、中南上悦城、国樾府、万科星誉沣华、沣和苑、康璟馨苑"
+    ],
+    "sourceUrl": "西咸新区官网2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安沣东实验小学",
+    "district": "沣东新城",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "西围墙村、六合家园、中海昆明路六号、沣明苑；王寺村、纪杨村等过渡"
+    ],
+    "sourceUrl": "西咸新区官网2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "沣东新城第一小学",
+    "district": "沣东新城",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "沣东新城辖区户籍适龄儿童"
+    ],
+    "sourceUrl": "西咸新区官网2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陕西省西咸新区秦汉中学",
+    "district": "秦汉新城",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "秦汉佳苑、华清园文津观澜、旭辉江山阅、世纪澜庭、中国铁建长河天骄府"
+    ],
+    "sourceUrl": "西咸新区官网2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西咸新区秦汉新城秦汉小学",
+    "district": "秦汉新城",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "春城十八里、枫丹丽舍、德杰国际城、星河湾、万科理想城、中天诚品"
+    ],
+    "sourceUrl": "西咸新区官网2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "空港新城第一学校",
+    "district": "空港新城",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "空港新城辖区户籍适龄儿童"
+    ],
+    "sourceUrl": "西咸新区官网2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "泾河新城第一小学",
+    "district": "泾河新城",
+    "stage": "小学",
+    "communities": [],
+    "roads": [
+      "泾河新城辖区户籍适龄儿童"
+    ],
+    "sourceUrl": "西咸新区官网2026",
+    "year": "2026"
   }
 ]
