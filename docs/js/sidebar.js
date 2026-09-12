@@ -97,18 +97,22 @@ const Sidebar = (() => {
 
     // 学区小区 + 深链
     let communityHTML = '';
-    if (data.zone && data.zone.communities) {
+    if (data.zone && data.zone.communities && data.zone.communities.length) {
       const chips = data.zone.communities.map(c => {
-        // 生成贝壳/链家深链
         const beikeUrl = `https://xian.ke.com/xiaoqu/rs${encodeURIComponent(c)}/`;
-        const lianjiaUrl = `https://xian.lianjia.com/xiaoqu/rs${encodeURIComponent(c)}/`;
+        const mapUrl = `https://api.map.baidu.com/geocoder?address=${encodeURIComponent(c + ' 西安')}&output=html`;
         return `<div class="community-chip">
           ${c}
           <a href="${beikeUrl}" target="_blank" rel="noopener" style="color:#1677ff;margin-left:4px;font-size:11px;">贝壳</a>
-          <a href="${lianjiaUrl}" target="_blank" rel="noopener" style="color:#1677ff;margin-left:4px;font-size:11px;">链家</a>
         </div>`;
       }).join('');
       communityHTML = `<div class="community-list">${chips}</div>`;
+    } else if (data.name) {
+      // 没有小区数据，给一个搜学区房的链接
+      const beikeUrl = `https://xian.ke.com/xiaoqu/rs${encodeURIComponent(data.name + ' 学区')}/`;
+      communityHTML = `<div style="padding:8px 0;font-size:12px;color:#666;">
+        <a href="${beikeUrl}" target="_blank" rel="noopener" style="color:#1677ff;">🔍 贝壳搜索「${data.name}学区房」</a>
+      </div>`;
     }
 
     // 房源信息
