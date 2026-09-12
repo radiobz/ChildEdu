@@ -49,7 +49,7 @@ const DataLoader = (() => {
     async getSchools() {
       if (schoolsCache) return schoolsCache;
       const base = window.APP_CONFIG.BASE_PATH || '';
-      const raw = await loadJSON(`${base}/data/schools.json`);
+      const raw = await loadJSON(`${base}/data/schools.json?v=11`);
       schoolsCache = raw.map(normalizeSchool);
       return schoolsCache;
     },
