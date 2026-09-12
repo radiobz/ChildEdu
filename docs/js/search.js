@@ -127,6 +127,9 @@ const SearchManager = (() => {
       }
       if (result.data.zone && result.data.zone.coords) {
         MapManager.highlightZone(result.data.zone.coords);
+      } else if (result.data.zone && result.data.zone.roads) {
+        const roadsArr = result.data.zone.roads.split('；').filter(Boolean);
+        MapManager.highlightZoneRoads(roadsArr, result.data.location.lng, result.data.location.lat);
       }
       if (result.data.houses) {
         MapManager.showHouseMarkers(result.data.houses);
@@ -201,6 +204,9 @@ const SearchManager = (() => {
       }
       if (result.data.zone && result.data.zone.coords) {
         MapManager.highlightZone(result.data.zone.coords);
+      } else if (result.data.zone && result.data.zone.roads) {
+        const roadsArr = result.data.zone.roads.split('；').filter(Boolean);
+        MapManager.highlightZoneRoads(roadsArr, result.data.location.lng, result.data.location.lat);
       }
       if (result.data.houses) {
         MapManager.showHouseMarkers(result.data.houses);

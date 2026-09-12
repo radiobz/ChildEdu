@@ -131,7 +131,7 @@ const DataLoader = (() => {
           communities: zone.communities || [],
           roads: (zone.roads || []).join('；'),
           source: zone.sourceUrl || '',
-          coords: null
+          coords: zone.coords || null
         } : null,
         houses: [],
         pitfalls: [],

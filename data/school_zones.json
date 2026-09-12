@@ -632,12 +632,764 @@
     "district": "新城区",
     "stage": "幼儿园",
     "communities": [
+      "公园北路小区",
       "华旗·东郡小区",
       "附近其他小区"
     ],
     "roads": [
+      "新城东路",
+      "附近其他路段",
+      "公园北路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安职业中等专业学校第一幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "尚爱花园",
+      "尚德小区"
+    ],
+    "roads": [
+      "尚爱路",
+      "尚德路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安职业中等专业学校第二幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "北稍门小区",
+      "联志路小区"
+    ],
+    "roads": [
+      "北稍门大街",
+      "联志路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "东尚爱幼幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "东尚小区",
+      "太华路小区"
+    ],
+    "roads": [
+      "太华路",
+      "景观路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城子语幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "新城花园",
+      "新城广场"
+    ],
+    "roads": [
       "公园北路",
-      "附近其他路段"
+      "新城东路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "吉的堡幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "东二环恒基碧翠锦华小区",
+      "XX花园"
+    ],
+    "roads": [
+      "东二环路",
+      "北二环路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "爱多白桦林明天幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "白桦林明天小区",
+      "太华南路小区"
+    ],
+    "roads": [
+      "太华南路",
+      "太华路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市新城区融创壹号院幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "融创壹号院",
+      "北四合窑路小区"
+    ],
+    "roads": [
+      "华清西路",
+      "北四合窑路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "新城区电力幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "金花小区",
+      "信和花园"
+    ],
+    "roads": [
+      "金花北路",
+      "信和路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城景泰茗苑幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "景泰茗苑",
+      "新城花园"
+    ],
+    "roads": [
+      "新城路",
+      "长乐路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城华清学府幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "幸福南路小区",
+      "新城花园"
+    ],
+    "roads": [
+      "幸福南路",
+      "新城中路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陕棉十一厂幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "建华路大华二村小区",
+      "附近其他小区"
+    ],
+    "roads": [
+      "建华路",
+      "附近主要路段"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安电力高等专科学校",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "长乐小区",
+      "康复路小区"
+    ],
+    "roads": [
+      "长乐西路",
+      "康复路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "昆仑幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "十五街坊小区",
+      "XX花园"
+    ],
+    "roads": [
+      "十五街坊路",
+      "XX大道"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西京医院幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "西京花园",
+      "长乐苑"
+    ],
+    "roads": [
+      "长乐西路",
+      "解放路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安黄河幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "长乐小区",
+      "十四街坊"
+    ],
+    "roads": [
+      "长乐中路",
+      "解放路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陕西省人民政府机关幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "皇城花园",
+      "新城小区"
+    ],
+    "roads": [
+      "皇城东路",
+      "新城路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "秦川幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "幸福中路小区",
+      "秦川花园"
+    ],
+    "roads": [
+      "幸福中路",
+      "秦川路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市新城区实验幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "顺城花园",
+      "顺城国际"
+    ],
+    "roads": [
+      "顺城北路",
+      "解放路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城至美幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "含元小区",
+      "八府庄小区"
+    ],
+    "roads": [
+      "含元北路",
+      "八府庄二坊"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安西光幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "长乐小区",
+      "公园北路小区"
+    ],
+    "roads": [
+      "长乐中路",
+      "公园北路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市新城区筑梦幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "后宰门小区",
+      "新城区某小区"
+    ],
+    "roads": [
+      "后宰门大街",
+      "新城区某路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城爱幼幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "八府庄园小区",
+      "太华路街道其他小区"
+    ],
+    "roads": [
+      "太华路",
+      "其他相关路段"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城白鹿幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "含元小区",
+      "新城花园"
+    ],
+    "roads": [
+      "含元路",
+      "新城路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城春晓幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "东城桃园",
+      "韩森寨小区"
+    ],
+    "roads": [
+      "咸宁东路",
+      "公园南路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "大明宫幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "大明宫小区",
+      "元宝坡小区"
+    ],
+    "roads": [
+      "太华南路",
+      "元殿地铁站周边道路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安东方幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "东方社区103街坊",
+      "附近其他小区"
+    ],
+    "roads": [
+      "附近主要道路1",
+      "附近主要道路2"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城腾联新世纪幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "联志村腾联新世纪小区",
+      "附近其他小区"
+    ],
+    "roads": [
+      "新城中路",
+      "新城南路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城京师幼学幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "福邸铭门西区",
+      "新城花园"
+    ],
+    "roads": [
+      "新城路",
+      "长乐路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市新城区秦川幼儿园长兴分园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "长兴小区",
+      "秦川小区"
+    ],
+    "roads": [
+      "长兴路",
+      "秦川路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市新城区朝阳幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "顺城花园",
+      "顺城国际"
+    ],
+    "roads": [
+      "顺城东路",
+      "解放路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陕汽幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "兴工花园",
+      "新城区小区"
+    ],
+    "roads": [
+      "兴工路",
+      "解放路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城国资集团西玛幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "金泰社区",
+      "金花社区"
+    ],
+    "roads": [
+      "金花北路",
+      "金花南路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城博毅幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "新城花园",
+      "长缨花园"
+    ],
+    "roads": [
+      "长缨东路",
+      "胡家庙大街"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "万华怡康幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "万华林苑小区",
+      "东元西路小区"
+    ],
+    "roads": [
+      "太华路",
+      "东元西路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "小天鹅幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "尹家街小区",
+      "幸福里小区"
+    ],
+    "roads": [
+      "尹家街",
+      "幸福路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城若草幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "元丰怡家",
+      "东元小区"
+    ],
+    "roads": [
+      "东元西路",
+      "新城中路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "铭蓝幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "风景大院",
+      "新城区小区"
+    ],
+    "roads": [
+      "新城区主干道",
+      "风景路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城铭湖幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "铭湖景园",
+      "银河坊"
+    ],
+    "roads": [
+      "太华南路",
+      "新城区主干道"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市新城区华清幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "东元小区",
+      "西郊小区"
+    ],
+    "roads": [
+      "东元西路",
+      "西郊路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城自强路幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "自强路向荣小区",
+      "附近其他小区"
+    ],
+    "roads": [
+      "自强路",
+      "向荣路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "智慧树幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "东小寨小区",
+      "十里铺小区"
+    ],
+    "roads": [
+      "十里铺街办东小寨路",
+      "十里铺街办西小寨路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城博爱幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "百瑞大厦社区",
+      "东八路社区"
+    ],
+    "roads": [
+      "东八路",
+      "新城路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "欢乐岛幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "含元北路小区",
+      "水泥制管厂家属院"
+    ],
+    "roads": [
+      "含元北路",
+      "东大街"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "元丰幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "元丰怡家小区",
+      "东元西路小区"
+    ],
+    "roads": [
+      "东元西路",
+      "元丰中路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "星光幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "公园南路小区",
+      "星光路小区"
+    ],
+    "roads": [
+      "公园南路",
+      "星光路"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "品格蒙特梭利新城红叶幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "品格蒙特梭利新城红叶花园",
+      "东一路小区"
+    ],
+    "roads": [
+      "东一路",
+      "新城大道"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "新城区华清幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "六合窖西铁华清小区",
+      "附近其他小区"
+    ],
+    "roads": [
+      "学校周边主要道路1",
+      "学校周边主要道路2"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "上和郡幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "上和郡小区",
+      "东元西路小区"
+    ],
+    "roads": [
+      "东元西路",
+      "七彩巷"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "东城桃园幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "东城桃园小区",
+      "咸宁东路小区"
+    ],
+    "roads": [
+      "咸宁东路",
+      "知行巷"
+    ],
+    "sourceUrl": "AI自动采集",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安新城东方天翼幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "communities": [
+      "新城花园",
+      "东方明珠"
+    ],
+    "roads": [
+      "长樱东路",
+      "东站路"
     ],
     "sourceUrl": "AI自动采集",
     "year": "2026"

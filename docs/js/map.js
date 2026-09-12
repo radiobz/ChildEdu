@@ -3,6 +3,8 @@ const MapManager = (() => {
   let map = null;
   let currentMarkers = [];
   let zonePolygons = [];
+  let zoneRoadLabels = []; // 学区道路标签
+  let zoneCircle = null; // 学区圆形范围
   let houseMarkers = [];
   let mouseTool = null;
   let currentRect = null;
@@ -189,6 +191,58 @@ const MapManager = (() => {
   function clearZoneHighlights() {
     zonePolygons.forEach(p => p.setMap(null));
     zonePolygons = [];
+    zoneRoadLabels.forEach(m => m.setMap(null));
+    zoneRoadLabels = [];
+    if (zoneCircle) { zoneCircle.setMap(null); zoneCircle = null; }
+  }
+
+  // 保底方案：用道路标签+半透明圆表示学区范围
+  function highlightZoneRoads(roads, centerLng, centerLat) {
+    // 画半透明圆表示大致学区范围
+    if (centerLng && centerLat) {
+      zoneCircle = new AMap.Circle({
+        center: [centerLng, centerLat],
+        radius: 800,
+        strokeColor: '#1677ff',
+        strokeWeight: 2,
+        strokeOpacity: 0.6,
+        fillColor: '#1677ff',
+        fillOpacity: 0.08,
+        map: map
+      });
+    }
+
+    // 用PlaceSearch搜索每条边界道路，放标签
+    if (!roads || !roads.length || !window.AMap.PlaceSearch) return;
+    
+    const placeSearch = new AMap.PlaceSearch({
+      city: '西安',
+      pageSize: 1
+    });
+
+    roads.forEach(roadName => {
+      // 提取路名（去掉"以东""以西"等方向词）
+      const cleanName = roadName.replace(/[以东以西以南以北以内之外]/g, '').trim();
+      if (!cleanName || cleanName.length < 2) return;
+      
+      placeSearch.search(cleanName, (status, result) => {
+        if (status !== 'complete' || !result.poiList || !result.poiList.pois.length) return;
+        const poi = result.poiList.pois[0];
+        if (!poi.location) return;
+
+        // 创建道路标签标记
+        const marker = new AMap.Marker({
+          position: [poi.location.lng, poi.location.lat],
+          map: map,
+          label: {
+            content: `<div style="background:#1677ff;color:#fff;padding:2px 8px;border-radius:10px;font-size:11px;white-space:nowrap;box-shadow:0 2px 6px rgba(0,0,0,0.2);">📍 ${cleanName}</div>`,
+            direction: 'top'
+          },
+          icon: 'transparent'
+        });
+        zoneRoadLabels.push(marker);
+      });
+    });
   }
 
   // 在地图上标注学区房源点
@@ -247,6 +301,7 @@ const MapManager = (() => {
     flyTo,
     getBounds,
     highlightZone,
+    highlightZoneRoads,
     clearZoneHighlights,
     showHouseMarkers,
     clearHouseMarkers,

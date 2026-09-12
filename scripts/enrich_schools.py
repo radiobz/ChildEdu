@@ -77,8 +77,14 @@ def build_prompt(school):
   "suitable": "适合谁/不适合谁",
   "tags": ["标签1","标签2"],
   "communities": ["学区内主要小区1","小区2"],
-  "roads": ["学区覆盖路段1","路段2"]
+  "roads": ["学区覆盖路段1","路段2"],
+  "zoneCoords": [[lng1,lat1],[lng2,lat2],[lng3,lat3],[lng4,lat4]]
 }}
+
+zoneCoords是学区的大致边界多边形，用西安经纬度坐标（经度108.85-109.15，纬度34.20-34.40）。
+根据roads里的路名描述，给出4-8个围成学区范围的经纬度点。
+比如"含光路以西、友谊西路以北"就给出这两条路交汇处附近的矩形4个角点。
+坐标要尽量准确反映学区范围，不要随便填。如果实在不知道就填空数组[]。
 
 不确定的字段填"暂无公开信息"，不要编造。"""
 
@@ -135,15 +141,18 @@ def main():
         # 如果有升学信息，补充到pathways
         communities = result.get('communities', [])
         roads = result.get('roads', [])
-        if communities or roads:
+        zone_coords = result.get('zoneCoords', [])
+        if communities or roads or zone_coords:
             existing = next((z for z in zones if z.get('schoolName') == school['name']), None)
             if existing:
                 if communities:
                     existing['communities'] = list(set(existing.get('communities', []) + communities))
                 if roads:
                     existing['roads'] = list(set(existing.get('roads', []) + roads))
+                if zone_coords and len(zone_coords) >= 3:
+                    existing['coords'] = zone_coords
             else:
-                zones.append({
+                new_zone = {
                     'schoolName': school['name'],
                     'district': school['district'],
                     'stage': school['stage'],
@@ -151,7 +160,10 @@ def main():
                     'roads': roads,
                     'sourceUrl': 'AI自动采集',
                     'year': '2026'
-                })
+                }
+                if zone_coords and len(zone_coords) >= 3:
+                    new_zone['coords'] = zone_coords
+                zones.append(new_zone)
             print(f"  ✅ 补充学区信息")
 
         time.sleep(1)
