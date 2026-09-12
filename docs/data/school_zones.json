@@ -2568,10 +2568,10 @@
   {
     "schoolName": "汉都第一学校",
     "district": "未央区",
-    "stage": "小学",
+    "stage": "初中",
     "communities": [],
     "roads": [
-      "六村堡、相家巷、闫家村、铁锁、民娄、三官庙村、庞马村、吴高墙村、张道口村、 业生对口直升文景中学（经 店子村、楼阁台村、东杨善村、西杨善村                     开第六中学） 6    市七十五中    朱宏路以东，凝晖巷--玄武路--福殿路以西，北二环以南，莲湖区交界处以北范围内 西二环－北二环以东，朱宏路以西，北二环以南，与莲湖区交界以北范围内，雷寨、 7    市七十六中    樊寨、南玉丰、东查、西查、中查、东塘寨、西塘寨、阁老门、张家巷、李上壕村、 讲武殿南村、讲武殿北村 1.贞观路以东，渭滨路以西，北三环以南，凤城九路以北范围内 2.渭滨路以东，北辰路以西，凤城八路（永淳路）以南，常青二路－太华北路－永信    含薛家寨、张千户村户籍村 8    西航二中     路以北范围内                                    民 3.天鼎小区、外招小区西航子弟 4.五二四西福利区 9    西航一中     渭滨路以东，太华北路以西，北三环以南，渭清路以北范围内 红旗铁路专线－北二环－太和路以东，御井路－重光路－东二环以西，永顺路以南，     不含华远君城东区，含辛家"
+      "未央区辖区"
     ],
     "sourceUrl": "政府官网2026",
     "year": "2026"
@@ -2813,7 +2813,7 @@
     "stage": "初中",
     "communities": [],
     "roads": [
-      "东区：环城东路以东，陇海线以南，康复路-兴业路以西；西区：解放路以东，东五路以南，顺城东巷以西，东大街以北"
+      "解放路以东，陇海线以南，东二环以西，碑林界-东大街以北"
     ],
     "sourceUrl": "政府官网2026",
     "year": "2026"
@@ -4829,6 +4829,457 @@
       "西安科技大学雁塔地区附属单位及家属院。 西安交通大学附属中学 交大医学院北院，交大医学院南院，交大财经校区北院，交大财经校区南院，交大一附院家属院（包含交大卫校），交大 雁塔校区    二附院家属院，交大口腔医院。 注： 以上各学校学区范围是基本描述，若个别区域内入学学生数超过学校容纳量，区教育局将根据实际情况统筹协调安排。"
     ],
     "sourceUrl": "雁塔区教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第三十中学",
+    "district": "新城区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "北大街以东，西五路以南，新城大院-南新街以西，东大街以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第八十九中学",
+    "district": "新城区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "东区：尚德路以东，西七路以南，顺城东巷以西，东五路以北；西区：北大街以东，西五路以南，解放路以西，东五路以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第八十九中教育集团尚德中学",
+    "district": "新城区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "南新街以东，东新街以南，解放路以西，东大街以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市西安市汇知中学",
+    "district": "新城区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "北大街以东，西五路以北，顺城东路以西，西七路以南"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市西安市爱知中学",
+    "district": "新城区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "新城大院以东，东新街以南，解放路以西，东大街以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第十一中学",
+    "district": "未央区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "贞观路以东，渭滨路以西，凤城九路以南，北二环以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第十七中学",
+    "district": "未央区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "太华北路以东，北辰路以西，光启路以南，仁谨路以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第四十八中学",
+    "district": "未央区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "凝晖巷-玄武路-开元南路以东，太和路以西，北二环以南"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第五十八中学",
+    "district": "未央区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "武德路以西，西铜路以东，秦汉大道以南，北三环以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市经开第六学校",
+    "district": "经开区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "对口：经开第六学校小学部、经开第七小学"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市经开第五中学",
+    "district": "经开区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "对口：经开第九小学、第十小学、第十一小学"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市经开第一学校",
+    "district": "经开区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "对口：经开第一学校小学部"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市经开第三中学",
+    "district": "经开区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "对口：经开第三学校小学部"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第三十四中学",
+    "district": "灞桥区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "灞桥区辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市第五十五中学",
+    "district": "灞桥区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "灞桥区辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市宇航中学",
+    "district": "灞桥区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "航天四院辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市庆华中学",
+    "district": "灞桥区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "庆华厂辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市纺织城初级中学",
+    "district": "灞桥区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "纺织城辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第一中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "韦曲街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第二中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "韦曲街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第三中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "韦曲街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第四中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "滦镇街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第五中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "子午街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第六中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "引镇街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第七中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "鸣犊街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "长安区第八中学",
+    "district": "长安区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "太乙宫街道户籍"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安高新第一中学",
+    "district": "高新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "高新路以东，科技路以南，唐延路以西，科技四路以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安高新第二中学",
+    "district": "高新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "唐延路以东，科技路以南，太白路以西，科技四路以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安高新第三中学",
+    "district": "高新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "丈八北路以东，科技路以南，唐延路以西，科技八路以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市曲江第一中学",
+    "district": "曲江新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "翠华路以东，芙蓉西路以西，南三环以北，雁南一路以南"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市曲江第二中学",
+    "district": "曲江新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "曲江路以东，南三环以北，长鸣路以西，登高路以南"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安市曲江第三初级中学",
+    "district": "曲江新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "曲江路以东，上巳路以南，长鸣路以西，南三环以北"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陆港第一初级中学",
+    "district": "港务区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "陆港金海岸、枫林九溪等"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陆港第七初级中学",
+    "district": "港务区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "西航花园、骞柳小区等"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "陕师大陆港学校",
+    "district": "港务区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "保利锦上、陕建雲玥府等"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安航天城第一中学",
+    "district": "航天基地",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "航天基地辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安航天城第二中学",
+    "district": "航天基地",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "航天基地辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "西安航天城第三中学",
+    "district": "航天基地",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "航天基地辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "沣东新城第一初级中学",
+    "district": "西咸新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "沣东新城辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "沣西新城第一学校",
+    "district": "西咸新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "沣西新城辖区"
+    ],
+    "sourceUrl": "教育局2026",
+    "year": "2026"
+  },
+  {
+    "schoolName": "秦汉中学",
+    "district": "西咸新区",
+    "stage": "初中",
+    "communities": [],
+    "roads": [
+      "秦汉新城辖区"
+    ],
+    "sourceUrl": "教育局2026",
     "year": "2026"
   }
 ]
