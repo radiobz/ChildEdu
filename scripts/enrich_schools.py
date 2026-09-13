@@ -41,17 +41,23 @@ def call_ai(prompt):
         "response_format": {"type": "json_object"},
         "temperature": 0.3
     }).encode('utf-8')
-    req = urllib.request.Request(url, data=payload, headers={
-        "Authorization": f"Bearer {AI_API_KEY}",
-        "Content-Type": "application/json"
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
-            data = json.loads(resp.read().decode('utf-8'))
-            return json.loads(data['choices'][0]['message']['content'])
-    except Exception as e:
-        print(f"  ❌ AI调用失败: {e}")
-        return None
+    
+    for attempt in range(3):
+        req = urllib.request.Request(url, data=payload, headers={
+            "Authorization": f"Bearer {AI_API_KEY}",
+            "Content-Type": "application/json"
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                data = json.loads(resp.read().decode('utf-8'))
+                return json.loads(data['choices'][0]['message']['content'])
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(2)
+            else:
+                print(f"  ❌ AI调用失败: {e}")
+                return None
+    return None
 
 
 def build_prompt(school):
@@ -165,8 +171,6 @@ def main():
                     new_zone['coords'] = zone_coords
                 zones.append(new_zone)
             print(f"  ✅ 补充学区信息")
-
-        time.sleep(1)
 
     if updated:
         save_json(SCHOOLS_FILE, schools)
