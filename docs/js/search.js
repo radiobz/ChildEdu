@@ -112,11 +112,82 @@ const SearchManager = (() => {
     const name = input.value.trim();
     if (!name) return;
 
-    showLoading('正在查询学校信息...');
+    showLoading('正在搜索...');
     Sidebar.open();
 
-    const result = await DataLoader.querySchoolDetail(name);
+    // 先做模糊搜索，找所有匹配的学校
+    const allSchools = await DataLoader.getSchools();
+    const lowerName = name.toLowerCase();
+    
+    // 模糊匹配：包含关键字即算匹配
+    const matches = allSchools.filter(s => 
+      s.name.toLowerCase().includes(lowerName)
+    );
 
+    hideLoading();
+
+    if (matches.length === 0) {
+      Sidebar.showError(`未找到包含「${name}」的学校，请尝试其他关键字`);
+      return;
+    }
+
+    if (matches.length === 1) {
+      // 只有一个结果，直接打开详情
+      await openSchoolDetail(matches[0].name);
+    } else {
+      // 多个结果，显示候选列表让用户选择
+      showSearchCandidates(matches, name);
+    }
+  }
+
+  // 显示搜索候选列表
+  function showSearchCandidates(matches, keyword) {
+    const content = document.getElementById('drawerContent');
+    
+    const sorted = [...matches].sort((a, b) => {
+      // 精确匹配排前面，然后按评分排序
+      const aExact = a.name === keyword ? 0 : 1;
+      const bExact = b.name === keyword ? 0 : 1;
+      if (aExact !== bExact) return aExact - bExact;
+      return (b.score || 0) - (a.score || 0);
+    });
+
+    const listHTML = sorted.map((s, i) => {
+      const levelText = s.level === 'primary' ? '小学' : s.level === 'junior' ? '初中' : s.level === 'high' ? '高中' : '幼儿园';
+      return `
+      <div onclick="SearchManager.listItemClick('${s.name.replace(/'/g, "\\'")}')" style="
+        display:flex;align-items:center;gap:10px;padding:12px 0;
+        border-bottom:1px solid #f5f5f5;cursor:pointer;
+      ">
+        <div style="
+          width:28px;height:28px;line-height:28px;text-align:center;
+          background:#e6f7ff;border-radius:50%;font-size:13px;
+          color:#1890ff;flex-shrink:0;font-weight:500;
+        ">${i + 1}</div>
+        <div style="flex:1;">
+          <div style="font-size:14px;font-weight:500;">${s.name}</div>
+          <div style="font-size:12px;color:#999;margin-top:2px;">
+            ${s.district || ''} · ${levelText}
+            ${s.score ? ` · ⭐${s.score}` : ''}
+          </div>
+        </div>
+        <div style="color:#ccc;font-size:16px;">›</div>
+      </div>`;
+    }).join('');
+
+    content.innerHTML = `
+      <div style="margin-bottom:16px;">
+        <div style="font-size:16px;font-weight:600;">搜索「${keyword}」</div>
+        <div style="font-size:12px;color:#999;margin-top:4px;">找到 ${matches.length} 个匹配结果，请选择</div>
+      </div>
+      ${listHTML}
+    `;
+  }
+
+  // 打开学校详情（共用函数）
+  async function openSchoolDetail(name) {
+    showLoading('正在查询学校信息...');
+    const result = await DataLoader.querySchoolDetail(name);
     hideLoading();
 
     if (result && result.success) {
@@ -128,7 +199,6 @@ const SearchManager = (() => {
       if (result.data.zone && result.data.zone.coords) {
         MapManager.highlightZone(result.data.zone.coords);
       } else {
-        // 保底：不管有没有roads都画圆+搜索周边道路
         const roadsArr = result.data.zone ? result.data.zone.roads.split('；').filter(Boolean) : [];
         MapManager.highlightZoneRoads(roadsArr, result.data.location.lng, result.data.location.lat);
       }
@@ -136,7 +206,7 @@ const SearchManager = (() => {
         MapManager.showHouseMarkers(result.data.houses);
       }
     } else {
-      Sidebar.showError(`未找到「${name}」的详细信息，请尝试其他学校名`);
+      Sidebar.showError(`未找到「${name}」的详细信息`);
     }
   }
 
@@ -194,26 +264,7 @@ const SearchManager = (() => {
   }
 
   async function listItemClick(name) {
-    showLoading('正在查询...');
-    const result = await DataLoader.querySchoolDetail(name);
-    hideLoading();
-    if (result && result.success) {
-      Sidebar.renderSchoolDetail(result.data);
-      if (result.data.location) {
-        MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
-        MapManager.markSchool(result.data.location.lng, result.data.location.lat, result.data.name);
-      }
-      if (result.data.zone && result.data.zone.coords) {
-        MapManager.highlightZone(result.data.zone.coords);
-      } else {
-        // 保底：不管有没有roads都画圆+搜索周边道路
-        const roadsArr = result.data.zone ? result.data.zone.roads.split('；').filter(Boolean) : [];
-        MapManager.highlightZoneRoads(roadsArr, result.data.location.lng, result.data.location.lat);
-      }
-      if (result.data.houses) {
-        MapManager.showHouseMarkers(result.data.houses);
-      }
-    }
+    await openSchoolDetail(name);
   }
 
   function showLoading(text) {
