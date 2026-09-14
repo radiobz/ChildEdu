@@ -50,7 +50,7 @@ const DataLoader = (() => {
     async getSchools() {
       if (schoolsCache) return schoolsCache;
       const base = window.APP_CONFIG.BASE_PATH || '';
-      const raw = await loadJSON(`${base}/data/schools.json?v=12`);
+      const raw = await loadJSON(`${base}/data/schools.json?v=23`);
       schoolsCache = raw.map(normalizeSchool);
       return schoolsCache;
     },
@@ -77,8 +77,8 @@ const DataLoader = (() => {
         this.getZones()
       ]);
 
-      // 找学校
-      const school = schools.find(s => s.name === name || s.name.includes(name) || name.includes(s.name));
+      // 找学校（排除空名，避免 includes('') 永远匹配）
+      const school = schools.find(s => s.name && (s.name === name || s.name.includes(name) || name.includes(s.name)));
       if (!school) return { success: false, error: '未找到' };
 
       // 找升学路径
@@ -131,6 +131,7 @@ const DataLoader = (() => {
         zone: zone ? {
           communities: zone.communities || [],
           roads: (zone.roads || []).join('；'),
+          roadNames: zone.roadNames || [],
           source: zone.sourceUrl || '',
           coords: zone.coords || null
         } : null,

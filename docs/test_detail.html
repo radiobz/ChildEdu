@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Detail Debug</title>
+<style>#log{background:#000;color:#0f0;padding:16px;font-size:16px;white-space:pre-wrap;line-height:1.5;}</style>
+</head>
+<body>
+<div id="log">waiting...</div>
+<script src="js/config.js?v=17"></script>
+<script>
+const log = document.getElementById('log');
+const addLog = (m) => { log.textContent += '\n' + m; document.title = m; };
+</script>
+<script src="js/data.js?v=17"></script>
+<script>
+(async () => {
+  try {
+    addLog('BASE=' + JSON.stringify(window.APP_CONFIG.BASE_PATH));
+    const schools = await DataLoader.getSchools();
+    addLog('schools=' + schools.length);
+    const zones = await DataLoader.getZones();
+    addLog('zones=' + zones.length);
+    const pathways = await DataLoader.getPathways();
+    addLog('pathways=' + pathways.length);
+
+    const result = await DataLoader.querySchoolDetail('西安市雁塔区翠华路小学');
+    if (result && result.success) {
+      addLog('detail.name=' + result.data.name);
+      addLog('detail.location=' + JSON.stringify(result.data.location));
+      addLog('detail.zone=' + JSON.stringify(result.data.zone));
+    } else {
+      addLog('FAIL: ' + JSON.stringify(result));
+    }
+  } catch(e) {
+    addLog('ERROR: ' + e.message + '\n' + e.stack);
+  }
+})();
+</script>
+</body>
+</html>

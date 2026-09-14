@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RenHou Debug</title>
+<style>#log{background:#000;color:#0f0;padding:16px;font-size:16px;white-space:pre-wrap;line-height:1.5;}</style>
+</head>
+<body>
+<div id="log">waiting...</div>
+<script src="js/config.js?v=20"></script>
+<script>
+const log = document.getElementById('log');
+const addLog = (m) => { log.textContent += '\n' + m; document.title = m; };
+</script>
+<script src="js/data.js?v=20"></script>
+<script>
+(async () => {
+  try {
+    const result = await DataLoader.querySchoolDetail('西安市碑林区仁厚庄小学');
+    if (result && result.success) {
+      addLog('name=' + result.data.name);
+      addLog('district=' + result.data.district);
+      addLog('location=' + JSON.stringify(result.data.location));
+      addLog('zone=' + JSON.stringify(result.data.zone));
+    } else {
+      addLog('FAIL: ' + JSON.stringify(result));
+    }
+  } catch(e) {
+    addLog('ERROR: ' + e.message);
+  }
+})();
+</script>
+</body>
+</html>

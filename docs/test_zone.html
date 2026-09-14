@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Zone Debug</title>
+<style>html,body,#mapContainer{margin:0;padding:0;width:100%;height:100%;}</style>
+</head>
+<body>
+<div id="mapContainer"></div>
+<script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.MouseTool,AMap.PlaceSearch&securityJsCode=779a904a1f6470346e28266b4135d91"></script>
+<script src="js/config.js?v=15"></script>
+<script>
+window.APP_CONFIG = Object.assign({}, window.APP_CONFIG, { BASE_PATH: '' });
+window.APP_CONFIG.DEFAULT_CENTER = [108.9498, 34.2245];
+window.APP_CONFIG.DEFAULT_ZOOM = 15;
+</script>
+<script src="js/map.js"></script>
+<script>
+setTimeout(() => {
+  MapManager.init();
+  setTimeout(() => {
+    console.log('calling highlightZoneRoads...');
+    MapManager.highlightZoneRoads(
+      ['小寨西路','南二环路','兴善寺街','朱雀路'],
+      108.9498, 34.2245,
+      ['兴善寺']
+    );
+    console.log('called');
+  }, 1500);
+}, 800);
+</script>
+</body>
+</html>

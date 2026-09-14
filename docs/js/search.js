@@ -11,6 +11,28 @@ const SearchManager = (() => {
       if (e.key === 'Enter') doSearch();
     });
 
+    // 输入联想
+    const input = document.getElementById('searchInput');
+    let debounceTimer = null;
+    input.addEventListener('input', () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => showSuggestions(input.value.trim()), 200);
+    });
+    input.addEventListener('focus', () => {
+      if (input.value.trim()) {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => showSuggestions(input.value.trim()), 200);
+      }
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('#searchBox')) hideSuggestions();
+    });
+
+    // 初始化加载学校数据（供视野内标识用）
+    DataLoader.getSchools().then(schools => {
+      allSchools = schools;
+    });
+
     // 区域筛选
     document.querySelectorAll('#districtChips .chip').forEach(chip => {
       chip.addEventListener('click', () => {
@@ -59,6 +81,7 @@ const SearchManager = (() => {
       MapManager.clearRect();
       document.getElementById('rectClearBtn').style.display = 'none';
       exitRectMode();
+      showToast('已清除框选区域');
     }
 
     // ESC退出框选
@@ -76,13 +99,9 @@ const SearchManager = (() => {
         Sidebar.renderSchoolDetail(result.data);
         if (result.data.location) {
           MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
+          MapManager.markSchool(result.data.location.lng, result.data.location.lat, result.data.name);
         }
-        if (result.data.zone && result.data.zone.coords) {
-          MapManager.highlightZone(result.data.zone.coords);
-        }
-        if (result.data.houses) {
-          MapManager.showHouseMarkers(result.data.houses);
-        }
+        highlightZoneForDetail(result.data);
       } else {
         Sidebar.showError(`未找到「${school.name}」的详细信息`);
       }
@@ -97,17 +116,28 @@ const SearchManager = (() => {
       showSchoolList(inBounds, '框选区域内学校');
       // 地图上高亮这些学校
       MapManager.highlightSchools(inBounds);
-      exitRectMode();
+      // 不清除框选模式，方便连续框选；显示已选数量反馈
+      document.getElementById('rectBtn').textContent = `✓ 已选${inBounds.length}所`;
       document.getElementById('rectClearBtn').style.display = 'block';
+      showToast(`已选 ${inBounds.length} 所学校`);
     };
 
-    // 地图移动后自动筛选视野内学校
+    // 地图移动/缩放后自动标识视野内学校（zoom>=14）
     window.onMapMoveEnd = function() {
-      // 不自动刷新列表，避免打扰；用户可点框选按钮
+      const zoom = MapManager.getMap() ? MapManager.getMap().getZoom() : 0;
+      if (zoom >= 14) {
+        const count = MapManager.showVisibleSchools(allSchools, 14);
+        if (count > 0) {
+          showToast(`当前视野内 ${count} 所学校`);
+        }
+      } else {
+        MapManager.clearVisibleSchools();
+      }
     };
   }
 
   async function doSearch() {
+    hideSuggestions();
     const input = document.getElementById('searchInput');
     const name = input.value.trim();
     if (!name) return;
@@ -184,6 +214,21 @@ const SearchManager = (() => {
     `;
   }
 
+  // 统一学区高亮：coords多边形 > roadNames道路 > roads文本 > 圆
+  function highlightZoneForDetail(detail) {
+    const zone = detail.zone;
+    if (!zone) { MapManager.clearZoneHighlights(); return; }
+
+    if (zone.coords && zone.coords.length) {
+      MapManager.highlightZone(zone.coords);
+      return;
+    }
+    const roadsArr = (zone.roadNames && zone.roadNames.length) ? zone.roadNames
+      : (zone.roads ? zone.roads.split('；').filter(Boolean) : []);
+    MapManager.highlightZoneRoads(roadsArr, detail.location ? detail.location.lng : null,
+      detail.location ? detail.location.lat : null, zone.communities || []);
+  }
+
   // 打开学校详情（共用函数）
   async function openSchoolDetail(name) {
     showLoading('正在查询学校信息...');
@@ -196,12 +241,7 @@ const SearchManager = (() => {
         MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
         MapManager.markSchool(result.data.location.lng, result.data.location.lat, result.data.name);
       }
-      if (result.data.zone && result.data.zone.coords) {
-        MapManager.highlightZone(result.data.zone.coords);
-      } else {
-        const roadsArr = result.data.zone ? result.data.zone.roads.split('；').filter(Boolean) : [];
-        MapManager.highlightZoneRoads(roadsArr, result.data.location.lng, result.data.location.lat);
-      }
+      highlightZoneForDetail(result.data);
       if (result.data.houses) {
         MapManager.showHouseMarkers(result.data.houses);
       }
@@ -264,7 +304,92 @@ const SearchManager = (() => {
   }
 
   async function listItemClick(name) {
+    hideSuggestions();
     await openSchoolDetail(name);
+  }
+
+  // 显示搜索联想下拉
+  async function showSuggestions(keyword) {
+    hideSuggestions();
+    if (!keyword || keyword.length < 1) return;
+
+    const schools = await DataLoader.getSchools();
+    const lower = keyword.toLowerCase();
+    let matches = schools.filter(s => s.name.toLowerCase().includes(lower));
+
+    // 排序：前缀匹配 > 包含匹配
+    matches.sort((a, b) => {
+      const aPre = a.name.toLowerCase().startsWith(lower) ? 0 : 1;
+      const bPre = b.name.toLowerCase().startsWith(lower) ? 0 : 1;
+      if (aPre !== bPre) return aPre - bPre;
+      return (b.score || 0) - (a.score || 0);
+    });
+    matches = matches.slice(0, 8); // 最多8个
+
+    if (!matches.length) return;
+
+    const box = document.createElement('div');
+    box.id = 'suggestBox';
+    box.style.cssText = `
+      position:absolute;top:100%;left:0;right:0;z-index:500;
+      background:#fff;border-radius:0 0 12px 12px;
+      box-shadow:0 6px 20px rgba(0,0,0,0.15);
+      max-height:320px;overflow-y:auto;
+    `;
+
+    box.innerHTML = matches.map(s => {
+      const levelText = s.level === 'primary' ? '小学' : s.level === 'junior' ? '初中' : s.level === 'high' ? '高中' : '幼儿园';
+      return `
+      <div onclick="SearchManager.listItemClick('${s.name.replace(/'/g, "\\'")}')" style="
+        display:flex;align-items:center;gap:10px;padding:10px 12px;
+        border-bottom:1px solid #f5f5f5;cursor:pointer;
+      ">
+        <span style="
+          width:22px;height:22px;line-height:22px;text-align:center;border-radius:50%;
+          font-size:11px;color:#fff;flex-shrink:0;
+          background:${s.level === 'primary' ? '#1677ff' : s.level === 'junior' ? '#722ed1' : s.level === 'high' ? '#fa8c16' : '#52c41a'};
+        ">${levelText[0]}</span>
+        <div style="flex:1;font-size:13px;color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+          ${highlightKeyword(s.name, keyword)}
+        </div>
+        <span style="font-size:11px;color:#999;flex-shrink:0;">${s.district || ''}</span>
+      </div>`;
+    }).join('');
+
+    const searchBox = document.getElementById('searchBox');
+    if (searchBox) searchBox.appendChild(box);
+  }
+
+  function highlightKeyword(text, keyword) {
+    const idx = text.toLowerCase().indexOf(keyword.toLowerCase());
+    if (idx < 0) return text;
+    return text.slice(0, idx) + `<span style="color:#1677ff;font-weight:600;">` +
+      text.slice(idx, idx + keyword.length) + `</span>` + text.slice(idx + keyword.length);
+  }
+
+  function hideSuggestions() {
+    const box = document.getElementById('suggestBox');
+    if (box) box.remove();
+  }
+
+  // Toast 轻提示
+  function showToast(msg) {
+    let toast = document.getElementById('globalToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'globalToast';
+      toast.style.cssText = `
+        position:fixed;top:70px;left:50%;transform:translateX(-50%);
+        background:rgba(0,0,0,0.8);color:#fff;padding:8px 18px;
+        border-radius:20px;font-size:13px;z-index:1000;
+        transition:opacity .3s;pointer-events:none;max-width:80%;text-align:center;
+      `;
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.style.opacity = '1';
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(() => { toast.style.opacity = '0'; }, 1800);
   }
 
   function showLoading(text) {
@@ -276,5 +401,5 @@ const SearchManager = (() => {
     document.getElementById('loadingMask').style.display = 'none';
   }
 
-  return { init, applyFilters, showLoading, hideLoading, listItemClick };
+  return { init, applyFilters, showLoading, hideLoading, listItemClick, showToast, hideSuggestions };
 })();

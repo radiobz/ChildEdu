@@ -11,6 +11,7 @@ const MapManager = (() => {
   let currentBounds = null;
   let highlightMarkers = []; // 高亮的学校点
   let pulseMarker = null; // 当前选中的脉冲标记
+  let autoMarkers = []; // 视野内自动标识
 
   function init() {
     map = new AMap.Map('mapContainer', {
@@ -197,45 +198,57 @@ const MapManager = (() => {
   }
 
   // 保底方案：用道路标签+半透明圆表示学区范围
-  function highlightZoneRoads(roads, centerLng, centerLat) {
-    // 画半透明圆表示大致学区范围
+  function highlightZoneRoads(roads, centerLng, centerLat, fallbackNames) {
+    // 画半透明圆表示大致学区范围（注意：Circle 必须显式 setMap，构造参数 map 在 2.0 下不生效）
     if (centerLng && centerLat) {
       zoneCircle = new AMap.Circle({
         center: [centerLng, centerLat],
-        radius: 800,
+        radius: 1200,
         strokeColor: '#1677ff',
-        strokeWeight: 2,
-        strokeOpacity: 0.6,
+        strokeWeight: 3,
+        strokeOpacity: 0.9,
         fillColor: '#1677ff',
-        fillOpacity: 0.08,
-        map: map
+        fillOpacity: 0.2
       });
+      zoneCircle.setMap(map);
     }
 
-    // 用PlaceSearch搜索每条边界道路，放标签
-    if (!roads || !roads.length || !window.AMap.PlaceSearch) return;
-    
+    // 收集要搜索的名称：roadNames优先，其次传入roads清洗，最后fallback小区名
+    let searchNames = [];
+    if (roads && roads.length) searchNames = roads.filter(n => n && n.length >= 2);
+    if (fallbackNames && fallbackNames.length && searchNames.length < 5) {
+      fallbackNames.forEach(n => {
+        if (n && n.length >= 2 && !searchNames.includes(n)) searchNames.push(n);
+      });
+    }
+    searchNames = searchNames.slice(0, 8); // 最多8个，避免请求过多
+
+    if (!searchNames.length || !window.AMap.PlaceSearch) return;
+
     const placeSearch = new AMap.PlaceSearch({
       city: '西安',
-      pageSize: 1
+      pageSize: 1,
+      pageIndex: 1
     });
 
-    roads.forEach(roadName => {
-      // 提取路名（去掉"以东""以西"等方向词）
-      const cleanName = roadName.replace(/[以东以西以南以北以内之外]/g, '').trim();
+    searchNames.forEach((name) => {
+      // 去掉方向词等噪音
+      const cleanName = String(name).replace(/[以东以西以南以北以内之外]/g, '').trim();
       if (!cleanName || cleanName.length < 2) return;
-      
+
       placeSearch.search(cleanName, (status, result) => {
         if (status !== 'complete' || !result.poiList || !result.poiList.pois.length) return;
         const poi = result.poiList.pois[0];
         if (!poi.location) return;
 
-        // 创建道路标签标记
+        // 创建道路标签标记（带颜色区分：路名蓝色，小区名绿色）
+        const isCommunity = !/[路街巷里大道]/.test(cleanName);
+        const bg = isCommunity ? '#00b894' : '#1677ff';
         const marker = new AMap.Marker({
           position: [poi.location.lng, poi.location.lat],
           map: map,
           label: {
-            content: `<div style="background:#1677ff;color:#fff;padding:2px 8px;border-radius:10px;font-size:11px;white-space:nowrap;box-shadow:0 2px 6px rgba(0,0,0,0.2);">📍 ${cleanName}</div>`,
+            content: `<div style="background:${bg};color:#fff;padding:2px 8px;border-radius:10px;font-size:11px;white-space:nowrap;box-shadow:0 2px 6px rgba(0,0,0,0.2);">${isCommunity ? '🏠' : '📍'} ${cleanName}</div>`,
             direction: 'top'
           },
           icon: 'transparent'
@@ -295,6 +308,56 @@ const MapManager = (() => {
     currentBounds = null;
   }
 
+  // 视野内学校自动标识（缩放>=14时调用）
+  function showVisibleSchools(schools, threshold = 14) {
+    if (!map) return 0;
+    const zoom = map.getZoom();
+    if (zoom < threshold) {
+      // 缩放级别低时清除自动高亮（避免视觉噪音）
+      autoMarkers.forEach(m => m.setMap(null));
+      autoMarkers = [];
+      return 0;
+    }
+    const bounds = map.getBounds();
+    if (!bounds) return 0;
+
+    // 清除旧自动标识
+    autoMarkers.forEach(m => m.setMap(null));
+    autoMarkers = [];
+
+    let count = 0;
+    schools.forEach(school => {
+      if (!school.location || !school.location.lng) return;
+      if (!bounds.contains([school.location.lng, school.location.lat])) return;
+      count++;
+      const color = getLevelColor(school.level);
+      const marker = new AMap.Marker({
+        position: [school.location.lng, school.location.lat],
+        content: `<div style="
+          width:30px;height:30px;line-height:30px;text-align:center;
+          background:${color};border:2.5px solid #fff;border-radius:50%;
+          font-size:12px;font-weight:700;color:#fff;
+          box-shadow:0 2px 8px rgba(0,0,0,0.35);cursor:pointer;
+          transition:transform .15s;
+        ">${getLevelIcon(school.level)}</div>`,
+        offset: new AMap.Pixel(-15, -15),
+        zIndex: 150
+      });
+      marker.setExtData(school);
+      marker.on('click', () => {
+        if (window.onSchoolMarkerClick) window.onSchoolMarkerClick(school);
+      });
+      marker.setMap(map);
+      autoMarkers.push(marker);
+    });
+    return count;
+  }
+
+  function clearVisibleSchools() {
+    autoMarkers.forEach(m => m.setMap(null));
+    autoMarkers = [];
+  }
+
   return {
     init,
     showSchools,
@@ -311,6 +374,8 @@ const MapManager = (() => {
     highlightSchools,
     markSchool,
     clearMarkSchool,
+    showVisibleSchools,
+    clearVisibleSchools,
     getMap: () => map
   };
 })();

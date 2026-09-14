@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Zone Debug3</title>
+<style>html,body,#mapContainer{margin:0;padding:0;width:100%;height:100%;}
+#log{position:fixed;top:10px;left:10px;background:rgba(0,0,0,0.85);color:#0f0;padding:16px;font-size:20px;z-index:9999;max-width:800px;white-space:pre-wrap;line-height:1.6;}</style>
+</head>
+<body>
+<div id="mapContainer"></div>
+<div id="log">waiting...</div>
+<script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.MouseTool,AMap.PlaceSearch&securityJsCode=779a904a1f6470346e28266b4135d91"></script>
+<script src="js/config.js?v=15"></script>
+<script>
+const log = document.getElementById('log');
+const addLog = (m) => { log.textContent += '\n' + m; document.title = m; };
+window.APP_CONFIG = Object.assign({}, window.APP_CONFIG, { BASE_PATH: '', DEFAULT_CENTER: [108.9498, 34.2245], DEFAULT_ZOOM: 15 });
+</script>
+<script src="js/map.js"></script>
+<script>
+setTimeout(() => {
+  try {
+    MapManager.init();
+    addLog('STEP1 map inited OK, Circle=' + (typeof AMap.Circle));
+    setTimeout(() => {
+      try {
+        addLog('STEP2 calling highlightZoneRoads...');
+        MapManager.highlightZoneRoads(
+          ['小寨西路','南二环路','兴善寺街','朱雀路'],
+          108.9498, 34.2245,
+          ['兴善寺']
+        );
+        addLog('STEP3 called OK, no exception');
+        setTimeout(() => {
+          const m = MapManager.getMap();
+          if (m) {
+            addLog('STEP4 zoom=' + m.getZoom() + ' center=' + JSON.stringify(m.getCenter()));
+          }
+          // 检查是否有 overlay 被创建
+          addLog('STEP5 done');
+        }, 4000);
+      } catch(e) { addLog('ERROR calling: ' + e.message); }
+    }, 2000);
+  } catch(e) { addLog('ERROR init: ' + e.message); }
+}, 1000);
+</script>
+</body>
+</html>

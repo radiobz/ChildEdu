@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>批量坐标解析工具</title>
+<script>
+  window._AMapSecurityConfig = {
+    securityJsCode: '779a904a1f6470346e28266b4135d91'
+  };
+</script>
+<script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.PlaceSearch"></script>
+<style>
+  body { font-family: sans-serif; padding: 16px; }
+  #status { margin-bottom: 12px; font-weight: 600; }
+  #log { white-space: pre-wrap; font-size: 12px; color: #666; max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 8px; }
+</style>
+</head>
+<body>
+<div id="status">准备中...</div>
+<div id="log"></div>
+<script>
+const QUEUE = [{"name": "西安市阎良区关山中学", "district": "阎良区", "stage": "高中"}, {"name": "西安市阎良区西飞第一中学", "district": "阎良区", "stage": "高中"}, {"name": "西安市临潼区华清中学", "district": "临潼区", "stage": "高中"}, {"name": "西安市临潼区临潼中学", "district": "临潼区", "stage": "高中"}, {"name": "西安市临潼区马额中学", "district": "临潼区", "stage": "高中"}, {"name": "西安市临潼区雨金中学", "district": "临潼区", "stage": "高中"}, {"name": "西安市临潼区陕鼓中学", "district": "临潼区", "stage": "高中"}, {"name": "西安市临潼区铁路中学", "district": "临潼区", "stage": "高中"}, {"name": "西安市渭北中学", "district": "临潼区", "stage": "高中"}, {"name": "西安市长安区第五中学", "district": "长安区", "stage": "高中"}, {"name": "西安市长安区第九中学", "district": "长安区", "stage": "高中"}, {"name": "西安市高新第二高级中学", "district": "长安区", "stage": "高中"}, {"name": "西安市航天城第一中学", "district": "长安区", "stage": "高中"}, {"name": "西安市航天城第二中学", "district": "长安区", "stage": "高中"}, {"name": "西安市长安区第七中学", "district": "长安区", "stage": "高中"}, {"name": "陕西师范大学附属中学长安校区", "district": "长安区", "stage": "高中"}, {"name": "西安市长安区实验中学", "district": "长安区", "stage": "高中"}, {"name": "西安市鄠邑区第三高级中学（普高）", "district": "鄠邑区", "stage": "高中"}, {"name": "西安惠安中学", "district": "鄠邑区", "stage": "高中"}, {"name": "西安市鄠邑区电厂中学", "district": "鄠邑区", "stage": "高中"}, {"name": "西安市田家炳中学", "district": "蓝田县", "stage": "高中"}, {"name": "蓝田县城关中学", "district": "蓝田县", "stage": "高中"}, {"name": "西安市白鹿原高级中学", "district": "蓝田县", "stage": "高中"}, {"name": "蓝田县焦岱中学", "district": "蓝田县", "stage": "高中"}, {"name": "蓝田县洩湖中学", "district": "蓝田县", "stage": "高中"}, {"name": "蓝田县玉山中学", "district": "蓝田县", "stage": "高中"}, {"name": "周至县第五中学", "district": "周至县", "stage": "高中"}, {"name": "周至中学", "district": "周至县", "stage": "高中"}, {"name": "西安高新区第五高级中学", "district": "周至县", "stage": "高中"}, {"name": "陕西省西咸新区秦汉中学", "district": "西咸新区", "stage": "高中"}, {"name": "", "district": "西咸新区", "stage": "高中"}, {"name": "西咸新区泾河新城第一中学", "district": "西咸新区", "stage": "高中"}, {"name": "西咸新区铁一中金湾中学", "district": "西咸新区", "stage": "高中"}, {"name": "西咸新区沣东第一高级中学", "district": "西咸新区", "stage": "高中"}, {"name": "西咸新区沣西第一高级中学", "district": "西咸新区", "stage": "高中"}, {"name": "西咸新区空港第一学校", "district": "西咸新区", "stage": "高中"}, {"name": "碑林区铁五第二小学", "district": "碑林区", "stage": "小学"}, {"name": "西安市雁塔区杜城小学", "district": "雁塔区", "stage": "小学"}, {"name": "西安工业大学附属小学", "district": "碑林区", "stage": "小学"}, {"name": "西安建筑科技大学校", "district": "碑林区", "stage": "小学"}, {"name": "西安小学", "district": "莲湖区", "stage": "小学"}, {"name": "西安市雁塔区航天二一〇小学", "district": "雁塔区", "stage": "小学"}, {"name": "西安市雁塔区西姜村小学", "district": "雁塔区", "stage": "小学"}, {"name": "西安市雁塔区第八小学", "district": "雁塔区", "stage": "小学"}, {"name": "西安市雁塔区第九小学", "district": "雁塔区", "stage": "小学"}, {"name": "长安大学附属小学", "district": "雁塔区", "stage": "小学"}, {"name": "南康小学", "district": "未央区", "stage": "小学"}, {"name": "玄武路小学", "district": "未央区", "stage": "小学"}, {"name": "红旗学校", "district": "未央区", "stage": "小学"}, {"name": "永顺路学校", "district": "未央区", "stage": "小学"}, {"name": "长庆泾渭小学", "district": "未央区", "stage": "小学"}, {"name": "泾河中心学校", "district": "未央区", "stage": "小学"}, {"name": "永庆路初级中学", "district": "未央区", "stage": "小学"}, {"name": "长庆八中     长庆八中（小学", "district": "未央区", "stage": "小学"}, {"name": "灞桥小学", "district": "灞桥区", "stage": "小学"}, {"name": "高桥小学", "district": "灞桥区", "stage": "小学"}, {"name": "麓湾小学", "district": "灞桥区", "stage": "小学"}, {"name": "中心小学", "district": "灞桥区", "stage": "小学"}, {"name": "热电小学", "district": "灞桥区", "stage": "小学"}, {"name": "市 62 中   白鹿原中心小学、 狄寨小学", "district": "灞桥区", "stage": "小学"}, {"name": "学所属学区）、热电小学、官厅小学", "district": "灞桥区", "stage": "小学"}, {"name": "南街小学", "district": "长安区", "stage": "小学"}, {"name": "长安区第八学校", "district": "长安区", "stage": "小学"}, {"name": "长安一小实验小学", "district": "长安区", "stage": "小学"}, {"name": "长安区陕西师大附属小学", "district": "长安区", "stage": "小学"}, {"name": "长安师范附属小学", "district": "长安区", "stage": "小学"}, {"name": "韦曲街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "韦曲街道何家营小学", "district": "长安区", "stage": "小学"}, {"name": "韦曲街道侯家湾小学", "district": "长安区", "stage": "小学"}, {"name": "韦曲街道双竹小学", "district": "长安区", "stage": "小学"}, {"name": "大兆街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "杜曲街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "郭杜街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "郭杜街道第五桥小学", "district": "长安区", "stage": "小学"}, {"name": "郭杜街道张康小学", "district": "长安区", "stage": "小学"}, {"name": "郭杜街道周家庄小学", "district": "长安区", "stage": "小学"}, {"name": "郭杜街道香积寺小学", "district": "长安区", "stage": "小学"}, {"name": "郭杜街道宫字小学", "district": "长安区", "stage": "小学"}, {"name": "黄良街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "引镇街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "鸣犊街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "魏寨街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "砲里街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "王曲街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "太乙宫街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "王莽街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "杨庄街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "五台街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "滦镇街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "子午街道中心学校", "district": "长安区", "stage": "小学"}, {"name": "高新第六小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第十四小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第三十七小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第五十小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第五十一小学", "district": "高新区", "stage": "小学"}, {"name": "高新第八小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第三十八小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第三十九小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第四十小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第四十三小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第四十四小学", "district": "高新区", "stage": "小学"}, {"name": "高新区第四十五小学", "district": "高新区", "stage": "小学"}, {"name": "姬家肖家小学", "district": "经开区", "stage": "小学"}, {"name": "姬家雷家小学", "district": "经开区", "stage": "小学"}, {"name": "湾子西张市小学", "district": "经开区", "stage": "小学"}, {"name": "北田小学", "district": "经开区", "stage": "小学"}, {"name": "滩王小学", "district": "经开区", "stage": "小学"}, {"name": "尖角小学", "district": "经开区", "stage": "小学"}, {"name": "温梁小学", "district": "经开区", "stage": "小学"}, {"name": "田严小学", "district": "经开区", "stage": "小学"}, {"name": "月掌小学", "district": "经开区", "stage": "小学"}, {"name": "西渭阳小学", "district": "经开区", "stage": "小学"}, {"name": "任留小学", "district": "经开区", "stage": "小学"}, {"name": "陆港第一小学", "district": "港务区", "stage": "小学"}, {"name": "陆港第四小学", "district": "港务区", "stage": "小学"}, {"name": "陆港第七小学", "district": "港务区", "stage": "小学"}, {"name": "陕师大陆港小学", "district": "港务区", "stage": "小学"}, {"name": "高新一中陆港小学", "district": "港务区", "stage": "小学"}, {"name": "西安航天城第一小学", "district": "航天基地", "stage": "小学"}, {"name": "西安航天城第二小学", "district": "航天基地", "stage": "小学"}, {"name": "西安航天城第三小学", "district": "航天基地", "stage": "小学"}, {"name": "西安航天城第四小学", "district": "航天基地", "stage": "小学"}, {"name": "西安航天城第五小学", "district": "航天基地", "stage": "小学"}, {"name": "西安航天城第六小学", "district": "航天基地", "stage": "小学"}, {"name": "西安航天城第八学校", "district": "航天基地", "stage": "小学"}, {"name": "西咸新区沣东新城第五小学", "district": "沣东新城", "stage": "小学"}, {"name": "沣东新城第一小学", "district": "沣东新城", "stage": "小学"}, {"name": "西咸新区秦汉新城秦汉小学", "district": "秦汉新城", "stage": "小学"}, {"name": "空港新城第一学校", "district": "空港新城", "stage": "小学"}, {"name": "泾河新城第一小学", "district": "泾河新城", "stage": "小学"}, {"name": "西安工业大学附属中学", "district": "碑林区", "stage": "初中"}, {"name": "西安市第一中学分校", "district": "莲湖区", "stage": "初中"}, {"name": "西安市第一中学教育集团四十四中学", "district": "莲湖区", "stage": "初中"}, {"name": "西安市庆安初级中学分校", "district": "莲湖区", "stage": "初中"}, {"name": "西安市第二十三中学分校", "district": "莲湖区", "stage": "初中"}, {"name": "长安大学附属中学", "district": "雁塔区", "stage": "初中"}, {"name": "西安市第八十九中教育集团尚德中学", "district": "新城区", "stage": "初中"}, {"name": "西安市西安市汇知中学", "district": "新城区", "stage": "初中"}, {"name": "西安市西安市爱知中学", "district": "新城区", "stage": "初中"}, {"name": "西安市经开第三中学", "district": "经开区", "stage": "初中"}, {"name": "西安市第三十四中学", "district": "灞桥区", "stage": "初中"}, {"name": "西安市纺织城初级中学", "district": "灞桥区", "stage": "初中"}, {"name": "长安区第七中学", "district": "长安区", "stage": "初中"}, {"name": "西安高新第二中学", "district": "高新区", "stage": "初中"}, {"name": "陆港第一初级中学", "district": "港务区", "stage": "初中"}, {"name": "陆港第七初级中学", "district": "港务区", "stage": "初中"}, {"name": "陕师大陆港学校", "district": "港务区", "stage": "初中"}, {"name": "西安航天城第三中学", "district": "航天基地", "stage": "初中"}, {"name": "沣东新城第一初级中学", "district": "西咸新区", "stage": "初中"}, {"name": "沣西新城第一学校", "district": "西咸新区", "stage": "初中"}, {"name": "秦汉中学", "district": "西咸新区", "stage": "初中"}];
+let results = [];
+let idx = 0;
+
+function log(msg) {
+  const el = document.getElementById('log');
+  el.textContent += msg + '\n';
+  el.scrollTop = el.scrollHeight;
+}
+
+function next() {
+  if (idx >= QUEUE.length) {
+    document.getElementById('status').textContent = '完成! 共 ' + results.length + ' 条，发送中...';
+    sendResults();
+    return;
+  }
+  const item = QUEUE[idx];
+  idx++;
+  document.getElementById('status').textContent = `处理中 ${idx}/${QUEUE.length}: ${item.name}`;
+
+  const ps = new AMap.PlaceSearch({ city: '西安', pageSize: 1 });
+  ps.search(item.name, (status, result) => {
+    if (status === 'complete' && result.poiList && result.poiList.pois.length) {
+      const poi = result.poiList.pois[0];
+      if (poi.location) {
+        results.push({ name: item.name, district: item.district, stage: item.stage, lng: poi.location.lng, lat: poi.location.lat, address: poi.address || '', pname: poi.name });
+        log(`✓ ${item.name} → ${poi.location.lng},${poi.location.lat}`);
+      } else {
+        log(`✗ ${item.name} (无坐标)`);
+      }
+    } else {
+      log(`✗ ${item.name} (搜索失败)`);
+    }
+    setTimeout(next, 350); // 控制频率
+  });
+}
+
+function sendResults() {
+  fetch('http://127.0.0.1:8899/save', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(results)
+  }).then(r => r.json()).then(d => {
+    document.getElementById('status').textContent = '已发送到服务器: ' + JSON.stringify(d);
+  }).catch(e => {
+    document.getElementById('status').textContent = '发送失败: ' + e.message + '（请复制下方结果）';
+    document.getElementById('log').textContent += '\n\n===RESULT_JSON===\n' + JSON.stringify(results);
+  });
+}
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.getElementById('status').textContent = `开始解析 ${QUEUE.length} 所学校`;
+    next();
+  }, 1000);
+});
+</script>
+</body>
+</html>

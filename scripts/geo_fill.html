@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>批量坐标解析工具</title>
+<script>
+  window._AMapSecurityConfig = {
+    securityJsCode: '779a904a1f6470346e28266b4135d91'
+  };
+</script>
+<script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.PlaceSearch"></script>
+<style>
+  body { font-family: sans-serif; padding: 16px; }
+  #status { margin-bottom: 12px; font-weight: 600; }
+  #log { white-space: pre-wrap; font-size: 12px; color: #666; max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 8px; }
+</style>
+</head>
+<body>
+<div id="status">准备中...</div>
+<div id="log"></div>
+<script>
+const QUEUE = __QUEUE__;
+let results = [];
+let idx = 0;
+
+function log(msg) {
+  const el = document.getElementById('log');
+  el.textContent += msg + '\n';
+  el.scrollTop = el.scrollHeight;
+}
+
+function next() {
+  if (idx >= QUEUE.length) {
+    document.getElementById('status').textContent = '完成! 共 ' + results.length + ' 条，发送中...';
+    sendResults();
+    return;
+  }
+  const item = QUEUE[idx];
+  idx++;
+  document.getElementById('status').textContent = `处理中 ${idx}/${QUEUE.length}: ${item.name}`;
+
+  const ps = new AMap.PlaceSearch({ city: '西安', pageSize: 1 });
+  ps.search(item.name, (status, result) => {
+    if (status === 'complete' && result.poiList && result.poiList.pois.length) {
+      const poi = result.poiList.pois[0];
+      if (poi.location) {
+        results.push({ name: item.name, district: item.district, stage: item.stage, lng: poi.location.lng, lat: poi.location.lat, address: poi.address || '', pname: poi.name });
+        log(`✓ ${item.name} → ${poi.location.lng},${poi.location.lat}`);
+      } else {
+        log(`✗ ${item.name} (无坐标)`);
+      }
+    } else {
+      log(`✗ ${item.name} (搜索失败)`);
+    }
+    setTimeout(next, 350); // 控制频率
+  });
+}
+
+function sendResults() {
+  fetch('http://127.0.0.1:8899/save', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(results)
+  }).then(r => r.json()).then(d => {
+    document.getElementById('status').textContent = '已发送到服务器: ' + JSON.stringify(d);
+  }).catch(e => {
+    document.getElementById('status').textContent = '发送失败: ' + e.message + '（请复制下方结果）';
+    document.getElementById('log').textContent += '\n\n===RESULT_JSON===\n' + JSON.stringify(results);
+  });
+}
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.getElementById('status').textContent = `开始解析 ${QUEUE.length} 所学校`;
+    next();
+  }, 1000);
+});
+</script>
+</body>
+</html>

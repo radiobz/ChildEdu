@@ -35,6 +35,39 @@
 }
 .level-chip:active { transform: scale(0.95); }
 
+/* 框选按钮加大+醒目 */
+.level-chip.rect-btn {
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #fff;
+  border: 2px solid #ff9f43;
+  color: #e67e22;
+  border-radius: 22px;
+  margin-top: 4px;
+}
+.level-chip.rect-btn.active {
+  background: #ff4d4f;
+  border-color: #ff4d4f;
+  color: #fff;
+}
+
+/* 视野内学校数提示条 */
+.visible-count-bar {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 150;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 24px;
+  font-size: 13px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
 /* 自定义InfoWindow */
 .school-info-window {
   padding: 4px 8px;

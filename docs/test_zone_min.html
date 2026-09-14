@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Zone Min Test</title>
+<style>html,body,#mapContainer{margin:0;padding:0;width:100%;height:100%;}
+#log{position:fixed;top:10px;left:10px;background:rgba(0,0,0,0.85);color:#0f0;padding:16px;font-size:20px;z-index:9999;max-width:900px;white-space:pre-wrap;line-height:1.6;}</style>
+</head>
+<body>
+<div id="mapContainer"></div>
+<div id="log">waiting...</div>
+<script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.MouseTool,AMap.PlaceSearch&securityJsCode=779a904a1f6470346e28266b4135d91"></script>
+<script>
+const log = document.getElementById('log');
+const addLog = (m) => { log.textContent += '\n' + m; document.title = m; };
+let map;
+setTimeout(() => {
+  try {
+    map = new AMap.Map('mapContainer', { center: [108.9498, 34.2245], zoom: 15 });
+    addLog('STEP1 map created. Circle=' + (typeof AMap.Circle) + ' Polygon=' + (typeof AMap.Polygon) + ' PlaceSearch=' + (typeof AMap.PlaceSearch));
+    setTimeout(() => {
+      try {
+        const circle = new AMap.Circle({
+          center: [108.9498, 34.2245],
+          radius: 800,
+          strokeColor: '#1677ff', strokeWeight: 4, strokeOpacity: 0.9,
+          fillColor: '#1677ff', fillOpacity: 0.35,
+          map: map
+        });
+        addLog('STEP2 Circle created, map attr=' + (circle.getMap() ? 'yes' : 'NO'));
+        const poly = new AMap.Polygon({
+          path: [[108.94,34.22],[108.95,34.22],[108.95,34.23],[108.94,34.23]],
+          strokeColor: '#fa8c16', strokeWeight: 3, fillColor: '#fa8c16', fillOpacity: 0.3,
+          map: map
+        });
+        addLog('STEP3 Polygon created, map attr=' + (poly.getMap() ? 'yes' : 'NO'));
+        setTimeout(() => {
+          addLog('STEP4 done. circle.map=' + (circle.getMap()?'yes':'NO'));
+        }, 2000);
+      } catch(e) { addLog('ERR create: ' + e.message); }
+    }, 2000);
+  } catch(e) { addLog('ERR init: ' + e.message); }
+}, 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Circle Fix Test</title>
+<style>html,body,#mapContainer{margin:0;padding:0;width:100%;height:100%;}
+#log{position:fixed;top:10px;left:10px;background:rgba(0,0,0,0.85);color:#0f0;padding:16px;font-size:18px;z-index:9999;max-width:900px;white-space:pre-wrap;line-height:1.5;}</style>
+</head>
+<body>
+<div id="mapContainer"></div>
+<div id="log">waiting...</div>
+<script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.MouseTool,AMap.PlaceSearch,AMap.Circle&securityJsCode=779a904a1f6470346e28266b4135d91"></script>
+<script>
+const log = document.getElementById('log');
+const addLog = (m) => { log.textContent += '\n' + m; document.title = m; };
+let map;
+setTimeout(() => {
+  try {
+    map = new AMap.Map('mapContainer', { center: [108.9498, 34.2245], zoom: 15 });
+    setTimeout(() => {
+      try {
+        // 方案A: Circle + setMap
+        const c1 = new AMap.Circle({ center: [108.9498, 34.2245], radius: 800,
+          strokeColor: '#1677ff', strokeWeight: 4, fillColor: '#1677ff', fillOpacity: 0.35 });
+        c1.setMap(map);
+        addLog('A: Circle+setMap map=' + (c1.getMap()?'yes':'NO'));
+
+        // 方案B: Circle 构造带 map
+        const c2 = new AMap.Circle({ center: [108.948, 34.225], radius: 500,
+          strokeColor: '#fa8c16', strokeWeight: 3, fillColor: '#fa8c16', fillOpacity: 0.3, map: map });
+        addLog('B: Circle+map= map=' + (c2.getMap()?'yes':'NO'));
+
+        // 方案C: PlaceSearch
+        const ps = new AMap.PlaceSearch({ city: '西安', pageSize: 1 });
+        ps.search('小寨西路', (status, result) => {
+          if (status === 'complete' && result.poiList && result.poiList.pois.length) {
+            const p = result.poiList.pois[0];
+            addLog('C: PlaceSearch OK: ' + p.name + ' @' + p.location.lng + ',' + p.location.lat);
+            const m = new AMap.Marker({ position: [p.location.lng, p.location.lat], map: map,
+              label: { content: '<div style="background:#1677ff;color:#fff;padding:2px 8px;border-radius:10px;font-size:12px;">📍 小寨西路</div>', direction: 'top' } });
+          } else {
+            addLog('C: PlaceSearch FAIL status=' + status + ' info=' + (result && result.info));
+          }
+        });
+      } catch(e) { addLog('ERR: ' + e.message); }
+    }, 2000);
+  } catch(e) { addLog('ERR init: ' + e.message); }
+}, 1000);
+</script>
+</body>
+</html>

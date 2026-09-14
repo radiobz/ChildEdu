@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PS Debug</title>
+<style>html,body,#mapContainer{margin:0;padding:0;width:100%;height:100%;}
+#log{position:fixed;top:10px;left:10px;background:rgba(0,0,0,0.85);color:#0f0;padding:16px;font-size:16px;z-index:9999;max-width:1000px;white-space:pre-wrap;line-height:1.5;}</style>
+</head>
+<body>
+<div id="mapContainer"></div>
+<div id="log">waiting...</div>
+<script src="https://webapi.amap.com/maps?v=2.0&key=d7157c269a38ac7b76bdfd4ebd3c65ed&plugin=AMap.PlaceSearch,AMap.AutoComplete&securityJsCode=779a904a1f6470346e28266b4135d91"></script>
+<script>
+const log = document.getElementById('log');
+const addLog = (m) => { log.textContent += '\n' + m; document.title = m; };
+let map;
+setTimeout(() => {
+  try {
+    map = new AMap.Map('mapContainer', { center: [108.9498, 34.2245], zoom: 15 });
+    addLog('STEP1 map ok. PlaceSearch=' + (typeof AMap.PlaceSearch));
+    setTimeout(() => {
+      try {
+        addLog('STEP2 try placeSearch with citycode...');
+        const ps = new AMap.PlaceSearch({ pageSize: 1, pageIndex: 1 });
+        ps.search('小寨西路', (status, result) => {
+          addLog('STEP3 status=' + status + ' info=' + JSON.stringify(result && result.info) + ' count=' + (result && result.poiList ? result.poiList.count : 'n/a'));
+          if (status === 'complete' && result.poiList && result.poiList.pois.length) {
+            const p = result.poiList.pois[0];
+            addLog('POI: ' + p.name + ' @' + p.location.lng + ',' + p.location.lat);
+          }
+        });
+      } catch(e) { addLog('ERR: ' + e.message); }
+    }, 2000);
+  } catch(e) { addLog('ERR init: ' + e.message); }
+}, 1000);
+</script>
+</body>
+</html>
