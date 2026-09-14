@@ -12,6 +12,7 @@ const MapManager = (() => {
   let highlightMarkers = []; // 高亮的学校点
   let pulseMarker = null; // 当前选中的脉冲标记
   let autoMarkers = []; // 视野内自动标识
+  let rectActive = false; // 是否处于框选模式
 
   function init() {
     map = new AMap.Map('mapContainer', {
@@ -40,6 +41,15 @@ const MapManager = (() => {
     });
     map.on('zoomend', function() {
       if (window.onMapMoveEnd) window.onMapMoveEnd();
+    });
+
+    // 点击地图空白处：取消学区高亮（框选模式下不干扰）
+    map.on('click', function(e) {
+      if (rectActive) return;
+      // e.target 为覆盖物（marker等）时不取消，交给对应点击逻辑
+      if (e.target && e.target.getPosition && typeof e.target.getPosition === 'function') return;
+      clearZoneHighlights();
+      clearMarkSchool();
     });
   }
 
@@ -199,6 +209,8 @@ const MapManager = (() => {
 
   // 保底方案：用道路标签+半透明圆表示学区范围
   function highlightZoneRoads(roads, centerLng, centerLat, fallbackNames) {
+    // 先清除旧的学区高亮，保证同时只有一个学校学区显示
+    clearZoneHighlights();
     // 画半透明圆表示大致学区范围（注意：Circle 必须显式 setMap，构造参数 map 在 2.0 下不生效）
     if (centerLng && centerLat) {
       zoneCircle = new AMap.Circle({
@@ -295,10 +307,12 @@ const MapManager = (() => {
   }
 
   function startRectangle() {
+    rectActive = true;
     if (mouseTool) mouseTool.rectangle();
   }
 
   function stopRectangle() {
+    rectActive = false;
     if (mouseTool) mouseTool.close(false);
   }
 
