@@ -1,0 +1,1469 @@
+[
+  {
+    "orig_index": 1089,
+    "name": "西安市未央区国华幼儿园",
+    "status": "found",
+    "location": [
+      109.001423,
+      34.315202
+    ],
+    "matched_name": "国华幼儿园",
+    "amap_id": "B0FFHHGU4B",
+    "address": "浐灞大道2555(浐灞1号海景北部湾)"
+  },
+  {
+    "orig_index": 1090,
+    "name": "西安市临潼区任留中心幼儿园",
+    "status": "found",
+    "location": [
+      109.250557,
+      34.466462
+    ],
+    "matched_name": "任留中心幼儿园",
+    "amap_id": "B0FFG7WA2N",
+    "address": "208县道"
+  },
+  {
+    "orig_index": 1091,
+    "name": "灞桥区十里铺街道优宝幼儿园",
+    "status": "found",
+    "location": [
+      109.037651,
+      34.267943
+    ],
+    "matched_name": "优宝幼儿园",
+    "amap_id": "B0FFGCW6OH",
+    "address": "长乐东路2号附近"
+  },
+  {
+    "orig_index": 1092,
+    "name": "灞桥区席王街办小太阳幼儿园",
+    "status": "found",
+    "location": [
+      109.051784,
+      34.293041
+    ],
+    "matched_name": "小太阳幼儿园(西安电力工业学校家属院东北)",
+    "amap_id": "B0FFG0ZLHV",
+    "address": "电厂西路附近"
+  },
+  {
+    "orig_index": 1093,
+    "name": "西安市临潼区行者街道办事处西沟幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1094,
+    "name": "周至县尚村镇鸽子幼儿园",
+    "status": "found",
+    "location": [
+      108.469364,
+      34.153709
+    ],
+    "matched_name": "鸽子幼儿园",
+    "amap_id": "B0FFGPJGYR",
+    "address": "尚村镇鸽子幼儿园"
+  },
+  {
+    "orig_index": 1095,
+    "name": "西安市临潼区新丰街道办事处严上幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1096,
+    "name": "西安外国语大学幼儿园",
+    "status": "found",
+    "location": [
+      108.949245,
+      34.208571
+    ],
+    "matched_name": "西安外国语大学幼儿园",
+    "amap_id": "B0FFFF4WJQ",
+    "address": "长安南路437号西安外国语大学校内"
+  },
+  {
+    "orig_index": 1097,
+    "name": "中国人民解放军61363部队幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1098,
+    "name": "西咸新区沣东新城中新幼儿园",
+    "status": "found",
+    "location": [
+      108.828994,
+      34.285397
+    ],
+    "matched_name": "西咸新区沣东新城中新幼儿园",
+    "amap_id": "B0LKKUO09D",
+    "address": "西咸新区沣东新城三桥街道双拥路时代华城小区内"
+  },
+  {
+    "orig_index": 1099,
+    "name": "周至县司竹镇童心幼儿园",
+    "status": "found",
+    "location": [
+      108.285735,
+      34.15374
+    ],
+    "matched_name": "司竹镇童心幼儿园",
+    "amap_id": "B0FFHI5MVF",
+    "address": "司竹镇北司竹村平阳街35号"
+  },
+  {
+    "orig_index": 1100,
+    "name": "西安市长安区韦曲街道侯家湾村幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1101,
+    "name": "西安国际港务区子颐枫林九溪幼儿园",
+    "status": "found",
+    "location": [
+      109.01927,
+      34.368598
+    ],
+    "matched_name": "枫林九溪幼儿园",
+    "amap_id": "B0FFIEDFM7",
+    "address": "枫林九溪社区B区东门"
+  },
+  {
+    "orig_index": 1102,
+    "name": "灞桥区务庄中心幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1103,
+    "name": "西安浐灞恒大江湾幼儿园",
+    "status": "found",
+    "location": [
+      109.004586,
+      34.358435
+    ],
+    "matched_name": "西安浐灞恒大江湾幼儿园",
+    "amap_id": "B0K2ZZ68K5",
+    "address": "广运潭大道8009号"
+  },
+  {
+    "orig_index": 1104,
+    "name": "西安市临潼区相桥启蒙幼儿园",
+    "status": "found",
+    "location": [
+      109.389138,
+      34.628907
+    ],
+    "matched_name": "西安市临潼区相桥启蒙幼儿园",
+    "amap_id": "B001D0VPAD",
+    "address": ""
+  },
+  {
+    "orig_index": 1105,
+    "name": "西安市鄠邑区蒋村街道曹村幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1106,
+    "name": "西安未央长庆花园幼儿园",
+    "status": "found",
+    "location": [
+      108.980887,
+      34.390624
+    ],
+    "matched_name": "西安未央长庆花园幼儿园",
+    "amap_id": "B0FFG2BV0P",
+    "address": "未央湖街道长庆未央花园小区"
+  },
+  {
+    "orig_index": 1107,
+    "name": "西咸新区沣东第十三幼儿园",
+    "status": "found",
+    "location": [
+      108.819885,
+      34.253008
+    ],
+    "matched_name": "西咸新区沣东第十三幼儿园",
+    "amap_id": "B0KUTUBUSV",
+    "address": "和平工业园区五号路9号"
+  },
+  {
+    "orig_index": 1108,
+    "name": "西安市高陵区西张市幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1109,
+    "name": "西安市阎良区关山中心幼儿园",
+    "status": "found",
+    "location": [
+      109.389541,
+      34.686624
+    ],
+    "matched_name": "关山永丰小学-关山中心幼儿园",
+    "amap_id": "B0GR5K0QDP",
+    "address": "万年南路与永丰路交叉口南80米"
+  },
+  {
+    "orig_index": 1110,
+    "name": "灞桥区灞桥街办爱华幼儿园",
+    "status": "found",
+    "location": [
+      109.075892,
+      34.325793
+    ],
+    "matched_name": "爱华幼儿园",
+    "amap_id": "B001D0Z27M",
+    "address": "西安市灞桥区纺渭路核锻社区爱华幼儿园"
+  },
+  {
+    "orig_index": 1111,
+    "name": "西安新城景泰茗苑快乐天使幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1112,
+    "name": "西安市新城区秦川幼儿园",
+    "status": "found",
+    "location": [
+      109.017175,
+      34.254022
+    ],
+    "matched_name": "秦川幼儿园",
+    "amap_id": "B001D0VSYA",
+    "address": "幸福中路35号"
+  },
+  {
+    "orig_index": 1113,
+    "name": "西咸新区沣西新城第八幼儿园",
+    "status": "found",
+    "location": [
+      108.65571,
+      34.205045
+    ],
+    "matched_name": "沣西新城第八幼儿园",
+    "amap_id": "B0HRH7686W",
+    "address": "大王街道646村"
+  },
+  {
+    "orig_index": 1114,
+    "name": "西安市灞桥区纺织城街办鹿塬小区幼儿园",
+    "status": "found",
+    "location": [
+      109.071874,
+      34.269958
+    ],
+    "matched_name": "鹿塬小区幼儿园",
+    "amap_id": "B0FFHBRYYN",
+    "address": "鹿塬街鹿塬小区内11号楼和15号楼之间"
+  },
+  {
+    "orig_index": 1115,
+    "name": "西安市雁塔区港湾家庭幼儿园",
+    "status": "found",
+    "location": [
+      109.038635,
+      34.250599
+    ],
+    "matched_name": "港湾幼儿园",
+    "amap_id": "B001D0VWR6",
+    "address": "咸宁东路田家湾村(田家湾地铁站D口步行180米)"
+  },
+  {
+    "orig_index": 1116,
+    "name": "西安市临潼区代王平丰幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1117,
+    "name": "西安市长安区郭杜街道尔雅 ·常春藤幼儿园",
+    "status": "found",
+    "location": [
+      108.893717,
+      34.162576
+    ],
+    "matched_name": "尔雅常春藤幼儿园",
+    "amap_id": "B0FFK5M7IQ",
+    "address": "郭杜街道樱花一路万科城三号地"
+  },
+  {
+    "orig_index": 1118,
+    "name": "西安市临潼区西泉小博士幼儿园",
+    "status": "found",
+    "location": [
+      109.142434,
+      34.405541
+    ],
+    "matched_name": "小博士幼儿园(西麦路)",
+    "amap_id": "B001D0VZQE",
+    "address": "西泉乡西泉街办"
+  },
+  {
+    "orig_index": 1119,
+    "name": "西安市庆华幼儿园",
+    "status": "found",
+    "location": [
+      109.118484,
+      34.295374
+    ],
+    "matched_name": "西安庆华幼儿园(田王园)",
+    "amap_id": "B0HGSX5JLY",
+    "address": "华康路与庆祝路交叉口东300米"
+  },
+  {
+    "orig_index": 1120,
+    "name": "西安市鄠邑区嘉悦臻美幼儿园",
+    "status": "found",
+    "location": [
+      108.628667,
+      34.10916
+    ],
+    "matched_name": "嘉悦·臻美幼儿园",
+    "amap_id": "B0FFLAO03C",
+    "address": "许滨北路与丰京路交叉口北120米"
+  },
+  {
+    "orig_index": 1121,
+    "name": "西安市雁塔区吉的堡望庭幼儿园",
+    "status": "found",
+    "location": [
+      108.893001,
+      34.217288
+    ],
+    "matched_name": "吉的堡幼儿园(西安望庭园)",
+    "amap_id": "B0FFG3ZIR0",
+    "address": "高新路80号"
+  },
+  {
+    "orig_index": 1122,
+    "name": "西安市雁塔区第二十幼儿园",
+    "status": "found",
+    "location": [
+      108.876454,
+      34.238253
+    ],
+    "matched_name": "西安市雁塔区第二十幼儿园",
+    "amap_id": "B0H21U9NSG",
+    "address": "科技路西口259号枫韵蓝湾小区内"
+  },
+  {
+    "orig_index": 1123,
+    "name": "西安市曲江第九幼儿园",
+    "status": "found",
+    "location": [
+      109.00804,
+      34.211164
+    ],
+    "matched_name": "曲江第九幼儿园",
+    "amap_id": "B0IU1C27EP",
+    "address": "黄渠头小区西北门内"
+  },
+  {
+    "orig_index": 1124,
+    "name": "中国人民武装警察部队陕西省总队幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1125,
+    "name": "西安市长安区郭杜街道西五桥村幼儿园",
+    "status": "found",
+    "location": [
+      108.881058,
+      34.166801
+    ],
+    "matched_name": "西五桥村幼儿园",
+    "amap_id": "B0IKHZAX2T",
+    "address": "西第五桥村-综合楼"
+  },
+  {
+    "orig_index": 1126,
+    "name": "西安莲湖吉的堡锦园幼儿园",
+    "status": "found",
+    "location": [
+      108.902101,
+      34.254315
+    ],
+    "matched_name": "吉的堡幼儿园(西安锦园)",
+    "amap_id": "B001D0W0OU",
+    "address": "桃园南路29号西安锦园"
+  },
+  {
+    "orig_index": 1127,
+    "name": "西安市长安区马王街道中心幼儿园",
+    "status": "found",
+    "location": [
+      108.712153,
+      34.208158
+    ],
+    "matched_name": "马王街道中心幼儿园",
+    "amap_id": "B0GKVC3YAE",
+    "address": "451村道与108国道交叉口南480米"
+  },
+  {
+    "orig_index": 1128,
+    "name": "西安市临潼区北田尖角金太阳幼儿园",
+    "status": "found",
+    "location": [
+      109.188501,
+      34.455365
+    ],
+    "matched_name": "尖角金太阳幼儿园",
+    "amap_id": "B0FFHOL0CM",
+    "address": "北田镇尖角村"
+  },
+  {
+    "orig_index": 1129,
+    "name": "蓝田县安村镇腰刀幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1130,
+    "name": "周至县终南镇毓兴幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1131,
+    "name": "蓝田县辋川镇玉川中心幼儿园",
+    "status": "found",
+    "location": [
+      109.373366,
+      33.931392
+    ],
+    "matched_name": "蓝田县辋川镇玉川中心幼儿园",
+    "amap_id": "B0FFL38Q04",
+    "address": "红门寺村村民委员会西南侧90米"
+  },
+  {
+    "orig_index": 1132,
+    "name": "西安市长安区郭杜街道艾贝乐幼儿园",
+    "status": "found",
+    "location": [
+      108.859441,
+      34.177454
+    ],
+    "matched_name": "艾贝乐幼儿园(西区)",
+    "amap_id": "B0FFHEVYP7",
+    "address": "硕士路北200米"
+  },
+  {
+    "orig_index": 1133,
+    "name": "西北工业大学南山幼儿园",
+    "status": "found",
+    "location": [
+      108.770865,
+      34.032904
+    ],
+    "matched_name": "西北工业大学南山幼儿园",
+    "amap_id": "B0IGV51PHP",
+    "address": "东大路"
+  },
+  {
+    "orig_index": 1134,
+    "name": "西安市未央区汇林子语幼儿园",
+    "status": "found",
+    "location": [
+      108.985801,
+      34.302918
+    ],
+    "matched_name": "汇林子语幼儿园",
+    "amap_id": "B0FFL4O1YV",
+    "address": "汇林华城B区"
+  },
+  {
+    "orig_index": 1135,
+    "name": "西安市未央区汉城瀚博致远幼儿园",
+    "status": "found",
+    "location": [
+      108.907176,
+      34.335497
+    ],
+    "matched_name": "瀚博致远幼儿园",
+    "amap_id": "B0FFFX7VKL",
+    "address": "汉城街道凤城七路汉城商业街西扬善村"
+  },
+  {
+    "orig_index": 1136,
+    "name": "灞桥区新合街道金色阳光幼儿园",
+    "status": "found",
+    "location": [
+      109.103707,
+      34.418648
+    ],
+    "matched_name": "金色阳光幼儿园(鹤翔路)",
+    "amap_id": "B001D08RCD",
+    "address": "新合街办(邮局旁边)"
+  },
+  {
+    "orig_index": 1137,
+    "name": "西安市阎良区关山粟邑幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1138,
+    "name": "灞桥区新合街道漕渠幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1139,
+    "name": "西安市鄠邑区草堂镇梦开始幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1140,
+    "name": "西安市临潼区北田小博士幼儿园",
+    "status": "found",
+    "location": [
+      109.19744,
+      34.46378
+    ],
+    "matched_name": "北田小博士幼儿园",
+    "amap_id": "B0HU4OKKNS",
+    "address": "北田街道办事处马陵村三组"
+  },
+  {
+    "orig_index": 1141,
+    "name": "西安市雁塔区蒙正堂幼儿园",
+    "status": "found",
+    "location": [
+      108.943869,
+      34.181112
+    ],
+    "matched_name": "雁塔区蒙正堂幼儿园",
+    "amap_id": "B0FFGFPLM2",
+    "address": "华城泊郡10号楼(三爻地铁站B西南口步行290米)"
+  },
+  {
+    "orig_index": 1142,
+    "name": "西安莲湖华美童年幼儿园",
+    "status": "found",
+    "location": [
+      108.877295,
+      34.256051
+    ],
+    "matched_name": "华美童年幼儿园",
+    "amap_id": "B0FFFTU0NM",
+    "address": "富力学府小区内5号楼前"
+  },
+  {
+    "orig_index": 1143,
+    "name": "西安市临潼区行者凤凰幼儿园",
+    "status": "found",
+    "location": [
+      109.219558,
+      34.413883
+    ],
+    "matched_name": "凤凰幼儿园",
+    "amap_id": "B001D08MOV",
+    "address": "行者街办北庄村凤凰台"
+  },
+  {
+    "orig_index": 1144,
+    "name": "西安市长安区郭杜街道春苗幼儿园",
+    "status": "found",
+    "location": [
+      108.853261,
+      34.155618
+    ],
+    "matched_name": "陕西省西安市长安区春苗幼儿园(学士路)",
+    "amap_id": "B001D11P6J",
+    "address": "三仁路西安高新区邓店小学东北侧约110米"
+  },
+  {
+    "orig_index": 1145,
+    "name": "空军第九八六医院幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1146,
+    "name": "西安市长安区杜曲街道韦村幼儿园",
+    "status": "found",
+    "location": [
+      109.043032,
+      34.085312
+    ],
+    "matched_name": "杜曲街道韦村幼儿园",
+    "amap_id": "B0FFJT0FMC",
+    "address": "杜曲韦村小学附近"
+  },
+  {
+    "orig_index": 1147,
+    "name": "西安高新区第十七幼儿园",
+    "status": "found",
+    "location": [
+      108.851315,
+      34.160577
+    ],
+    "matched_name": "西安高新区第十七幼儿园",
+    "amap_id": "B0G11CF8H6",
+    "address": "造字台路与韦斗路交叉口西北100米"
+  },
+  {
+    "orig_index": 1148,
+    "name": "西安莲湖水木白杨幼儿园",
+    "status": "found",
+    "location": [
+      108.902757,
+      34.290332
+    ],
+    "matched_name": "水木白杨幼儿园-门前停车场",
+    "amap_id": "B0MR0LK5P2",
+    "address": "桃园北路与桃李路交叉口东南40米"
+  },
+  {
+    "orig_index": 1149,
+    "name": "西安市长安区韦曲街道品尚幼儿园",
+    "status": "found",
+    "location": [
+      108.944111,
+      34.141341
+    ],
+    "matched_name": "品尚幼儿园",
+    "amap_id": "B0FFHDCKJ4",
+    "address": "韦曲街道韦曲南站地铁终点申店新村小区内"
+  },
+  {
+    "orig_index": 1150,
+    "name": "西咸新区沣东新城耀华幼儿园",
+    "status": "found",
+    "location": [
+      108.820864,
+      34.26589
+    ],
+    "matched_name": "西咸新区沣东新城耀华幼儿园",
+    "amap_id": "B0FFG77J5M",
+    "address": "天台三路与天台路交叉口西420米"
+  },
+  {
+    "orig_index": 1151,
+    "name": "西安市长安区美伦天成幼儿园",
+    "status": "found",
+    "location": [
+      108.883163,
+      34.14315
+    ],
+    "matched_name": "美伦天成幼儿园",
+    "amap_id": "B0FFFAAHXS",
+    "address": "郭杜教育科技产业开发区居安路"
+  },
+  {
+    "orig_index": 1152,
+    "name": "西安市临潼区骊山禹志幼儿园",
+    "status": "found",
+    "location": [
+      109.217404,
+      34.373653
+    ],
+    "matched_name": "临潼区骊山禹志幼儿园",
+    "amap_id": "B0IGZ5XT7B",
+    "address": "人民东路14号"
+  },
+  {
+    "orig_index": 1153,
+    "name": "周至县二曲镇双佳幼儿园",
+    "status": "found",
+    "location": [
+      108.203593,
+      34.159575
+    ],
+    "matched_name": "双佳幼儿园",
+    "amap_id": "B001D09QM0",
+    "address": "八一村二曲堡南新街3号"
+  },
+  {
+    "orig_index": 1154,
+    "name": "蓝田县小太阳幼儿园",
+    "status": "found",
+    "location": [
+      109.312484,
+      34.159149
+    ],
+    "matched_name": "蓝田县小太阳幼儿园",
+    "amap_id": "B001D09RUF",
+    "address": "北环路西段"
+  },
+  {
+    "orig_index": 1155,
+    "name": "陕西听力语言康复中心幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1156,
+    "name": "蓝田县普化镇马楼幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1157,
+    "name": "西安市长安区韦曲街道王子幼儿园",
+    "status": "found",
+    "location": [
+      108.945014,
+      34.147228
+    ],
+    "matched_name": "王子幼儿园",
+    "amap_id": "B001D0WJKK",
+    "address": "南长安街230号"
+  },
+  {
+    "orig_index": 1158,
+    "name": "西安工业大学附属幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1159,
+    "name": "西安市长安区兴隆社区一区幼儿园",
+    "status": "found",
+    "location": [
+      108.806833,
+      34.127998
+    ],
+    "matched_name": "西安高新区第三十二幼儿园",
+    "amap_id": "B0HAVA93DJ",
+    "address": "兴隆社区一区(兴隆一路北)"
+  },
+  {
+    "orig_index": 1160,
+    "name": "西安市莲湖区金色童年第二幼儿园",
+    "status": "found",
+    "location": [
+      108.86274,
+      34.277286
+    ],
+    "matched_name": "西安莲湖金色童年第二幼儿园",
+    "amap_id": "B0FFFO3WYO",
+    "address": "枣园街道128号丰盛园"
+  },
+  {
+    "orig_index": 1161,
+    "name": "西安市浐灞第一幼儿园",
+    "status": "found",
+    "location": [
+      109.05337,
+      34.332968
+    ],
+    "matched_name": "浐灞第一幼儿园",
+    "amap_id": "B0FFHPB0YD",
+    "address": "东三环路(香湖湾地铁站B2口步行330米)"
+  },
+  {
+    "orig_index": 1162,
+    "name": "西安市鄠邑区草堂大良村幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1163,
+    "name": "西安市鄠邑区蒋村中心幼儿园",
+    "status": "found",
+    "location": [
+      108.479669,
+      34.078383
+    ],
+    "matched_name": "西安市鄠邑区蒋村中心幼儿园",
+    "amap_id": "B0FFG7UJKI",
+    "address": "蒋村镇中心幼儿园(蒋村镇人民政府东)"
+  },
+  {
+    "orig_index": 1164,
+    "name": "阎良伊贝迪幼儿园",
+    "status": "found",
+    "location": [
+      109.254025,
+      34.663725
+    ],
+    "matched_name": "阎良伊贝迪幼儿园",
+    "amap_id": "B0FFLM8HI3",
+    "address": "倚中路"
+  },
+  {
+    "orig_index": 1165,
+    "name": "西安市鄠邑区玉蝉中心幼儿园",
+    "status": "found",
+    "location": [
+      108.5641,
+      34.109948
+    ],
+    "matched_name": "玉蝉街道中心幼儿园",
+    "amap_id": "B0FFIDQ6EL",
+    "address": "玉蝉街道"
+  },
+  {
+    "orig_index": 1166,
+    "name": "西安市莲湖区南小巷幼儿园",
+    "status": "found",
+    "location": [
+      108.918065,
+      34.256299
+    ],
+    "matched_name": "南小巷幼儿园",
+    "amap_id": "B0FFF64VQ5",
+    "address": "西关街道南小巷103号"
+  },
+  {
+    "orig_index": 1167,
+    "name": "西咸新区沣东新城天骄幼儿园",
+    "status": "found",
+    "location": [
+      108.756039,
+      34.223087
+    ],
+    "matched_name": "沣东新城天骄幼儿园",
+    "amap_id": "B0FFG88F7T",
+    "address": "斗门街道北街奶站旁"
+  },
+  {
+    "orig_index": 1168,
+    "name": "西安市高陵区小博士幼儿园",
+    "status": "found",
+    "location": [
+      109.075328,
+      34.48362
+    ],
+    "matched_name": "小博士幼儿园(仁马路)",
+    "amap_id": "B0FFFS9AGT",
+    "address": ""
+  },
+  {
+    "orig_index": 1169,
+    "name": "西安市临潼区新丰金色摇篮幼儿园",
+    "status": "found",
+    "location": [
+      109.271284,
+      34.423249
+    ],
+    "matched_name": "金色摇篮幼儿园",
+    "amap_id": "B0FFIACDAE",
+    "address": "庆山路十字往北"
+  },
+  {
+    "orig_index": 1170,
+    "name": "西安市临潼区零口街道办事处童家幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1171,
+    "name": "西安新城欢乐岛幼儿园",
+    "status": "found",
+    "location": [
+      108.984754,
+      34.293588
+    ],
+    "matched_name": "欢乐岛幼儿园",
+    "amap_id": "B0FFFTQ9NT",
+    "address": "含元北路14号水泥制管厂家属院内"
+  },
+  {
+    "orig_index": 1172,
+    "name": "陕西省西咸新区沣东新城和盛花园幼儿园",
+    "status": "found",
+    "location": [
+      108.795072,
+      34.281905
+    ],
+    "matched_name": "陕西省西咸新区沣东新城和盛花园幼儿园",
+    "amap_id": "B0FFJ5270M",
+    "address": "东新城太平路和盛花园小区内"
+  },
+  {
+    "orig_index": 1173,
+    "name": "西安市新城区大明宫幼儿园",
+    "status": "found",
+    "location": [
+      108.970365,
+      34.284598
+    ],
+    "matched_name": "大明宫幼儿园",
+    "amap_id": "B0FFG8UY7B",
+    "address": "太华南路242号(含元殿地铁站B西南口步行330米)"
+  },
+  {
+    "orig_index": 1174,
+    "name": "蓝田县第五幼儿园",
+    "status": "found",
+    "location": [
+      109.324621,
+      34.152511
+    ],
+    "matched_name": "蓝田县第五幼儿园",
+    "amap_id": "B0K3GZ172Q",
+    "address": "孝泉路24号"
+  },
+  {
+    "orig_index": 1175,
+    "name": "西安市临潼区斜口街道办事处柳树幼儿园",
+    "status": "found",
+    "location": [
+      109.142215,
+      34.373525
+    ],
+    "matched_name": "柳树小学附属幼儿园",
+    "amap_id": "B001D0W3EX",
+    "address": "柳南路柳树村三组"
+  },
+  {
+    "orig_index": 1176,
+    "name": "西安市新城区东方幼儿园",
+    "status": "found",
+    "location": [
+      109.013015,
+      34.24603
+    ],
+    "matched_name": "西安市新城区东方幼儿园",
+    "amap_id": "B001D117RL",
+    "address": "东方社区103街坊6号楼"
+  },
+  {
+    "orig_index": 1177,
+    "name": "灞桥十里铺街道爱尚思源幼儿园",
+    "status": "found",
+    "location": [
+      109.079258,
+      34.278061
+    ],
+    "matched_name": "爱尚思源幼儿园",
+    "amap_id": "B0LRGSTFPE",
+    "address": "长乐东路278号"
+  },
+  {
+    "orig_index": 1178,
+    "name": "西安市长安区郭杜街道天宝幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1179,
+    "name": "西安市长安区郭杜街道博雅幼儿园",
+    "status": "found",
+    "location": [
+      108.855411,
+      34.176063
+    ],
+    "matched_name": "博雅幼儿园(丈八六路)",
+    "amap_id": "B001D11X13",
+    "address": "长里村"
+  },
+  {
+    "orig_index": 1180,
+    "name": "西安唐明宫幼儿园",
+    "status": "found",
+    "location": [
+      108.953048,
+      34.307023
+    ],
+    "matched_name": "唐明宫幼儿园",
+    "amap_id": "B0FFI9USQT",
+    "address": "延和西巷与开元路南段交叉口西南80米"
+  },
+  {
+    "orig_index": 1181,
+    "name": "周至县四屯镇第二幼儿园",
+    "status": "found",
+    "location": [
+      108.185457,
+      34.16365
+    ],
+    "matched_name": "四屯镇第二幼儿园",
+    "amap_id": "B0FFIHK871",
+    "address": "渭东路与310国道交叉口东北420米"
+  },
+  {
+    "orig_index": 1182,
+    "name": "西安新城童乐幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1183,
+    "name": "周至县楼观童乐幼儿园",
+    "status": "found",
+    "location": [
+      108.323225,
+      34.080175
+    ],
+    "matched_name": "童乐幼儿园",
+    "amap_id": "B0M67AWT8K",
+    "address": "楼观路与108省道交叉口西北420米"
+  },
+  {
+    "orig_index": 1184,
+    "name": "西安市鄠邑区热电厂幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1185,
+    "name": "西安市高陵区张卜张桥幼儿园",
+    "status": "found",
+    "location": [
+      109.138818,
+      34.509899
+    ],
+    "matched_name": "张卜张桥幼儿园",
+    "amap_id": "B0FFGFUO5M",
+    "address": "张卜镇张桥村"
+  },
+  {
+    "orig_index": 1186,
+    "name": "西安市长安区鸣犊街道高寨幼儿园",
+    "status": "found",
+    "location": [
+      109.100519,
+      34.105161
+    ],
+    "matched_name": "高寨幼儿园",
+    "amap_id": "B0FFJHSTLK",
+    "address": "高寨村"
+  },
+  {
+    "orig_index": 1187,
+    "name": "西安莲湖金色摇篮紫玉华园幼儿园",
+    "status": "found",
+    "location": [
+      108.903576,
+      34.259079
+    ],
+    "matched_name": "金色摇篮紫玉华园幼儿园(丰镐东路)",
+    "amap_id": "B0FFGC11PD",
+    "address": "丰镐东路130号紫玉华园"
+  },
+  {
+    "orig_index": 1188,
+    "name": "西安市鄠邑区秦渡镇金太阳幼儿园",
+    "status": "found",
+    "location": [
+      108.704802,
+      34.12394
+    ],
+    "matched_name": "金太阳幼儿园",
+    "amap_id": "B0I2R7VM5F",
+    "address": "S02西安外环与鄠邑东枢纽交叉口东500米"
+  },
+  {
+    "orig_index": 1189,
+    "name": "西安市雁塔区凯瑞特幼儿园",
+    "status": "found",
+    "location": [
+      108.864852,
+      34.252058
+    ],
+    "matched_name": "雁塔区凯瑞特幼儿园",
+    "amap_id": "B0HBYKH1NQ",
+    "address": "昆明路404号"
+  },
+  {
+    "orig_index": 1190,
+    "name": "长安区特种钢厂幼儿园",
+    "status": "found",
+    "location": [
+      108.833618,
+      34.102291
+    ],
+    "matched_name": "特种钢厂幼儿园",
+    "amap_id": "B001D0VRH9",
+    "address": "滦镇高桥"
+  },
+  {
+    "orig_index": 1191,
+    "name": "西安市鄠邑区玉蝉街道水磨头幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1192,
+    "name": "西安市高陵区绳刘幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1193,
+    "name": "西安市长安区东大街道启航幼儿园",
+    "status": "found",
+    "location": [
+      108.77387,
+      34.044163
+    ],
+    "matched_name": "启航幼儿园",
+    "amap_id": "B0FFITQY0Z",
+    "address": "东大村八街"
+  },
+  {
+    "orig_index": 1194,
+    "name": "西安未央宫园幼儿园",
+    "status": "found",
+    "location": [
+      108.935292,
+      34.295768
+    ],
+    "matched_name": "西安宫园幼儿园",
+    "amap_id": "B0FFJP5WZ0",
+    "address": "龙首北路永福路52号宫园美岸"
+  },
+  {
+    "orig_index": 1195,
+    "name": "西安市高陵区鹿歌幼儿园",
+    "status": "found",
+    "location": [
+      109.101885,
+      34.533713
+    ],
+    "matched_name": "鹿歌幼儿园",
+    "amap_id": "B001D09O2G",
+    "address": "东二环路199号"
+  },
+  {
+    "orig_index": 1196,
+    "name": "蓝田县洩湖镇中心幼儿园",
+    "status": "found",
+    "location": [
+      109.264735,
+      34.196921
+    ],
+    "matched_name": "西安市蓝田县洩湖镇中心幼儿园",
+    "amap_id": "B0FFFAHABX",
+    "address": "洩湖镇宋家庙村"
+  },
+  {
+    "orig_index": 1197,
+    "name": "周至县四屯镇新联幼儿园",
+    "status": "found",
+    "location": [
+      108.143525,
+      34.167875
+    ],
+    "matched_name": "四屯镇新联幼儿园",
+    "amap_id": "B0KU4DY62W",
+    "address": "联广路270乡"
+  },
+  {
+    "orig_index": 1198,
+    "name": "西安市鄠邑区甘亭街道金豆豆幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1199,
+    "name": "西安市临潼区西铁幼儿园",
+    "status": "found",
+    "location": [
+      109.202921,
+      34.372523
+    ],
+    "matched_name": "西铁工程幼儿园",
+    "amap_id": "B0FFFHJ800",
+    "address": "西铁社区3号"
+  },
+  {
+    "orig_index": 1200,
+    "name": "西安市长安区韦曲街道西四府村星晨幼儿园",
+    "status": "found",
+    "location": [
+      108.961247,
+      34.136024
+    ],
+    "matched_name": "星晨幼儿园",
+    "amap_id": "B0FFHE35XN",
+    "address": "韦曲街道长安一中初中部"
+  },
+  {
+    "orig_index": 1201,
+    "name": "周至县广济镇南留幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1202,
+    "name": "周至县楼观镇焦镇幼儿园",
+    "status": "found",
+    "location": [
+      108.306016,
+      34.094938
+    ],
+    "matched_name": "楼观镇焦镇幼儿园",
+    "amap_id": "B0HDHHEVJN",
+    "address": "油鹿路与八姚路交叉口东北400米"
+  },
+  {
+    "orig_index": 1203,
+    "name": "西安航天城红叶幼儿园",
+    "status": "found",
+    "location": [
+      108.963065,
+      34.178108
+    ],
+    "matched_name": "西安航天城红叶幼儿园",
+    "amap_id": "B0IDLCG2SE",
+    "address": "雁塔南路174号"
+  },
+  {
+    "orig_index": 1204,
+    "name": "西咸新区沣东新城好培乐知幼儿园",
+    "status": "found",
+    "location": [
+      108.840671,
+      34.2626
+    ],
+    "matched_name": "好培乐知幼儿园",
+    "amap_id": "B0FFL3ES0O",
+    "address": "红光公园西门南侧50米"
+  },
+  {
+    "orig_index": 1205,
+    "name": "西安经开鼎新社区幼儿园",
+    "status": "found",
+    "location": [
+      108.95915,
+      34.315353
+    ],
+    "matched_name": "西安经开鼎新社区幼儿园",
+    "amap_id": "B0K32DDBEB",
+    "address": "鼎新花园内(市第三医院地铁站B口步行270米)"
+  },
+  {
+    "orig_index": 1206,
+    "name": "蓝田县金色摇篮幼儿园",
+    "status": "found",
+    "location": [
+      109.319952,
+      34.16202
+    ],
+    "matched_name": "金色摇篮幼儿园(北环路)",
+    "amap_id": "B001D09QDR",
+    "address": "北环路东段北新街2号"
+  },
+  {
+    "orig_index": 1207,
+    "name": "西咸新区沣东新城青苗暖阳幼儿园",
+    "status": "found",
+    "location": [
+      108.833603,
+      34.287939
+    ],
+    "matched_name": "青苗暖阳幼儿园",
+    "amap_id": "B0HBRX87SJ",
+    "address": "三桥新街与武警路交叉口南160米"
+  },
+  {
+    "orig_index": 1208,
+    "name": "西安市高陵区耿镇第二幼儿园",
+    "status": "found",
+    "location": [
+      109.123358,
+      34.439603
+    ],
+    "matched_name": "周家小学-耿镇第二幼儿园",
+    "amap_id": "B0FFLDD6S2",
+    "address": "耿镇街道周家小学(虎苏路北)周家小学"
+  },
+  {
+    "orig_index": 1209,
+    "name": "西安市雁塔区世纪星五湖名邸幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1210,
+    "name": "西安市高陵区行知幼儿园",
+    "status": "found",
+    "location": [
+      109.009005,
+      34.442828
+    ],
+    "matched_name": "行知幼儿园",
+    "amap_id": "B0FFGAOW67",
+    "address": "泾渭四路与长庆大街交叉口南400米"
+  },
+  {
+    "orig_index": 1211,
+    "name": "灞桥区红旗街道丽水花都幼儿园",
+    "status": "found",
+    "location": [
+      109.049502,
+      34.272609
+    ],
+    "matched_name": "丽水花都幼儿园",
+    "amap_id": "B0FFGZZUT5",
+    "address": "半坡立交与东三环辅路交叉路口往东南约170米"
+  },
+  {
+    "orig_index": 1212,
+    "name": "西安航空基地第二幼儿园",
+    "status": "found",
+    "location": [
+      109.235371,
+      34.613363
+    ],
+    "matched_name": "西安航空基地第二幼儿园",
+    "amap_id": "B0H0M1M931",
+    "address": "如虹路北屯新社区内"
+  },
+  {
+    "orig_index": 1213,
+    "name": "西安市鄠邑区秦渡中心幼儿园",
+    "status": "found",
+    "location": [
+      108.691458,
+      34.112169
+    ],
+    "matched_name": "西安市鄠邑区秦渡镇中心幼儿园",
+    "amap_id": "B0GROO4VN1",
+    "address": "秦渡镇千王村千王小学"
+  },
+  {
+    "orig_index": 1214,
+    "name": "灞桥区张杨湾幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  },
+  {
+    "orig_index": 1215,
+    "name": "西安市高陵区桑家社区幼儿园",
+    "status": "found",
+    "location": [
+      109.025444,
+      34.499993
+    ],
+    "matched_name": "高陵区桑家社区幼儿园",
+    "amap_id": "B0HG67EV4G",
+    "address": "泾勤路"
+  },
+  {
+    "orig_index": 1216,
+    "name": "蓝田县汤峪镇史家寨中心幼儿园",
+    "status": "found",
+    "location": [
+      109.159582,
+      34.07122
+    ],
+    "matched_name": "史家寨乡中心幼儿园",
+    "amap_id": "B001D0ZM8O",
+    "address": "史家寨镇"
+  },
+  {
+    "orig_index": 1217,
+    "name": "户县大王镇康王村幼儿园",
+    "status": "found",
+    "location": [
+      108.656821,
+      34.225078
+    ],
+    "matched_name": "康王幼儿园",
+    "amap_id": "B0FFJAD48E",
+    "address": "103村道北50米"
+  },
+  {
+    "orig_index": 1218,
+    "name": "西安市鄠邑区玉蝉街道新兴幼儿园",
+    "status": "not_found",
+    "location": null,
+    "matched_name": null,
+    "amap_id": null,
+    "address": null
+  }
+]

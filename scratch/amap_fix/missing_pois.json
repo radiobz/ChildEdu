@@ -1,0 +1,128 @@
+[
+  {
+    "name": "西安市第一保育院",
+    "district": "碑林区",
+    "address": "建西街69号",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B001D047I2",
+    "tel": null
+  },
+  {
+    "name": "西安市第二保育院",
+    "district": "碑林区",
+    "address": "含光北路176号",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B001D040JS",
+    "tel": null
+  },
+  {
+    "name": "美恩幼稚园",
+    "district": "碑林区",
+    "address": "张家村街道西工大南门对面白庙路8号",
+    "location": null,
+    "type": null,
+    "amap_id": "B0FFHDCQY3",
+    "tel": null
+  },
+  {
+    "name": "西安蓝田新城保育院",
+    "district": "蓝田县",
+    "address": "蓝关镇滨河大道1号蓝天新城B区",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B0FFGXWA5P",
+    "tel": null
+  },
+  {
+    "name": "西安市第六保育院",
+    "district": "阎良区",
+    "address": "润天路71号",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B0FFFAETZS",
+    "tel": null
+  },
+  {
+    "name": "西飞保育院(智航园)",
+    "district": "阎良区",
+    "address": "铝业路",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B0FFG780L9",
+    "tel": null
+  },
+  {
+    "name": "悦田育幼园",
+    "district": "碑林区",
+    "address": "光大南路九锦台小区东门向北100米路西",
+    "location": null,
+    "type": null,
+    "amap_id": "B0JR0APEFF",
+    "tel": null
+  },
+  {
+    "name": "西安市第三保育院",
+    "district": "莲湖区",
+    "address": "早慈巷4号",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B0FFF64XA5",
+    "tel": null
+  },
+  {
+    "name": "陕西师范大学锦园国际幼稚园",
+    "district": "未央区",
+    "address": "玄武路69号",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B001D11ITC",
+    "tel": null
+  },
+  {
+    "name": "锦园新世纪(锦园幼儿园)",
+    "district": "未央区",
+    "address": "二环北路东段辅路与仪凤巷交叉口东南240米",
+    "location": null,
+    "type": null,
+    "amap_id": "B0M2PRP4SQ",
+    "tel": null
+  },
+  {
+    "name": "阳光幼稚园(画展路)",
+    "district": "鄠邑区",
+    "address": "八一城市花园南门旁",
+    "location": null,
+    "type": null,
+    "amap_id": "B0FFGILKK8",
+    "tel": null
+  },
+  {
+    "name": "西飞保育院乐航园",
+    "district": "阎良区",
+    "address": "科研巷58号",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B001D0WV5O",
+    "tel": null
+  },
+  {
+    "name": "高山流水幼稚园",
+    "district": "未央区",
+    "address": "渭滨路高山流水幸福快车社区",
+    "location": null,
+    "type": null,
+    "amap_id": "B001D0W45M",
+    "tel": null
+  },
+  {
+    "name": "五环保育院",
+    "district": "灞桥区",
+    "address": "纺织城街道纺正街151号",
+    "location": null,
+    "type": "公办",
+    "amap_id": "B0FFFO64Q0",
+    "tel": null
+  }
+]

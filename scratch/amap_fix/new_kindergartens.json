@@ -1,0 +1,101 @@
+[
+  {
+    "name": "西安市第一保育院",
+    "district": "碑林区",
+    "address": "建西街69号",
+    "location": [108.959456, 34.246664],
+    "type": "公办",
+    "amap_id": "B001D047I2",
+    "tel": null
+  },
+  {
+    "name": "西安市第二保育院",
+    "district": "碑林区",
+    "address": "含光北路176号",
+    "location": [108.931269, 34.250332],
+    "type": "公办",
+    "amap_id": "B001D040JS",
+    "tel": null
+  },
+  {
+    "name": "西安蓝田新城保育院",
+    "district": "蓝田县",
+    "address": "蓝关镇滨河大道1号蓝天新城B区",
+    "location": [109.300129, 34.164083],
+    "type": "公办",
+    "amap_id": "B0FFGXWA5P",
+    "tel": null
+  },
+  {
+    "name": "西安市第六保育院",
+    "district": "阎良区",
+    "address": "润天路71号",
+    "location": [109.241416, 34.664812],
+    "type": "公办",
+    "amap_id": "B0FFFAETZS",
+    "tel": null
+  },
+  {
+    "name": "西飞保育院(智航园)",
+    "district": "阎良区",
+    "address": "铝业路",
+    "location": [109.225429, 34.654649],
+    "type": "公办",
+    "amap_id": "B0FFG780L9",
+    "tel": null
+  },
+  {
+    "name": "悦田育幼园",
+    "district": "碑林区",
+    "address": "光大南路九锦台小区东门向北100米路西",
+    "location": [108.935476, 34.233538],
+    "type": null,
+    "amap_id": "B0JR0APEFF",
+    "tel": null
+  },
+  {
+    "name": "西安市第三保育院",
+    "district": "莲湖区",
+    "address": "早慈巷4号",
+    "location": [108.930325, 34.263025],
+    "type": "公办",
+    "amap_id": "B0FFF64XA5",
+    "tel": null
+  },
+  {
+    "name": "阳光幼稚园(画展路)",
+    "district": "鄠邑区",
+    "address": "八一城市花园南门旁",
+    "location": [108.611362, 34.111876],
+    "type": null,
+    "amap_id": "B0FFGILKK8",
+    "tel": null
+  },
+  {
+    "name": "西飞保育院乐航园",
+    "district": "阎良区",
+    "address": "科研巷58号",
+    "location": [109.237954, 34.657212],
+    "type": "公办",
+    "amap_id": "B001D0WV5O",
+    "tel": null
+  },
+  {
+    "name": "高山流水幼稚园",
+    "district": "未央区",
+    "address": "渭滨路高山流水幸福快车社区",
+    "location": [108.964988, 34.333655],
+    "type": null,
+    "amap_id": "B001D0W45M",
+    "tel": null
+  },
+  {
+    "name": "五环保育院",
+    "district": "灞桥区",
+    "address": "纺织城街道纺正街151号民主三区33号楼4楼西户",
+    "location": [109.064951, 34.259827],
+    "type": "公办",
+    "amap_id": "B0FFFO64Q0",
+    "tel": null
+  }
+]

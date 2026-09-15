@@ -1,0 +1,1042 @@
+[
+  {
+    "orig_index": 1612,
+    "id": null,
+    "name": "西安市未央区未央湖天朗蓝湖幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区未央湖街道景家堡社区居委会"
+  },
+  {
+    "orig_index": 1613,
+    "id": null,
+    "name": "西安市鄠邑区慧铭童年幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区甘亭街道人民路社区居委会"
+  },
+  {
+    "orig_index": 1614,
+    "id": null,
+    "name": "西安市鄠邑区草堂草下幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区草堂街道草市村委会"
+  },
+  {
+    "orig_index": 1615,
+    "id": null,
+    "name": "西安市鄠邑区草堂镇小月亮幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区草堂街道泰和社区居委会"
+  },
+  {
+    "orig_index": 1616,
+    "id": null,
+    "name": "西安市长安区韦曲街道阳光晟恩幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区韦曲街道候家湾村委会"
+  },
+  {
+    "orig_index": 1617,
+    "id": null,
+    "name": "西安市莲湖区创才幼儿园",
+    "district": "莲湖区",
+    "stage": "幼儿园",
+    "address": "莲湖区北院门街道贡院门社区居委会"
+  },
+  {
+    "orig_index": 1618,
+    "id": null,
+    "name": "西安市长安区郭杜街道林隐天下幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区细柳街道紫薇田园都市社区居委会"
+  },
+  {
+    "orig_index": 1619,
+    "id": null,
+    "name": "灞桥区席王街道浐灞嘉禾幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区席王街道柳巷村委会"
+  },
+  {
+    "orig_index": 1620,
+    "id": null,
+    "name": "西咸新区沣东新城爱幼幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区三桥街道和平社区居委会"
+  },
+  {
+    "orig_index": 1621,
+    "id": null,
+    "name": "西安市新城区华山幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "address": "新城区长乐中路街道华山社区居委会"
+  },
+  {
+    "orig_index": 1622,
+    "id": null,
+    "name": "雁塔培尔森幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区曲江街道春临社区"
+  },
+  {
+    "orig_index": 1623,
+    "id": null,
+    "name": "西安市临潼区北田街道办事处温梁幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区北田街道温梁村委会"
+  },
+  {
+    "orig_index": 1624,
+    "id": null,
+    "name": "沣西新城马王环宇幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区马王街道新泥河村"
+  },
+  {
+    "orig_index": 1625,
+    "id": null,
+    "name": "西安市长安区韦曲街道亿婴幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区韦曲街道航天社区居委会"
+  },
+  {
+    "orig_index": 1626,
+    "id": null,
+    "name": "周至县二曲街道方正幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县二曲街道镇东村委会"
+  },
+  {
+    "orig_index": 1627,
+    "id": null,
+    "name": "西安市长安区郭杜街道花仙子幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区郭杜街道郭南社区"
+  },
+  {
+    "orig_index": 1628,
+    "id": null,
+    "name": "西安浐灞北辰幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区徐家湾街道北晨村委会"
+  },
+  {
+    "orig_index": 1629,
+    "id": null,
+    "name": "西安经开凤城明珠幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区张家堡街道张家堡社区居委会"
+  },
+  {
+    "orig_index": 1630,
+    "id": null,
+    "name": "西安市长安区大兆街道倪家滩幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区大兆街道倪孟新村"
+  },
+  {
+    "orig_index": 1631,
+    "id": null,
+    "name": "西安浐灞金辉东方铭著幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区辛家庙街道广安社区居委会"
+  },
+  {
+    "orig_index": 1632,
+    "id": null,
+    "name": "蓝田县普化镇中心幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县普化镇普化村委会"
+  },
+  {
+    "orig_index": 1633,
+    "id": null,
+    "name": "高陵区第五幼儿园",
+    "district": "高陵区",
+    "stage": "幼儿园",
+    "address": "高陵区鹿苑街道鹿苑镇社区居委会"
+  },
+  {
+    "orig_index": 1634,
+    "id": null,
+    "name": "西安市临潼区骊山新星幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区骊山街道华清社区居委会"
+  },
+  {
+    "orig_index": 1635,
+    "id": null,
+    "name": "西安国际港务区木春幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区新筑街道西航社区居委会"
+  },
+  {
+    "orig_index": 1636,
+    "id": null,
+    "name": "西安市临潼区斜口街道办事处斜口幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区斜口街道高沟村委会"
+  },
+  {
+    "orig_index": 1637,
+    "id": null,
+    "name": "西安市曲江悦府幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区曲江街道西曲社区居民委员会"
+  },
+  {
+    "orig_index": 1638,
+    "id": null,
+    "name": "西安市碑林区品格华豪丽晶幼儿园",
+    "district": "碑林区",
+    "stage": "幼儿园",
+    "address": "碑林区张家村街道黄东社区居民委员会"
+  },
+  {
+    "orig_index": 1639,
+    "id": null,
+    "name": "周至县楼观镇第二幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县楼观镇周一村委会"
+  },
+  {
+    "orig_index": 1640,
+    "id": null,
+    "name": "灞桥区席王街办金太阳幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区席王街道柳巷村委会"
+  },
+  {
+    "orig_index": 1641,
+    "id": null,
+    "name": "雁塔中育品格铭城16号幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区长延堡街道世家星城社区居委会"
+  },
+  {
+    "orig_index": 1642,
+    "id": null,
+    "name": "陕西学前师范学院附属幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区韦曲街道何家营村委会"
+  },
+  {
+    "orig_index": 1643,
+    "id": null,
+    "name": "长安大学朱雀幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区六村堡街道现代农业社区居委会"
+  },
+  {
+    "orig_index": 1644,
+    "id": null,
+    "name": "西安市碑林区东新明珠幼儿园",
+    "district": "碑林区",
+    "stage": "幼儿园",
+    "address": "碑林区长乐坊街道金花社区居委会"
+  },
+  {
+    "orig_index": 1645,
+    "id": null,
+    "name": "西安莲湖英才幼儿园",
+    "district": "莲湖区",
+    "stage": "幼儿园",
+    "address": "莲湖区红庙坡街道丰禾社区居委会"
+  },
+  {
+    "orig_index": 1646,
+    "id": null,
+    "name": "西安市长安区韦曲街道智慧堡幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区韦曲街道广场南路社区"
+  },
+  {
+    "orig_index": 1647,
+    "id": null,
+    "name": "西安市鄠邑区育红幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区甘亭街道北街社区居委会"
+  },
+  {
+    "orig_index": 1648,
+    "id": null,
+    "name": "雁塔区华城万象凯蒂幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区长延堡街道华城社区"
+  },
+  {
+    "orig_index": 1649,
+    "id": null,
+    "name": "西安航空基地第一幼儿园",
+    "district": "阎良区",
+    "stage": "幼儿园",
+    "address": "阎良区振兴街道民合村委会"
+  },
+  {
+    "orig_index": 1650,
+    "id": null,
+    "name": "蓝田工业园区幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县三里镇青羊庄村委会"
+  },
+  {
+    "orig_index": 1651,
+    "id": null,
+    "name": "雁塔小天鹅幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区大雁塔街道后村社区"
+  },
+  {
+    "orig_index": 1652,
+    "id": null,
+    "name": "雁塔明德幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区长延堡街道明德门北区社区居委会"
+  },
+  {
+    "orig_index": 1653,
+    "id": null,
+    "name": "西安市灞桥区浐灞新城幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区席王街道汽配社区居委会"
+  },
+  {
+    "orig_index": 1654,
+    "id": null,
+    "name": "西安浐灞大拇指幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区十里铺街道李家堡社区居民委员会"
+  },
+  {
+    "orig_index": 1655,
+    "id": null,
+    "name": "中国空间技术研究院西安分院航天城幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区韦曲街道西兆余社区"
+  },
+  {
+    "orig_index": 1656,
+    "id": null,
+    "name": "雁塔贝九天鹅堡幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区曲江街道西曲社区居民委员会"
+  },
+  {
+    "orig_index": 1657,
+    "id": null,
+    "name": "雁塔花溪湾三宝双喜幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区电子城街道万象春天社区"
+  },
+  {
+    "orig_index": 1658,
+    "id": null,
+    "name": "西安市长安区杨庄街道中心幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区杨庄街道杨庄村委会"
+  },
+  {
+    "orig_index": 1659,
+    "id": null,
+    "name": "新筑中心幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区新筑街道南吴村委会"
+  },
+  {
+    "orig_index": 1660,
+    "id": null,
+    "name": "西安市临潼区骊山爱德萌幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区骊山街道开发区社区居委会"
+  },
+  {
+    "orig_index": 1661,
+    "id": null,
+    "name": "西安市临潼区任留街道办事处赵刘幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区任留街道赵刘村委会"
+  },
+  {
+    "orig_index": 1662,
+    "id": null,
+    "name": "西安市雁塔区第二十五幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区杜城街道齐王社区"
+  },
+  {
+    "orig_index": 1663,
+    "id": null,
+    "name": "西安市雁塔区启源长丰幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区长延堡街道长丰园社区居委会"
+  },
+  {
+    "orig_index": 1664,
+    "id": null,
+    "name": "蓝田县焦岱镇吴家寨幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县焦岱镇吴家寨村委会"
+  },
+  {
+    "orig_index": 1665,
+    "id": null,
+    "name": "西安市长安区大兆街道小燕子幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区大兆街道大兆村委会"
+  },
+  {
+    "orig_index": 1666,
+    "id": null,
+    "name": "西安市长安区郭杜街道仁村幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区兴隆街道大仁东村委会"
+  },
+  {
+    "orig_index": 1667,
+    "id": null,
+    "name": "西安市长安区引镇街道北留幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区引镇街道北留村委会"
+  },
+  {
+    "orig_index": 1668,
+    "id": null,
+    "name": "西安市阎良区关山南樊幼儿园",
+    "district": "阎良区",
+    "stage": "幼儿园",
+    "address": "阎良区关山街道南樊村委会"
+  },
+  {
+    "orig_index": 1669,
+    "id": null,
+    "name": "西安市高陵区泾渭观澜社区幼儿园",
+    "district": "高陵区",
+    "stage": "幼儿园",
+    "address": "高陵区崇皇街道崇皇街道泾渭观澜社区居民委员会"
+  },
+  {
+    "orig_index": 1670,
+    "id": null,
+    "name": "西安市长安区滦镇街道新区幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区滦镇街道东街社区"
+  },
+  {
+    "orig_index": 1671,
+    "id": null,
+    "name": "西安长峰机电研究所幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区电子城街道电子一路社区居委会"
+  },
+  {
+    "orig_index": 1672,
+    "id": null,
+    "name": "西安市长安区引镇街道白道峪幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区引镇街道大峪新村"
+  },
+  {
+    "orig_index": 1673,
+    "id": null,
+    "name": "西安市高陵区未来星幼儿园",
+    "district": "高陵区",
+    "stage": "幼儿园",
+    "address": "高陵区崇皇街道崇皇街道泾渭观澜社区居民委员会"
+  },
+  {
+    "orig_index": 1674,
+    "id": null,
+    "name": "西安未央王子天香幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区辛家庙街道刘北社区居委会"
+  },
+  {
+    "orig_index": 1675,
+    "id": null,
+    "name": "西安市临潼区何寨金色童年幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区何寨街道何寨村委会"
+  },
+  {
+    "orig_index": 1676,
+    "id": null,
+    "name": "西安市长安区黄良街道智慧树幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区黄良街道黄良新村"
+  },
+  {
+    "orig_index": 1677,
+    "id": null,
+    "name": "西安市高陵区湾子中心幼儿园",
+    "district": "高陵区",
+    "stage": "幼儿园",
+    "address": "高陵区通远街道官市村委会"
+  },
+  {
+    "orig_index": 1678,
+    "id": null,
+    "name": "西安市莲湖区西城摩尔幼儿园",
+    "district": "莲湖区",
+    "stage": "幼儿园",
+    "address": "莲湖区土门街道惠民北坊社区居委会"
+  },
+  {
+    "orig_index": 1679,
+    "id": null,
+    "name": "西安市未央区张家堡智能摇篮幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区张家堡街道五龙汤社区居委会"
+  },
+  {
+    "orig_index": 1680,
+    "id": null,
+    "name": "蓝田县汤峪镇金太阳幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县汤峪镇侯家村委会"
+  },
+  {
+    "orig_index": 1681,
+    "id": null,
+    "name": "周至县终南镇中心幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县终南镇毓兴村委会"
+  },
+  {
+    "orig_index": 1682,
+    "id": null,
+    "name": "蓝田县华胥镇中心幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县华胥镇拾旗寨村委会"
+  },
+  {
+    "orig_index": 1683,
+    "id": null,
+    "name": "西安市临潼区零口第二幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区零口街道西洼村委会"
+  },
+  {
+    "orig_index": 1684,
+    "id": null,
+    "name": "西安市长安区郭杜街道国色天香幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区郭杜街道居安路第一社区"
+  },
+  {
+    "orig_index": 1685,
+    "id": null,
+    "name": "西安市长安区五星街道启智幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区五星街道太原庄村委会"
+  },
+  {
+    "orig_index": 1686,
+    "id": null,
+    "name": "西安市临潼区骊山澜泊湾幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区骊山街道东大街社区居委会"
+  },
+  {
+    "orig_index": 1687,
+    "id": null,
+    "name": "西咸新区沣东新城大秦幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区三桥街道天台路社区"
+  },
+  {
+    "orig_index": 1688,
+    "id": null,
+    "name": "周至县竹峪镇东大墙幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县竹峪镇东大墙村委会"
+  },
+  {
+    "orig_index": 1689,
+    "id": null,
+    "name": "西安市曲江城市之光幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区曲江街道曲江新区万科城市之光社区"
+  },
+  {
+    "orig_index": 1690,
+    "id": null,
+    "name": "西安市雁塔区高科尚都幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区丈八沟街道绿地世纪城社区"
+  },
+  {
+    "orig_index": 1691,
+    "id": null,
+    "name": "西安市鄠邑区玉立芳华幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区甘亭街道人民路社区居委会"
+  },
+  {
+    "orig_index": 1692,
+    "id": null,
+    "name": "西安市临潼区北田蓓蕾幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区北田街道尖角村委会"
+  },
+  {
+    "orig_index": 1693,
+    "id": null,
+    "name": "蓝田县普化镇第二幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县普化镇杨斜村委会"
+  },
+  {
+    "orig_index": 1694,
+    "id": null,
+    "name": "灞桥区十里铺街道童悦幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区十里铺街道张家坡村委会"
+  },
+  {
+    "orig_index": 1695,
+    "id": null,
+    "name": "西咸沣东爱心堡幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区三桥街道三桥街社区居委会"
+  },
+  {
+    "orig_index": 1696,
+    "id": null,
+    "name": "西安铁路信号工厂幼儿园",
+    "district": "碑林区",
+    "stage": "幼儿园",
+    "address": "碑林区太乙路街道西安铁路信号厂社区居委会"
+  },
+  {
+    "orig_index": 1697,
+    "id": null,
+    "name": "西安市鄠邑区太平中心幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区草堂街道草堂营村委会"
+  },
+  {
+    "orig_index": 1698,
+    "id": null,
+    "name": "西安市未央区新里程乐知幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区未央湖街道草店村委会"
+  },
+  {
+    "orig_index": 1699,
+    "id": null,
+    "name": "灞桥区狄寨街道第三幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区狄寨街道塘村委会"
+  },
+  {
+    "orig_index": 1700,
+    "id": null,
+    "name": "蓝田县九间房镇中心幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县九间房镇九间房村委会"
+  },
+  {
+    "orig_index": 1701,
+    "id": null,
+    "name": "周至县集贤镇第二幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县集贤镇殿镇村委会"
+  },
+  {
+    "orig_index": 1702,
+    "id": null,
+    "name": "西安市长安区杜曲街道中心幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区杜曲街道西樊村委会"
+  },
+  {
+    "orig_index": 1703,
+    "id": null,
+    "name": "西安市雁塔区藤信幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区漳浒寨街道北石桥社区居民委员会"
+  },
+  {
+    "orig_index": 1704,
+    "id": null,
+    "name": "西安市长安区东大街道祥峪幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区东大街道温泉路社区"
+  },
+  {
+    "orig_index": 1705,
+    "id": null,
+    "name": "西咸新区沣东新城红叶幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区三桥街道西户路社区居委会"
+  },
+  {
+    "orig_index": 1706,
+    "id": null,
+    "name": "蓝田县蓝星幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县蓝关街道北门村委会"
+  },
+  {
+    "orig_index": 1707,
+    "id": null,
+    "name": "灞桥红旗街道十里锦绣幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区红旗街道云锦社区居民委员会"
+  },
+  {
+    "orig_index": 1708,
+    "id": null,
+    "name": "西安市长安区太乙宫街道新南村幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区太乙宫街道新街南村委会"
+  },
+  {
+    "orig_index": 1709,
+    "id": null,
+    "name": "西安市长安区鸣犊街道四坡幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区鸣犊街道四坡村"
+  },
+  {
+    "orig_index": 1710,
+    "id": null,
+    "name": "西安市未央区崇育骄阳幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区未央宫街道董家居委会"
+  },
+  {
+    "orig_index": 1711,
+    "id": null,
+    "name": "西安市鄠邑区阳光幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区甘亭街道草堂社区居委会"
+  },
+  {
+    "orig_index": 1712,
+    "id": null,
+    "name": "西安市鄠邑区甘河街道元驾幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区甘河街道元驾村委会"
+  },
+  {
+    "orig_index": 1713,
+    "id": null,
+    "name": "周至县司竹镇北淇水幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县司竹镇北淇水村委会"
+  },
+  {
+    "orig_index": 1714,
+    "id": null,
+    "name": "西安市鄠邑区余下中心幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区余下街道天和村村委会"
+  },
+  {
+    "orig_index": 1715,
+    "id": null,
+    "name": "西安市莲湖区明珠幼儿园",
+    "district": "莲湖区",
+    "stage": "幼儿园",
+    "address": "莲湖区红庙坡街道星火社区居委会"
+  },
+  {
+    "orig_index": 1716,
+    "id": null,
+    "name": "西咸新区沣东新城第十一幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区三桥街道三桥街社区居委会"
+  },
+  {
+    "orig_index": 1717,
+    "id": null,
+    "name": "西安市高陵区东方双华幼儿园",
+    "district": "高陵区",
+    "stage": "幼儿园",
+    "address": "高陵区泾渭街道西营村委会"
+  },
+  {
+    "orig_index": 1718,
+    "id": null,
+    "name": "灞桥街道中心幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区灞桥街道香杨村委会"
+  },
+  {
+    "orig_index": 1719,
+    "id": null,
+    "name": "西安市未央区金叶新城幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区未央宫街道朱宏路社区居委会"
+  },
+  {
+    "orig_index": 1720,
+    "id": null,
+    "name": "西安市碑林区柯米幼儿园",
+    "district": "碑林区",
+    "stage": "幼儿园",
+    "address": "碑林区太乙路街道太乙路社区居委会"
+  },
+  {
+    "orig_index": 1721,
+    "id": null,
+    "name": "西安市长安区王曲街道江兆村幼儿园",
+    "district": "长安区",
+    "stage": "幼儿园",
+    "address": "长安区王曲街道江兆村"
+  },
+  {
+    "orig_index": 1722,
+    "id": null,
+    "name": "西安市鄠邑区余下街道东屯幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区余下街道东屯村委会"
+  },
+  {
+    "orig_index": 1723,
+    "id": null,
+    "name": "蓝田县玉山镇小太阳幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县玉山镇许庙村委会"
+  },
+  {
+    "orig_index": 1724,
+    "id": null,
+    "name": "西安高新区枫林绿洲幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区丈八沟街道枫林绿洲社区"
+  },
+  {
+    "orig_index": 1725,
+    "id": null,
+    "name": "西安雁塔绿地幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区丈八沟街道绿地世纪城社区"
+  },
+  {
+    "orig_index": 1726,
+    "id": null,
+    "name": "西安市鄠邑区涝峪中心幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区石井街道下庄村委会"
+  },
+  {
+    "orig_index": 1727,
+    "id": null,
+    "name": "蓝田县新时代幼儿园",
+    "district": "蓝田县",
+    "stage": "幼儿园",
+    "address": "蓝田县三里镇白羊寨村委会"
+  },
+  {
+    "orig_index": 1728,
+    "id": null,
+    "name": "小金中心幼儿园",
+    "district": "临潼区",
+    "stage": "幼儿园",
+    "address": "临潼区小金街道小金村委会"
+  },
+  {
+    "orig_index": 1729,
+    "id": null,
+    "name": "灞桥区三殿中心幼儿园",
+    "district": "灞桥区",
+    "stage": "幼儿园",
+    "address": "灞桥区红旗街道三殿村委会"
+  },
+  {
+    "orig_index": 1730,
+    "id": null,
+    "name": "西安市鄠邑区余下街道罗什幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区余下街道罗什村委会"
+  },
+  {
+    "orig_index": 1731,
+    "id": null,
+    "name": "西安市鄠邑区渭丰中心幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区渭丰街道渭南村村委会"
+  },
+  {
+    "orig_index": 1732,
+    "id": null,
+    "name": "周至县翠峰镇农林幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县翠峰镇农林村委会"
+  },
+  {
+    "orig_index": 1733,
+    "id": null,
+    "name": "中国人民解放军六三七五 〇部队星光幼儿园",
+    "district": "新城区",
+    "stage": "幼儿园",
+    "address": "新城区韩森寨街道新园社区居委会"
+  },
+  {
+    "orig_index": 1734,
+    "id": null,
+    "name": "西安市雁塔区付村幼儿园",
+    "district": "雁塔区",
+    "stage": "幼儿园",
+    "address": "雁塔区丈八沟街道西付社区"
+  },
+  {
+    "orig_index": 1735,
+    "id": null,
+    "name": "西咸新区沣东阿房第三幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区三桥街道红光路社区居委会"
+  },
+  {
+    "orig_index": 1736,
+    "id": null,
+    "name": "西安市未央区长乐西苑幼儿园",
+    "district": "未央区",
+    "stage": "幼儿园",
+    "address": "未央区汉城街道长乐西苑社区居委会"
+  },
+  {
+    "orig_index": 1737,
+    "id": null,
+    "name": "户县大王镇中心幼儿园",
+    "district": "鄠邑区",
+    "stage": "幼儿园",
+    "address": "鄠邑区大王街道大王西村委会"
+  },
+  {
+    "orig_index": 1738,
+    "id": null,
+    "name": "西安莲湖爱丁宝公园天下幼儿园",
+    "district": "莲湖区",
+    "stage": "幼儿园",
+    "address": "莲湖区西关街道民航社区居委会"
+  },
+  {
+    "orig_index": 1739,
+    "id": null,
+    "name": "周至县四屯镇联三幼儿园",
+    "district": "周至县",
+    "stage": "幼儿园",
+    "address": "周至县四屯镇联三村委会"
+  },
+  {
+    "orig_index": 1740,
+    "id": null,
+    "name": "西安市莲湖区萌迪幼儿园",
+    "district": "莲湖区",
+    "stage": "幼儿园",
+    "address": "莲湖区红庙坡街道大兴东路社区居委会"
+  },
+  {
+    "orig_index": 1741,
+    "id": null,
+    "name": "西安市高陵区希望幼儿园",
+    "district": "高陵区",
+    "stage": "幼儿园",
+    "address": "高陵区崇皇街道桑家村委会"
+  }
+]
