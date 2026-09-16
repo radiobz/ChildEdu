@@ -99,19 +99,30 @@ const Sidebar = (() => {
     let communityHTML = '';
     if (data.zone && data.zone.communities && data.zone.communities.length) {
       const chips = data.zone.communities.map(c => {
-        const beikeUrl = `https://xian.ke.com/xiaoqu/rs${encodeURIComponent(c)}/`;
-        const mapUrl = `https://api.map.baidu.com/geocoder?address=${encodeURIComponent(c + ' 西安')}&output=html`;
+        // 高德 URI：手机直接打开即小区地图定位，最稳定
+        const amapUrl = `https://uri.amap.com/search?keyword=${encodeURIComponent(c)}&city=610100`;
+        // 安居客/58：房源平台备选（贝壳西安站近期不稳定）
+        const anjukeUrl = `https://xian.anjuke.com/community/rs${encodeURIComponent(c)}/`;
+        const wubaUrl = `https://xian.58.com/xiaoqu/rs${encodeURIComponent(c)}/`;
         return `<div class="community-chip">
           ${c}
-          <a href="${beikeUrl}" target="_blank" rel="noopener" style="color:#1677ff;margin-left:4px;font-size:11px;">贝壳</a>
+          <a href="${amapUrl}" target="_blank" rel="noopener" style="color:#1677ff;margin-left:4px;font-size:11px;">📍定位</a>
+          <a href="${anjukeUrl}" target="_blank" rel="noopener" style="color:#00b578;margin-left:4px;font-size:11px;">安居客</a>
+          <a href="${wubaUrl}" target="_blank" rel="noopener" style="color:#fa541c;margin-left:4px;font-size:11px;">58</a>
         </div>`;
       }).join('');
       communityHTML = `<div class="community-list">${chips}</div>`;
     } else if (data.name) {
       // 没有小区数据，给一个搜学区房的链接
-      const beikeUrl = `https://xian.ke.com/xiaoqu/rs${encodeURIComponent(data.name + ' 学区')}/`;
+      const amapUrl = `https://uri.amap.com/search?keyword=${encodeURIComponent(data.name)}&city=610100`;
+      const anjukeUrl = `https://xian.anjuke.com/community/rs${encodeURIComponent(data.name)}/`;
+      const wubaUrl = `https://xian.58.com/xiaoqu/rs${encodeURIComponent(data.name)}/`;
       communityHTML = `<div style="padding:8px 0;font-size:12px;color:#666;">
-        <a href="${beikeUrl}" target="_blank" rel="noopener" style="color:#1677ff;">🔍 贝壳搜索「${data.name}学区房」</a>
+        <a href="${amapUrl}" target="_blank" rel="noopener" style="color:#1677ff;">📍 地图定位「${data.name}」</a>
+        <span style="margin:0 4px;color:#ddd;">|</span>
+        <a href="${anjukeUrl}" target="_blank" rel="noopener" style="color:#00b578;">安居客</a>
+        <span style="margin:0 4px;color:#ddd;">|</span>
+        <a href="${wubaUrl}" target="_blank" rel="noopener" style="color:#fa541c;">58房源</a>
       </div>`;
     }
 
