@@ -51,7 +51,7 @@ const DataLoader = (() => {
     async getSchools() {
       if (schoolsCache) return schoolsCache;
       const base = window.APP_CONFIG.BASE_PATH || '';
-      const raw = await loadJSON(`${base}/data/schools.json?v=27`);
+      const raw = await loadJSON(`${base}/data/schools.json?v=28`);
       schoolsCache = raw.map(normalizeSchool);
       return schoolsCache;
     },
@@ -74,7 +74,7 @@ const DataLoader = (() => {
     async getCommunities() {
       if (communitiesCache) return communitiesCache;
       const base = window.APP_CONFIG.BASE_PATH || '';
-      communitiesCache = await loadJSON(`${base}/data/communities.json?v=27`);
+      communitiesCache = await loadJSON(`${base}/data/communities.json?v=28`);
       return communitiesCache;
     },
 
@@ -87,8 +87,9 @@ const DataLoader = (() => {
         this.getCommunities()
       ]);
 
-      // 找学校（排除空名，避免 includes('') 永远匹配）
-      const school = schools.find(s => s.name && (s.name === name || s.name.includes(name) || name.includes(s.name)));
+      // 找学校（排除空名，避免 includes('') 永远匹配；精确匹配优先，避免前缀包含误匹配）
+      let school = schools.find(s => s.name && s.name === name);
+      if (!school) school = schools.find(s => s.name && (s.name.includes(name) || name.includes(s.name)));
       if (!school) return { success: false, error: '未找到' };
 
       // 找升学路径
@@ -98,11 +99,10 @@ const DataLoader = (() => {
         p.primarySchool.includes(school.name)
       );
 
-      // 找学区
-      const zone = zones.find(z =>
-        z.schoolName === school.name ||
-        school.name.includes(z.schoolName) ||
-        z.schoolName.includes(school.name)
+      // 找学区（精确匹配优先，避免前缀包含误匹配）
+      let zone = zones.find(z => z.schoolName === school.name);
+      if (!zone) zone = zones.find(z =>
+        z.schoolName && (school.name.includes(z.schoolName) || z.schoolName.includes(school.name))
       );
 
       // 组装详情
