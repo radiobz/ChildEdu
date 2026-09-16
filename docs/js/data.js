@@ -51,7 +51,7 @@ const DataLoader = (() => {
     async getSchools() {
       if (schoolsCache) return schoolsCache;
       const base = window.APP_CONFIG.BASE_PATH || '';
-      const raw = await loadJSON(`${base}/data/schools.json?v=28`);
+      const raw = await loadJSON(`${base}/data/schools.json?v=30`);
       schoolsCache = raw.map(normalizeSchool);
       return schoolsCache;
     },
@@ -74,7 +74,7 @@ const DataLoader = (() => {
     async getCommunities() {
       if (communitiesCache) return communitiesCache;
       const base = window.APP_CONFIG.BASE_PATH || '';
-      communitiesCache = await loadJSON(`${base}/data/communities.json?v=28`);
+      communitiesCache = await loadJSON(`${base}/data/communities.json?v=30`);
       return communitiesCache;
     },
 

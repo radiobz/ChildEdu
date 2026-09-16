@@ -2,7 +2,7 @@
 window.APP_CONFIG = {
   // GitHub Pages 子路径
   // 本地测试用空串；GitHub Pages 部署前改回 /ChildEdu
-  BASE_PATH: '',
+  BASE_PATH: '/ChildEdu',
   // API 基础路径（Vercel 部署时可用，Pages 上会 fallback 到 mock）
   API_BASE: '/ChildEdu/api',
   // 西安中心坐标
