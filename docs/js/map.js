@@ -13,6 +13,8 @@ const MapManager = (() => {
   let pulseMarker = null; // 当前选中的脉冲标记
   let autoMarkers = []; // 视野内自动标识
   let rectActive = false; // 是否处于框选模式
+  let communityMarkers = []; // 学区内小区标注
+  let communityInfoWin = null; // 小区信息窗
 
   function init() {
     map = new AMap.Map('mapContainer', {
@@ -205,6 +207,58 @@ const MapManager = (() => {
     zoneRoadLabels.forEach(m => m.setMap(null));
     zoneRoadLabels = [];
     if (zoneCircle) { zoneCircle.setMap(null); zoneCircle = null; }
+    clearCommunityMarkers();
+  }
+
+  // 标注学区内小区（绿色房屋图标，点击弹信息窗带房产外链）
+  function showCommunityMarkers(list) {
+    clearCommunityMarkers();
+    if (!list || !list.length) return;
+
+    list.forEach(cm => {
+      if (!cm.location) return;
+      const marker = new AMap.Marker({
+        position: [cm.location[0], cm.location[1]],
+        content: `<div style="
+          width:24px;height:24px;line-height:24px;text-align:center;
+          background:#00b894;border:2px solid #fff;border-radius:50%;
+          font-size:12px;box-shadow:0 1px 4px rgba(0,0,0,0.35);cursor:pointer;
+        ">🏠</div>`,
+        offset: new AMap.Pixel(-12, -12),
+        zIndex: 130
+      });
+      marker.setExtData(cm);
+      marker.on('click', () => openCommunityCard(cm));
+      marker.setMap(map);
+      communityMarkers.push(marker);
+    });
+  }
+
+  function clearCommunityMarkers() {
+    communityMarkers.forEach(m => m.setMap(null));
+    communityMarkers = [];
+    if (communityInfoWin) { communityInfoWin.close(); communityInfoWin = null; }
+  }
+
+  function openCommunityCard(cm) {
+    const amapUrl = `https://uri.amap.com/search?keyword=${encodeURIComponent(cm.name)}&city=610100`;
+    const anjukeUrl = `https://xian.anjuke.com/community/rs${encodeURIComponent(cm.name)}/`;
+    const wubaUrl = `https://xian.58.com/xiaoqu/rs${encodeURIComponent(cm.name)}/`;
+    const html = `
+      <div style="padding:4px 2px;font-size:13px;min-width:210px;">
+        <div style="font-weight:600;font-size:14px;margin-bottom:2px;">🏠 ${cm.name}</div>
+        ${cm.address ? `<div style="color:#999;font-size:11px;margin-bottom:6px;">${cm.address}</div>` : ''}
+        <div style="display:flex;gap:8px;margin-top:6px;">
+          <a href="${amapUrl}" target="_blank" rel="noopener" style="background:#1677ff;color:#fff;padding:4px 10px;border-radius:12px;font-size:12px;text-decoration:none;">📍 定位</a>
+          <a href="${anjukeUrl}" target="_blank" rel="noopener" style="background:#00b578;color:#fff;padding:4px 10px;border-radius:12px;font-size:12px;text-decoration:none;">安居客</a>
+          <a href="${wubaUrl}" target="_blank" rel="noopener" style="background:#fa541c;color:#fff;padding:4px 10px;border-radius:12px;font-size:12px;text-decoration:none;">58房源</a>
+        </div>
+      </div>`;
+    if (!communityInfoWin) {
+      communityInfoWin = new AMap.InfoWindow({ offset: new AMap.Pixel(0, -30), autoMove: true });
+    }
+    communityInfoWin.setContent(html);
+    communityInfoWin.open(map, [cm.location[0], cm.location[1]]);
   }
 
   // 保底方案：用道路标签+半透明圆表示学区范围
@@ -390,6 +444,8 @@ const MapManager = (() => {
     clearMarkSchool,
     showVisibleSchools,
     clearVisibleSchools,
+    showCommunityMarkers,
+    clearCommunityMarkers,
     getMap: () => map
   };
 })();

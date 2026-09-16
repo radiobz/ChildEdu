@@ -242,6 +242,10 @@ const SearchManager = (() => {
         MapManager.markSchool(result.data.location.lng, result.data.location.lat, result.data.name);
       }
       highlightZoneForDetail(result.data);
+      // 标注学区内小区（绿色🏠点，点击弹卡片带房产外链）
+      if (result.data.zone && result.data.zone.communityDetails && result.data.zone.communityDetails.length) {
+        MapManager.showCommunityMarkers(result.data.zone.communityDetails);
+      }
       if (result.data.houses) {
         MapManager.showHouseMarkers(result.data.houses);
       }

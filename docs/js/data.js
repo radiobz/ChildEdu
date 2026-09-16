@@ -3,6 +3,7 @@ const DataLoader = (() => {
   let schoolsCache = null;
   let pathwaysCache = null;
   let zonesCache = null;
+  let communitiesCache = null;
 
   async function loadJSON(url) {
     try {
@@ -50,7 +51,7 @@ const DataLoader = (() => {
     async getSchools() {
       if (schoolsCache) return schoolsCache;
       const base = window.APP_CONFIG.BASE_PATH || '';
-      const raw = await loadJSON(`${base}/data/schools.json?v=26`);
+      const raw = await loadJSON(`${base}/data/schools.json?v=27`);
       schoolsCache = raw.map(normalizeSchool);
       return schoolsCache;
     },
@@ -69,12 +70,21 @@ const DataLoader = (() => {
       return zonesCache;
     },
 
+    // 小区坐标库：{小区名: {name, location:[lng,lat], district, address, source}}
+    async getCommunities() {
+      if (communitiesCache) return communitiesCache;
+      const base = window.APP_CONFIG.BASE_PATH || '';
+      communitiesCache = await loadJSON(`${base}/data/communities.json?v=27`);
+      return communitiesCache;
+    },
+
     // 根据学校名查询完整详情
     async querySchoolDetail(name) {
-      const [schools, pathways, zones] = await Promise.all([
+      const [schools, pathways, zones, communities] = await Promise.all([
         this.getSchools(),
         this.getPathways(),
-        this.getZones()
+        this.getZones(),
+        this.getCommunities()
       ]);
 
       // 找学校（排除空名，避免 includes('') 永远匹配）
@@ -130,6 +140,16 @@ const DataLoader = (() => {
         },
         zone: zone ? {
           communities: zone.communities || [],
+          communityDetails: (zone.communities || []).map(cmName => {
+            const info = communities && communities[cmName];
+            return info ? {
+              name: cmName,
+              location: info.location || null,
+              district: info.district || '',
+              address: info.address || '',
+              source: info.source || ''
+            } : { name: cmName, location: null };
+          }).filter(c => c.location),
           roads: (zone.roads || []).join('；'),
           roadNames: zone.roadNames || [],
           source: zone.sourceUrl || '',

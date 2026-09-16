@@ -1,0 +1,940 @@
+{
+  "631所家属院": {
+    "name": "631所家属院",
+    "location": [
+      108.92102,
+      34.242256
+    ],
+    "district": "碑林区",
+    "address": "友谊西路391号(边家村地铁站A口步行250米)",
+    "source": "gaode_poi"
+  },
+  "6号高层": {
+    "name": "6号高层",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "705所家属院": {
+    "name": "705所家属院",
+    "location": [
+      108.929237,
+      34.206734
+    ],
+    "district": "雁塔区",
+    "address": "东仪路",
+    "source": "gaode_poi"
+  },
+  "706部队": {
+    "name": "706部队",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "7号高层": {
+    "name": "7号高层",
+    "location": [
+      108.915929,
+      34.261535
+    ],
+    "district": "莲湖区",
+    "address": "兴学巷与西关正街交叉口北240米",
+    "source": "gaode_poi"
+  },
+  "XX小区": {
+    "name": "XX小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "XX花园": {
+    "name": "XX花园",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "YY小区": {
+    "name": "YY小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "一轻局家属院": {
+    "name": "一轻局家属院",
+    "location": [
+      108.961775,
+      34.262025
+    ],
+    "district": "新城区",
+    "address": "西一路与解放路辅路交叉口西100米",
+    "source": "gaode_poi"
+  },
+  "万华林苑小区": {
+    "name": "万华林苑小区",
+    "location": [
+      108.993683,
+      34.294468
+    ],
+    "district": "新城区",
+    "address": "东元西路3号(石家街地铁站A西北口步行470米)",
+    "source": "gaode_poi"
+  },
+  "上和郡小区": {
+    "name": "上和郡小区",
+    "location": [
+      108.990688,
+      34.295344
+    ],
+    "district": "新城区",
+    "address": "东元西路11-1号",
+    "source": "gaode_poi"
+  },
+  "世纪颐园": {
+    "name": "世纪颐园",
+    "location": [
+      108.894568,
+      34.236204
+    ],
+    "district": "雁塔区",
+    "address": "科技路195号",
+    "source": "gaode_poi"
+  },
+  "东一路小区": {
+    "name": "东一路小区",
+    "location": [
+      108.970111,
+      34.261602
+    ],
+    "district": "新城区",
+    "address": "东一路16号",
+    "source": "gaode_poi"
+  },
+  "东二环恒基碧翠锦华小区": {
+    "name": "东二环恒基碧翠锦华小区",
+    "location": [
+      108.998351,
+      34.279625
+    ],
+    "district": "新城区",
+    "address": "金花北路299号(胡家庙地铁站D东北口步行170米)",
+    "source": "gaode_poi"
+  },
+  "东元小区": {
+    "name": "东元小区",
+    "location": [
+      108.995993,
+      34.300219
+    ],
+    "district": "未央区",
+    "address": "东元路与矿山路交叉口南140米",
+    "source": "gaode_poi"
+  },
+  "东元西路小区": {
+    "name": "东元西路小区",
+    "location": [
+      108.987009,
+      34.293591
+    ],
+    "district": "新城区",
+    "address": "东元西路15号",
+    "source": "gaode_poi"
+  },
+  "东城桃园": {
+    "name": "东城桃园",
+    "location": [
+      109.029411,
+      34.25011
+    ],
+    "district": "新城区",
+    "address": "咸宁东路390号(卫星测控中心地铁站D口步行430米)",
+    "source": "gaode_poi"
+  },
+  "东城桃园小区": {
+    "name": "东城桃园小区",
+    "location": [
+      109.029411,
+      34.25011
+    ],
+    "district": "新城区",
+    "address": "咸宁东路390号(卫星测控中心地铁站D口步行430米)",
+    "source": "gaode_poi"
+  },
+  "东小寨小区": {
+    "name": "东小寨小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "东尚小区": {
+    "name": "东尚小区",
+    "location": [
+      109.00436,
+      34.264777
+    ],
+    "district": "新城区",
+    "address": "金康路",
+    "source": "gaode_poi"
+  },
+  "东方明珠": {
+    "name": "东方明珠",
+    "location": [
+      109.031632,
+      34.28642
+    ],
+    "district": "灞桥区",
+    "address": "尚勤路294号",
+    "source": "gaode_poi"
+  },
+  "书香林苑": {
+    "name": "书香林苑",
+    "location": [
+      108.895953,
+      34.169423
+    ],
+    "district": "雁塔区",
+    "address": "书香路288号",
+    "source": "gaode_poi"
+  },
+  "二公司家属院": {
+    "name": "二公司家属院",
+    "location": [
+      108.959791,
+      34.249718
+    ],
+    "district": "碑林区",
+    "address": "长胜街1号(和平门地铁站A西北口步行390米)",
+    "source": "gaode_poi"
+  },
+  "交通医院家属院": {
+    "name": "交通医院家属院",
+    "location": [
+      108.920769,
+      34.244545
+    ],
+    "district": "碑林区",
+    "address": "西工大路5号",
+    "source": "gaode_poi"
+  },
+  "信合家属院": {
+    "name": "信合家属院",
+    "location": [
+      108.924672,
+      34.23871
+    ],
+    "district": "碑林区",
+    "address": "水文巷6号",
+    "source": "gaode_poi"
+  },
+  "信和花园": {
+    "name": "信和花园",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "元丰怡家": {
+    "name": "元丰怡家",
+    "location": [
+      108.987952,
+      34.29494
+    ],
+    "district": "新城区",
+    "address": "东元西路17号",
+    "source": "gaode_poi"
+  },
+  "元丰怡家小区": {
+    "name": "元丰怡家小区",
+    "location": [
+      108.987952,
+      34.29494
+    ],
+    "district": "新城区",
+    "address": "东元西路17号",
+    "source": "gaode_poi"
+  },
+  "元宝坡小区": {
+    "name": "元宝坡小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "光机所家属院": {
+    "name": "光机所家属院",
+    "location": [
+      108.920351,
+      34.239932
+    ],
+    "district": "碑林区",
+    "address": "友谊西路350号(边家村地铁站B口步行190米)",
+    "source": "gaode_poi"
+  },
+  "八府庄园小区": {
+    "name": "八府庄园小区",
+    "location": [
+      108.97971,
+      34.291182
+    ],
+    "district": "新城区",
+    "address": "城北含元路大明宫遗址公园东侧",
+    "source": "gaode_poi"
+  },
+  "八府庄小区": {
+    "name": "八府庄小区",
+    "location": [
+      108.988216,
+      34.292431
+    ],
+    "district": "新城区",
+    "address": "东元西路42号",
+    "source": "gaode_poi"
+  },
+  "公园北路小区": {
+    "name": "公园北路小区",
+    "location": [
+      109.006078,
+      34.279497
+    ],
+    "district": "新城区",
+    "address": "公园北路302号",
+    "source": "gaode_poi"
+  },
+  "公园南路小区": {
+    "name": "公园南路小区",
+    "location": [
+      109.006219,
+      34.256309
+    ],
+    "district": "新城区",
+    "address": "公园南路与新光东巷交叉口南120米",
+    "source": "gaode_poi"
+  },
+  "公安厅家属院": {
+    "name": "公安厅家属院",
+    "location": [
+      108.933558,
+      34.274158
+    ],
+    "district": "莲湖区",
+    "address": "西北三路127号",
+    "source": "gaode_poi"
+  },
+  "六合窖西铁华清小区": {
+    "name": "六合窖西铁华清小区",
+    "location": [
+      108.989151,
+      34.285294
+    ],
+    "district": "新城区",
+    "address": "八府庄南路",
+    "source": "gaode_poi"
+  },
+  "兰家居民委员会": {
+    "name": "兰家居民委员会",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "兴善寺": {
+    "name": "兴善寺",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "兴工花园": {
+    "name": "兴工花园",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "军区三号院": {
+    "name": "军区三号院",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "农业局家属院": {
+    "name": "农业局家属院",
+    "location": [
+      108.944302,
+      34.198751
+    ],
+    "district": "雁塔区",
+    "address": "会展中心地铁站A2西北口步行190米",
+    "source": "gaode_poi"
+  },
+  "农勘院家属院": {
+    "name": "农勘院家属院",
+    "location": [
+      108.921042,
+      34.228118
+    ],
+    "district": "雁塔区",
+    "address": "光华路东段2号(太白南路地铁站D3东北口步行470米)",
+    "source": "gaode_poi"
+  },
+  "冶金院": {
+    "name": "冶金院",
+    "location": [
+      108.99993,
+      34.274513
+    ],
+    "district": "新城区",
+    "address": "勤工路与樱花路交叉口东南60米",
+    "source": "gaode_poi"
+  },
+  "北四合窑路小区": {
+    "name": "北四合窑路小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "北稍门小区": {
+    "name": "北稍门小区",
+    "location": [
+      108.941798,
+      34.280922
+    ],
+    "district": "莲湖区",
+    "address": "自强西路91号",
+    "source": "gaode_poi"
+  },
+  "十一公司家属院": {
+    "name": "十一公司家属院",
+    "location": [
+      108.970726,
+      34.245623
+    ],
+    "district": "碑林区",
+    "address": "建东街6号院",
+    "source": "gaode_poi"
+  },
+  "十五街坊小区": {
+    "name": "十五街坊小区",
+    "location": [
+      109.013114,
+      34.266059
+    ],
+    "district": "新城区",
+    "address": "万寿路(万寿路地铁站C东南口步行440米)",
+    "source": "gaode_poi"
+  },
+  "十四街坊": {
+    "name": "十四街坊",
+    "location": [
+      109.012092,
+      34.268268
+    ],
+    "district": "新城区",
+    "address": "万寿路地铁站B西南口东南150米",
+    "source": "gaode_poi"
+  },
+  "十里铺小区": {
+    "name": "十里铺小区",
+    "location": [
+      109.013575,
+      34.277825
+    ],
+    "district": "新城区",
+    "address": "长缨东路与万寿路辅路交叉口西80米",
+    "source": "gaode_poi"
+  },
+  "华旗·东郡小区": {
+    "name": "华旗·东郡小区",
+    "location": [
+      109.007438,
+      34.283087
+    ],
+    "district": "新城区",
+    "address": "兴工路东段128号",
+    "source": "gaode_poi"
+  },
+  "南沈家桥": {
+    "name": "南沈家桥",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "印花布园（全段）": {
+    "name": "印花布园（全段）",
+    "location": [
+      108.949089,
+      34.257194
+    ],
+    "district": "碑林区",
+    "address": "印花布园3号附近(钟楼地铁站4号口步行390米)",
+    "source": "gaode_poi"
+  },
+  "友谊医院家属院": {
+    "name": "友谊医院家属院",
+    "location": [
+      108.928669,
+      34.241868
+    ],
+    "district": "碑林区",
+    "address": "友谊西路269号",
+    "source": "gaode_poi"
+  },
+  "双馨园小区": {
+    "name": "双馨园小区",
+    "location": [
+      108.990978,
+      34.22468
+    ],
+    "district": "雁塔区",
+    "address": "西影路172号",
+    "source": "gaode_poi"
+  },
+  "后宰门小区": {
+    "name": "后宰门小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "含元北路小区": {
+    "name": "含元北路小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "含元小区": {
+    "name": "含元小区",
+    "location": [
+      108.977332,
+      34.288189
+    ],
+    "district": "新城区",
+    "address": "含元路241号",
+    "source": "gaode_poi"
+  },
+  "含光中学家属院（大学南路1号）": {
+    "name": "含光中学家属院（大学南路1号）",
+    "location": [
+      108.931477,
+      34.246153
+    ],
+    "district": "碑林区",
+    "address": "大学南路1号",
+    "source": "gaode_poi"
+  },
+  "和悦雅境": {
+    "name": "和悦雅境",
+    "location": [
+      108.89355,
+      34.167239
+    ],
+    "district": "雁塔区",
+    "address": "茅坡路",
+    "source": "gaode_poi"
+  },
+  "咸宁东路小区": {
+    "name": "咸宁东路小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "品格蒙特梭利新城红叶花园": {
+    "name": "品格蒙特梭利新城红叶花园",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "商厦家属院": {
+    "name": "商厦家属院",
+    "location": [
+      108.945525,
+      34.225775
+    ],
+    "district": "雁塔区",
+    "address": "兴善寺西街与长安北路辅路交叉口西100米",
+    "source": "gaode_poi"
+  },
+  "商行家属院": {
+    "name": "商行家属院",
+    "location": [
+      108.923881,
+      34.231041
+    ],
+    "district": "雁塔区",
+    "address": "永松路西部王朝巷子里116号西北角",
+    "source": "gaode_poi"
+  },
+  "圣都大厦": {
+    "name": "圣都大厦",
+    "location": [
+      108.92089,
+      34.208504
+    ],
+    "district": "雁塔区",
+    "address": "城南南郊电子城电子正街379号",
+    "source": "gaode_poi"
+  },
+  "城市皇冠": {
+    "name": "城市皇冠",
+    "location": [
+      108.896176,
+      34.238271
+    ],
+    "district": "雁塔区",
+    "address": "高新四路12号",
+    "source": "gaode_poi"
+  },
+  "塑料公司家属院": {
+    "name": "塑料公司家属院",
+    "location": [
+      108.924839,
+      34.237953
+    ],
+    "district": "碑林区",
+    "address": "水文巷7号",
+    "source": "gaode_poi"
+  },
+  "大学南路小学分校北家属院": {
+    "name": "大学南路小学分校北家属院",
+    "location": [
+      108.929214,
+      34.245295
+    ],
+    "district": "碑林区",
+    "address": "边东街与大学南路交叉口南80米",
+    "source": "gaode_poi"
+  },
+  "大学南路小学分校南家属院": {
+    "name": "大学南路小学分校南家属院",
+    "location": [
+      108.929214,
+      34.245295
+    ],
+    "district": "碑林区",
+    "address": "边东街与大学南路交叉口南80米",
+    "source": "gaode_poi"
+  },
+  "大明宫小区": {
+    "name": "大明宫小区",
+    "location": [
+      108.968526,
+      34.315464
+    ],
+    "district": "未央区",
+    "address": "太华北路304号(余家寨地铁站A西北口步行220米)",
+    "source": "gaode_poi"
+  },
+  "大都荟小区": {
+    "name": "大都荟小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "太乙嘉园": {
+    "name": "太乙嘉园",
+    "location": [
+      108.975171,
+      34.233047
+    ],
+    "district": "碑林区",
+    "address": "太乙路街道南二环太乙路东南角",
+    "source": "gaode_poi"
+  },
+  "太乙城时光界": {
+    "name": "太乙城时光界",
+    "location": [
+      108.974285,
+      34.235226
+    ],
+    "district": "碑林区",
+    "address": "太乙路1号",
+    "source": "gaode_poi"
+  },
+  "太乙城时光里": {
+    "name": "太乙城时光里",
+    "location": [
+      108.976013,
+      34.232703
+    ],
+    "district": "碑林区",
+    "address": "二环南路东段2000号",
+    "source": "gaode_poi"
+  },
+  "太华南路小区": {
+    "name": "太华南路小区",
+    "location": [
+      108.973697,
+      34.291842
+    ],
+    "district": "新城区",
+    "address": "太华南路389号",
+    "source": "gaode_poi"
+  },
+  "太华路小区": {
+    "name": "太华路小区",
+    "location": [
+      108.970313,
+      34.332735
+    ],
+    "district": "未央区",
+    "address": "太华北路21号(常青路地铁站C东南口步行280米)",
+    "source": "gaode_poi"
+  },
+  "太华路街道其他小区": {
+    "name": "太华路街道其他小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "太白星座": {
+    "name": "太白星座",
+    "location": [
+      108.92395,
+      34.244946
+    ],
+    "district": "碑林区",
+    "address": "太白北路199号(边家村地铁站A口步行440米)",
+    "source": "gaode_poi"
+  },
+  "太白馨苑": {
+    "name": "太白馨苑",
+    "location": [
+      108.92493,
+      34.242544
+    ],
+    "district": "碑林区",
+    "address": "边西街22号(边家村地铁站D口步行180米)",
+    "source": "gaode_poi"
+  },
+  "学林雅苑": {
+    "name": "学林雅苑",
+    "location": [
+      108.927018,
+      34.245642
+    ],
+    "district": "碑林区",
+    "address": "大学南路70号",
+    "source": "gaode_poi"
+  },
+  "安全厅家属院": {
+    "name": "安全厅家属院",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "家立方": {
+    "name": "家立方",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "尚德小区": {
+    "name": "尚德小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "尚爱花园": {
+    "name": "尚爱花园",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "尹家街小区": {
+    "name": "尹家街小区",
+    "location": [
+      109.00434,
+      34.287731
+    ],
+    "district": "新城区",
+    "address": "华清东路188号",
+    "source": "gaode_poi"
+  },
+  "市委家属院": {
+    "name": "市委家属院",
+    "location": [
+      108.941708,
+      34.254335
+    ],
+    "district": "碑林区",
+    "address": "大车家巷横巷中段市级机关家属院门口",
+    "source": "gaode_poi"
+  },
+  "市总工会家属院": {
+    "name": "市总工会家属院",
+    "location": [
+      108.902489,
+      34.224333
+    ],
+    "district": "雁塔区",
+    "address": "科技一路4号(甘家寨地铁站D口步行370米)",
+    "source": "gaode_poi"
+  },
+  "布匹市场": {
+    "name": "布匹市场",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "幸福中路小区": {
+    "name": "幸福中路小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "幸福南路小区": {
+    "name": "幸福南路小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "幸福里小区": {
+    "name": "幸福里小区",
+    "location": [
+      109.199858,
+      34.656818
+    ],
+    "district": "阎良区",
+    "address": "人民西路与振兴路辅路交叉口东北40米",
+    "source": "gaode_poi"
+  },
+  "康复路小区": {
+    "name": "康复路小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "建行家属院": {
+    "name": "建行家属院",
+    "location": [
+      108.988842,
+      34.264558
+    ],
+    "district": "碑林区",
+    "address": "兴庆北路93号",
+    "source": "gaode_poi"
+  },
+  "总后干休所": {
+    "name": "总后干休所",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "恒志云仰": {
+    "name": "恒志云仰",
+    "location": [
+      108.975278,
+      34.231028
+    ],
+    "district": "碑林区",
+    "address": "青龙路10号",
+    "source": "gaode_poi"
+  },
+  "恒志云都": {
+    "name": "恒志云都",
+    "location": [
+      108.977666,
+      34.22942
+    ],
+    "district": "碑林区",
+    "address": "青龙路祭台新苑南门",
+    "source": "gaode_poi"
+  },
+  "政法大学雁塔校区": {
+    "name": "政法大学雁塔校区",
+    "location": [
+      108.945263,
+      34.206549
+    ],
+    "district": "雁塔区",
+    "address": "长安南路300号",
+    "source": "gaode_poi"
+  },
+  "文南小区": {
+    "name": "文南小区",
+    "location": [
+      108.952993,
+      34.235559
+    ],
+    "district": "碑林区",
+    "address": "文艺南路110号",
+    "source": "gaode_poi"
+  },
+  "新城区小区": {
+    "name": "新城区小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "新城区某小区": {
+    "name": "新城区某小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "新城小区": {
+    "name": "新城小区",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "新城广场": {
+    "name": "新城广场",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "新城花园": {
+    "name": "新城花园",
+    "location": null,
+    "district": "",
+    "address": "",
+    "source": "not_found"
+  },
+  "新城首府": {
+    "name": "新城首府",
+    "location": [
+      108.885636,
+      34.17008
+    ],
+    "district": "雁塔区",
+    "address": "西部大道与沈家桥三路交叉口西南160米",
+    "source": "gaode_poi"
+  },
+  "新西蓝一期": {
+    "name": "新西蓝一期",
+    "location": [
+      108.891267,
+      34.238022
+    ],
+    "district": "雁塔区",
+    "address": "科技路209号(延平门地铁站D2东北口步行230米)",
+    "source": "gaode_poi"
+  }
+}
