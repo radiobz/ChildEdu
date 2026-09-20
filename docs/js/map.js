@@ -370,10 +370,12 @@ const MapManager = (() => {
     if (mouseTool) mouseTool.close(false);
   }
 
-  // 清除框选矩形
+  // 清除框选矩形 + 框选高亮学校点
   function clearRect() {
     if (currentRect) { currentRect.setMap(null); currentRect = null; }
     currentBounds = null;
+    highlightMarkers.forEach(m => m.setMap(null));
+    highlightMarkers = [];
   }
 
   // 视野内学校自动标识（缩放>=14时调用）

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>西安学区地图 | ChildEdu</title>
   <link rel="stylesheet" href="css/base.css?v=12">
-  <link rel="stylesheet" href="css/map.css?v=12">
+  <link rel="stylesheet" href="css/map.css?v=13">
   <link rel="stylesheet" href="css/panel.css?v=12">
   <script>
     window._AMapSecurityConfig = {
@@ -35,15 +35,20 @@
   <!-- 地图容器 -->
   <div id="mapContainer"></div>
 
-  <!-- 学段筛选浮层 -->
+  <!-- 学段筛选浮层（多选：每项可独立选中/取消） -->
   <div class="level-filter" id="levelFilter">
-    <button class="level-chip active" data-level="all">全部</button>
-    <button class="level-chip" data-level="kindergarten">幼儿园</button>
-    <button class="level-chip" data-level="primary">小学</button>
-    <button class="level-chip" data-level="junior">初中</button>
-    <button class="level-chip" data-level="high">高中</button>
-    <button id="rectBtn" class="level-chip rect-btn">□ 框选</button>
-    <button id="rectClearBtn" class="level-chip" style="display:none;color:#ff4d4f;">✕ 清除</button>
+    <div class="filter-row">
+      <button class="level-chip" data-level="kindergarten">幼儿园</button>
+      <button class="level-chip" data-level="primary">小学</button>
+      <button class="level-chip" data-level="junior">初中</button>
+      <button class="level-chip" data-level="high">高中</button>
+    </div>
+    <div class="filter-row">
+      <button class="level-chip type-chip" data-type="公办">公办</button>
+      <button class="level-chip type-chip" data-type="民办">民办</button>
+      <button id="rectBtn" class="level-chip rect-btn">□ 框选</button>
+      <button id="rectClearBtn" class="level-chip" style="display:none;color:#ff4d4f;">✕ 清除</button>
+    </div>
   </div>
 
   <!-- 框选提示 -->
@@ -73,9 +78,9 @@
 
   <script src="js/config.js?v=30"></script>
   <script src="js/data.js?v=30"></script>
-  <script src="js/map.js?v=30"></script>
-  <script src="js/search.js?v=30"></script>
+  <script src="js/map.js?v=31"></script>
+  <script src="js/search.js?v=31"></script>
   <script src="js/sidebar.js?v=30"></script>
-  <script src="js/main.js?v=30"></script>
+  <script src="js/main.js?v=31"></script>
 </body>
 </html>

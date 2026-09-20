@@ -15,6 +15,12 @@
   flex-direction: column;
   gap: 6px;
 }
+.filter-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .level-chip {
   padding: 6px 14px;
   border-radius: 18px;

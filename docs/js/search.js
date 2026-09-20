@@ -1,8 +1,13 @@
 // 搜索与筛选逻辑
 const SearchManager = (() => {
   let currentDistrict = 'all';
-  let currentLevel = 'all';
+  // 学段多选：空Set=不限；每项可独立选中/取消
+  let currentLevels = new Set();
+  // 性质多选（公办/民办）：空Set=不限
+  let currentTypes = new Set();
   let allSchools = [];
+  // 当前筛选后的学校（供视野内自动标识用）
+  let filteredSchools = [];
 
   function init() {
     // 搜索按钮
@@ -43,12 +48,32 @@ const SearchManager = (() => {
       });
     });
 
-    // 学段筛选
-    document.querySelectorAll('.level-chip').forEach(chip => {
+    // 学段筛选（多选：每项可独立选中/取消）
+    document.querySelectorAll('.level-chip[data-level]').forEach(chip => {
       chip.addEventListener('click', () => {
-        document.querySelectorAll('.level-chip').forEach(c => c.classList.remove('active'));
-        chip.classList.add('active');
-        currentLevel = chip.dataset.level;
+        const lv = chip.dataset.level;
+        if (currentLevels.has(lv)) {
+          currentLevels.delete(lv);
+          chip.classList.remove('active');
+        } else {
+          currentLevels.add(lv);
+          chip.classList.add('active');
+        }
+        applyFilters();
+      });
+    });
+
+    // 性质筛选（公办/民办，多选）
+    document.querySelectorAll('.level-chip[data-type]').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const tp = chip.dataset.type;
+        if (currentTypes.has(tp)) {
+          currentTypes.delete(tp);
+          chip.classList.remove('active');
+        } else {
+          currentTypes.add(tp);
+          chip.classList.add('active');
+        }
         applyFilters();
       });
     });
@@ -107,9 +132,10 @@ const SearchManager = (() => {
       }
     };
 
-    // 框选区域后显示学校列表
+    // 框选区域后显示学校列表（遵循当前学段/性质筛选；无筛选时框选全部，保证有反馈）
     window.onBoundsFilter = function(bounds) {
-      const inBounds = allSchools.filter(s => {
+      const pool = (currentLevels.size || currentTypes.size) ? filteredSchools : allSchools;
+      const inBounds = pool.filter(s => {
         if (!s.location || !s.location.lng) return false;
         return bounds.contains([s.location.lng, s.location.lat]);
       });
@@ -122,11 +148,16 @@ const SearchManager = (() => {
       showToast(`已选 ${inBounds.length} 所学校`);
     };
 
-    // 地图移动/缩放后自动标识视野内学校（zoom>=14）
+    // 地图移动/缩放后自动标识视野内学校（zoom>=14；仅在用户选择了学段/性质筛选后启用）
     window.onMapMoveEnd = function() {
+      // 未选择任何学段/性质：保持地图纯净，不自动标识
+      if (currentLevels.size === 0 && currentTypes.size === 0) {
+        MapManager.clearVisibleSchools();
+        return;
+      }
       const zoom = MapManager.getMap() ? MapManager.getMap().getZoom() : 0;
       if (zoom >= 14) {
-        const count = MapManager.showVisibleSchools(allSchools, 14);
+        const count = MapManager.showVisibleSchools(filteredSchools, 14);
         if (count > 0) {
           showToast(`当前视野内 ${count} 所学校`);
         }
@@ -262,10 +293,21 @@ const SearchManager = (() => {
     if (currentDistrict !== 'all') {
       filtered = filtered.filter(s => s.district === currentDistrict);
     }
-    if (currentLevel !== 'all') {
-      filtered = filtered.filter(s => s.level === currentLevel);
+    if (currentLevels.size) {
+      filtered = filtered.filter(s => currentLevels.has(s.level));
+    }
+    if (currentTypes.size) {
+      filtered = filtered.filter(s => s.type && currentTypes.has(s.type));
     }
 
+    filteredSchools = filtered;
+
+    // 没有任何学段/性质筛选时：默认只显示地图，不显示学校标识
+    if (currentLevels.size === 0 && currentTypes.size === 0) {
+      MapManager.showSchools([]);
+      MapManager.clearVisibleSchools();
+      return;
+    }
     MapManager.showSchools(filtered);
   }
 
