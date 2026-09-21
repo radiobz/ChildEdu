@@ -45,13 +45,14 @@ const MapManager = (() => {
       if (window.onMapMoveEnd) window.onMapMoveEnd();
     });
 
-    // 点击地图空白处：取消学区高亮（框选模式下不干扰）
+    // 点击地图空白处：取消学区高亮 + 清除学校定位 + 关闭详情抽屉（框选模式下不干扰）
     map.on('click', function(e) {
       if (rectActive) return;
       // e.target 为覆盖物（marker等）时不取消，交给对应点击逻辑
       if (e.target && e.target.getPosition && typeof e.target.getPosition === 'function') return;
       clearZoneHighlights();
       clearMarkSchool();
+      if (window.onMapBlankClick) window.onMapBlankClick();
     });
   }
 

@@ -114,22 +114,14 @@ const SearchManager = (() => {
       if (e.key === 'Escape' && isRectActive) exitRectMode();
     });
 
-    // 点击地图marker直接跳详情
+    // 点击地图marker直接跳详情（复用完整详情流程：学区+小区+房源）
     window.onSchoolMarkerClick = async function(school) {
-      showLoading('正在查询...');
-      Sidebar.open();
-      const result = await DataLoader.querySchoolDetail(school.name);
-      hideLoading();
-      if (result && result.success) {
-        Sidebar.renderSchoolDetail(result.data);
-        if (result.data.location) {
-          MapManager.flyTo(result.data.location.lng, result.data.location.lat, 15);
-          MapManager.markSchool(result.data.location.lng, result.data.location.lat, result.data.name);
-        }
-        highlightZoneForDetail(result.data);
-      } else {
-        Sidebar.showError(`未找到「${school.name}」的详细信息`);
-      }
+      await openSchoolDetail(school.name);
+    };
+
+    // 点击地图空白处：关闭详情抽屉（遮罩已不拦截点击）
+    window.onMapBlankClick = function() {
+      Sidebar.close();
     };
 
     // 框选区域后显示学校列表（遵循当前学段/性质筛选；无筛选时框选全部，保证有反馈）

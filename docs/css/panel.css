@@ -69,7 +69,10 @@
 }
 .drawer-mask.show {
   opacity: 1;
-  pointer-events: auto;
+  /* 遮罩仅作视觉（半透明背景），不拦截地图点击：
+     保证 drawer 打开后仍可继续点击其他学校 marker 切换详情；
+     关闭抽屉改由"点击地图空白处"触发（map.js onMapBlankClick） */
+  pointer-events: none;
 }
 .drawer {
   position: absolute;
