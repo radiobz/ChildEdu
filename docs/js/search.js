@@ -252,11 +252,17 @@ const SearchManager = (() => {
       detail.location ? detail.location.lat : null, zone.communities || []);
   }
 
+  // 详情请求序列号：丢弃过期响应（快速连点多个学校时避免竞态覆盖）
+  let _detailSeq = 0;
+
   // 打开学校详情（共用函数）
   async function openSchoolDetail(name) {
+    const mySeq = ++_detailSeq;
     showLoading('正在查询学校信息...');
     const result = await DataLoader.querySchoolDetail(name);
     hideLoading();
+    // 期间用户已点击其他学校，丢弃本次过期结果
+    if (mySeq !== _detailSeq) return;
 
     if (result && result.success) {
       Sidebar.renderSchoolDetail(result.data);

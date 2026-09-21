@@ -98,14 +98,17 @@ const Sidebar = (() => {
     // 学区小区 + 深链
     let communityHTML = '';
     if (data.zone && data.zone.communities && data.zone.communities.length) {
+      // 已定位小区名（有坐标的才在地图显示绿点）
+      const located = new Set((data.zone.communityDetails || []).filter(c => c.location).map(c => c.name));
       const chips = data.zone.communities.map(c => {
         // 高德 URI：手机直接打开即小区地图定位，最稳定
         const amapUrl = `https://uri.amap.com/search?keyword=${encodeURIComponent(c)}&city=610100`;
         // 安居客/58：房源平台备选（贝壳西安站近期不稳定）
         const anjukeUrl = `https://xian.anjuke.com/community/rs${encodeURIComponent(c)}/`;
         const wubaUrl = `https://xian.58.com/xiaoqu/rs${encodeURIComponent(c)}/`;
+        const unlocatedTag = located.has(c) ? '' : ' <span style="color:#bbb;font-size:10px;">(未定位)</span>';
         return `<div class="community-chip">
-          ${c}
+          ${c}${unlocatedTag}
           <a href="${amapUrl}" target="_blank" rel="noopener" style="color:#1677ff;margin-left:4px;font-size:11px;">📍定位</a>
           <a href="${anjukeUrl}" target="_blank" rel="noopener" style="color:#00b578;margin-left:4px;font-size:11px;">安居客</a>
           <a href="${wubaUrl}" target="_blank" rel="noopener" style="color:#fa541c;margin-left:4px;font-size:11px;">58</a>

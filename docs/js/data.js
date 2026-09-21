@@ -149,7 +149,7 @@ const DataLoader = (() => {
               address: info.address || '',
               source: info.source || ''
             } : { name: cmName, location: null };
-          }).filter(c => c.location),
+          }),
           roads: (zone.roads || []).join('；'),
           roadNames: zone.roadNames || [],
           source: zone.sourceUrl || '',

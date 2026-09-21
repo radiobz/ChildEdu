@@ -49,7 +49,9 @@ const MapManager = (() => {
     map.on('click', function(e) {
       if (rectActive) return;
       // e.target 为覆盖物（marker等）时不取消，交给对应点击逻辑
-      if (e.target && e.target.getPosition && typeof e.target.getPosition === 'function') return;
+      // 注意：AMap.CircleMarker 只有 getCenter 没有 getPosition，需一并识别，避免脉冲圈误触发关闭
+      if (e.target && typeof e.target.getPosition === 'function') return;
+      if (e.target && typeof e.target.getCenter === 'function') return;
       clearZoneHighlights();
       clearMarkSchool();
       if (window.onMapBlankClick) window.onMapBlankClick();
@@ -158,13 +160,13 @@ const MapManager = (() => {
       zIndex: 300
     });
 
-    // 中心点
+    // 中心点（pointer-events:none 让点击穿透到下方学校 marker，避免红点拦截点击）
     const centerMarker = new AMap.Marker({
       position: [lng, lat],
       content: `<div style="
         width:16px;height:16px;line-height:16px;text-align:center;
         background:#ff4d4f;border:3px solid #fff;border-radius:50%;
-        box-shadow:0 0 10px #ff4d4f;
+        box-shadow:0 0 10px #ff4d4f;pointer-events:none;
       "></div>`,
       offset: new AMap.Pixel(-8, -8),
       map: map,
